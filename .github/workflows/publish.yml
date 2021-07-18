@@ -35,18 +35,16 @@ jobs:
           pip3 install teedoc
           ls -al ~/.local/bin/
           export PATH=~/.local/bin/:$PATH
-          commit_info=`git describe --all --always --long`
           teedoc install
           teedoc build
           out_dir=out`python3 -c 'import json; f=open("site_config.json");config=json.load(f);print(config["site_root_url"])'`
-          cp -rf .github $out_dir/
           cd $out_dir
           git init
           git config user.name ${{ secrets.GIT_NAME }}
           git config user.email ${{ secrets.GIT_EMAIL }}
           git remote add upstream "git@github.com:${{ secrets.REPO }}.git"
           git add -A
-          git commit -m "rebuild website ad $commit_info"
+          git commit -m "rebuild website ad $GITHUB_REF"
           SSHPATH="$HOME/.ssh"
           rm -rf "$SSHPATH"
           mkdir -p "$SSHPATH"
@@ -54,5 +52,3 @@ jobs:
           chmod 600 "$SSHPATH/id_rsa"
           sudo sh -c "echo StrictHostKeyChecking no >>/etc/ssh/ssh_config"
           git push upstream HEAD:gh-pages --force
-          
-          

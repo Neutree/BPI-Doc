@@ -2,10 +2,10 @@
     "site_name": "teedoc",
     "site_slogon": "happy to write",
     "site_root_url": "/",
-    "site_domain": "teedoc.neucrack.com",
+    "site_domain": "bpi-steam.com",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/teedoc/teedoc.github.io/blob/main",
+    "source": "https://github.com/BPI-STEAM/bpi-steam.github.io/BPI-Doc/",
     "route": {
         "docs": {
             "/get_started/zh/": "docs/get_started/zh",

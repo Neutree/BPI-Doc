@@ -1,11 +1,11 @@
 {
-    "site_name": "teedoc",
+    "site_name": "BPI-Steam",
     "site_slogon": "happy to write",
     "site_root_url": "/",
     "site_domain": "bpi-steam.com",
     "site_protocol": "https",
     "config_template_dir": "config",
-    "source": "https://github.com/BPI-STEAM/bpi-steam.github.io/BPI-Doc/",
+    "source": "https://github.com/BPI-STEAM/BPI-Doc/blob/main",
     "route": {
         "docs": {
             "/get_started/zh/": "docs/get_started/zh",

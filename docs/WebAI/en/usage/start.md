@@ -335,11 +335,15 @@ Then you can add the configuration of the current document, overwrite the templa
                 "position": "right",
                 "items": [
                     {
-                        "url": "/zh",
-                        "label": "中文"
+                        "url": "/zh/",
+                        "label": "简体中文"
                     },
                     {
-                        "url": "/en",
+                        "url": "/zh-tw/",
+                        "label": "繁体中文"
+                    },
+                    {
+                        "url": "/en/",
                         "label": "English"
                     }
                 ]
@@ -361,11 +365,15 @@ The configuration file of a specific document:
                 "position": "right",
                 "items": [
                     {
-                        "url": "/get_started/zh",
-                        "label": "中文"
+                        "url": "/WebAI/zh/",
+                        "label": "简体中文"
                     },
                     {
-                        "url": "/get_started/en",
+                        "url": "/WebAI/zh-tw/",
+                        "label": "繁体中文"
+                    },
+                    {
+                        "url": "/get_started/en/",
                         "label": "English"
                     }
                 ]

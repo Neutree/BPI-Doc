@@ -247,7 +247,7 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "items": [
                     {
                         "url": "/get_started/zh/",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "url": "/get_started/en/",
@@ -337,7 +337,7 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "items": [
                     {
                         "url": "/zh",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "url": "/en",
@@ -363,7 +363,7 @@ teedoc -f ./SUMMARY.md summary2yaml
                 "items": [
                     {
                         "url": "/get_started/zh",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "url": "/get_started/en",

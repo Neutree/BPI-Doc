@@ -152,7 +152,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
         "items": [
             {
                 "url": "/gitbook/book/markdown/ch/",
-                "label": "中文",
+                "label": "简体中文",
                 "position": "left"
             },
             {
@@ -174,7 +174,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
                     {
                         "id": "zh",
                         "url": "/",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "id": "en",
@@ -245,7 +245,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
         "items": [
             {
                 "url": "/gitbook/book/markdown/ch/",
-                "label": "中文",
+                "label": "简体中文",
                 "position": "left"
             },
             {
@@ -267,7 +267,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
                     {
                         "id": "zh",
                         "url": "/",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "id": "en",
@@ -328,7 +328,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
                     {
                         "id": "zh",
                         "url": "/gitbook/book/markdown/ch/",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "id": "en",
@@ -357,7 +357,7 @@ teedoc -f 'SUMMARY.md' summary2yaml
                     {
                         "id": "zh",
                         "url": "/gitbook/book/markdown/ch/",
-                        "label": "中文"
+                        "label": "简体中文"
                     },
                     {
                         "id": "en",

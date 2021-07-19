@@ -9,12 +9,17 @@
                 "items": [
                     {
                         "id": "zh",
-                        "url": "/get_started/zh/",
-                        "label": "中文"
+                        "url": "/WebAI/zh/",
+                        "label": "简体中文"
+                    },
+                    {
+                        "id": "zh-tw",
+                        "url": "/WebAI/zh-tw/",
+                        "label": "繁体中文"
                     },
                     {
                         "id": "en",
-                        "url": "/get_started/en/",
+                        "url": "/WebAI/en/",
                         "label": "English"
                     }
                 ]

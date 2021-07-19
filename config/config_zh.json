@@ -58,7 +58,7 @@
             },
             {
                 "id": "language",
-                "label": "语言: ",
+                "label": "language: ",
                 "position": "right",
                 "items": [
                     {

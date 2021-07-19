@@ -1,7 +1,7 @@
-teedoc official website
+BPI Steam official website
 =====
 
-visit: [teedoc.neucrack.com](https://teedoc.neucrack.com/) or [teedoc.github.io](https://teedoc.github.io)
+visit: [BananaPi](https://banana-pi.org.cn/) or [BPI Steam](https://bpi-steam.com/)
 
 
 ## build locally
@@ -15,19 +15,19 @@ pip3 install teedoc
 * Get site source files
 
 ```
-git clone https://github.com/teedoc/teedoc.github.io my_site
+git clone https://github.com/BPI-STEAM/BPI-Doc
 ```
 
 或者
 
 ```
-git clone https://github.com/teedoc/teedoc.gitee.io my_site
+git clone https://github.com/BPI-STEAM/BPI-Doc
 ```
 
 * Install plugins
 
 ```
-cd my_site
+cd BPI-Doc
 teedoc install
 ```
 

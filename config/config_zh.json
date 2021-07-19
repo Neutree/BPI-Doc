@@ -1,9 +1,9 @@
 {
     "class": "language_zh",
     "navbar": {
-        "title": "teedoc",
+        "title": "BPI Steam",
         "logo": {
-            "alt": "teedoc logo",
+            "alt": "BPI logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/",
@@ -24,7 +24,7 @@
                 "position": "left"
             },
             {
-                "url": "https://github.com/neutree/teedoc",
+                "url": "https://github.com/BPI-STEAM",
                 "label": "github",
                 "target": "_blank",
                 "position": "right"
@@ -54,12 +54,12 @@
                 "label": "链接",
                 "items": [
                     {
-                        "label": "网站使用 teedoc 生成",
-                        "url": "https://teedoc.neucrack.com",
+                        "label": "Banana Pi",
+                        "url": "https://www.banana-pi.org.cn/",
                         "target": "_blank"
                     },
                     {
-                        "label": "Copyright © 2021 Neucrack",
+                        "label": "Copyright © 2021 Banana Pi",
                         "url": "https://neucrack.com",
                         "target": "_blank"
                     },

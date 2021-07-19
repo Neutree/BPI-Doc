@@ -6,7 +6,7 @@ id: doc_home
 ---
 
 
-# BPI Steam - Information and documentation
+# BPI Steam - Information and Docs
 
 [![](/static/image/WebAI.png)](./soft/maixpy/zh/readme.md) [![](/static/image/WebBit.png)](./hardware/lichee/zh/)
 [![](/static/image/QCar.png)](http://longan.sipeed.com/) [![](/static/image/TriodeCar.png)](https://dl.sipeed.com/)

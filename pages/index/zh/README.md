@@ -8,7 +8,7 @@ id: doc_home
 
 # BPI Steam - 资料和文档
 
-[![](/static/image/WebAI.png)](/WebAI/zh/readme.md) [![](/static/image/WebBit.png)](/WebBit_doc/zh/readme.md)
-[![](/static/image/QCar.png)](/QCar/zh/readme.md) [![](/static/image/TriodeCar.png)](/TriodeCar/zh/readme.md)
+[![](/static/image/BPI.png)](https://www.banana-pi.org.cn/) [![](/static/image/WebAI.png)](/WebAI/zh-tw/readme.md) [![](/static/image/WebBit.png)](/WebBit_doc/zh-tw/readme.md)
+[![](/static/image/BPI-WIKI.png)](http://wiki.banana-pi.org/) [![](/static/image/QCar.png)](/QCar/zh-tw/readme.md) [![](/static/image/TriodeCar.png)](/TriodeCar/zh-tw/readme.md)
 
 

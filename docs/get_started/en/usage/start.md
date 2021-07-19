@@ -163,7 +163,7 @@ The configuration file is in `json` format, for example:
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#4caf7d"
+                    "main_color": "#33ADFB"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"

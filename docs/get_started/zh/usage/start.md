@@ -163,7 +163,7 @@ teedoc -f ./SUMMARY.md summary2yaml
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#4caf7d"
+                    "main_color": "#33ADFB"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"

@@ -18,7 +18,7 @@ Configure the plugin in `site_config.json`
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#4caf7d",
+                    "main_color": "#33ADFB",
                     "sidebar_width": "300px"
                 },
                 "css": "/static/css/custom.css",

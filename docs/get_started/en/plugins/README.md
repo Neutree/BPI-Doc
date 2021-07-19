@@ -24,7 +24,7 @@ In the `site_config.json` file, set the `plugins` field, such as
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#4caf7d"
+                    "main_color": "#33ADFB"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"
@@ -36,7 +36,7 @@ In the `site_config.json` file, set the `plugins` field, such as
 
 Two plugins are installed by default here, namely `teedoc-plugin-markdown-parser` and `teedoc-plugin-theme-default`, both of which are installed directly from `pypi.org`. The theme plugin has configuration items
 
-The configuration items include whether to use the `dark` theme, as well as the environment variable `env` of the plug-in, and set the `main_color` to `#4caf7d`. This value will be used in the plug-in. Set the theme color to the corresponding color;
+The configuration items include whether to use the `dark` theme, as well as the environment variable `env` of the plug-in, and set the `main_color` to `#33ADFB`. This value will be used in the plug-in. Set the theme color to the corresponding color;
 
 As well as setting custom `css` files and `js` files, the value is `url`, not the file path (for the mapping of file path and `url` please see the introduction of `route` (route), by setting this `css` File, you can override the default style of the theme plug-in to achieve simple custom functions
 

@@ -16,6 +16,7 @@
         },
         "pages": {
             "/": "pages/index/zh",
+            "/zh-tw/": "pages/index/zh-tw",
             "/en/": "pages/index/en"
         },
         "assets": {

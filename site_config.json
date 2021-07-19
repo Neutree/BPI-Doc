@@ -40,7 +40,7 @@
             "config": {
                 "dark": true,
                 "env":{
-                    "main_color": "#FF6B63"
+                    "main_color": "#6391ed"
                 },
                 "css": "/static/css/custom.css",
                 "js": "/static/js/custom.js"

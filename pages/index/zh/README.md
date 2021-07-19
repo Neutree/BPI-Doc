@@ -1,23 +1,14 @@
-
 ---
-title: 开源静态文档网站生成工具
-keywords: teedoc, markdown, jupyter notebook, html, 文档生成, 替代gitbook, 网站生成, 静态网站, 文档网站生成, 多文档, 静态博客
-desc: teedoc，开源静态文档网站生成工具，将 markdown 或者 jupyter notbook 转换成 html 静态网页， 用于个人或企业建站，建博客，建资料库，wiki等
+title: BPI Steam - 资料和文档
+keywords: BananaPi, Steam, 文档, 开源软件, 开源硬件， 香蕉派, AI, AIOT, 边缘计算, 人脸识别, 嵌入式AI, Q-Car, Triode-Car, WebAI, WebBit
+desc: BananaPi, Steam团队的文档（Wiki），包含了开源软件和开源硬件资料，AIOT资料等等
+id: wiki_home
 ---
 
 
+# BPI Steam - 资料和文档
 
+[![](/static/image/WebAI.png)](./soft/maixpy/zh/readme.md) [![](/static/image/WebBit.png)](./hardware/lichee/zh/)
+[![](/static/image/QCar.png)](http://longan.sipeed.com/) [![](/static/image/TriodeCar.png)](https://dl.sipeed.com/)
 
-<div id="home_page">
-    <div>
-        <h1><span>teedoc</span></h1>
-        <h3>简而全的开源静态网站/文档/博客生成器</h3>
-    </div>
-    <div id="big_btn_wrapper">
-        <div class="big_btn">
-            <a href="/get_started/zh/">开始使用</a>
-        </div>
-    </div>
-
-</div>
 

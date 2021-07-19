@@ -8,7 +8,7 @@
         "home_url": "/en/",
         "items": [
             {
-                "url": "/",
+                "url": "/en/",
                 "label": "Home",
                 "position": "left"
             },

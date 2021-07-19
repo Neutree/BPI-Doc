@@ -1,0 +1,29 @@
+{
+    "import": "config_zh_tw",
+    "navbar": {
+        "items": [
+            {
+                "id": "language",
+                "label": "Language: ",
+                "position": "right",
+                "items": [
+                    {
+                        "id": "zh",
+                        "url": "/WebAI/zh/",
+                        "label": "中文"
+                    },
+                    {
+                        "id": "zh-te",
+                        "url": "/WebAI/zh-tw/",
+                        "label": "繁体中文"
+                    },
+                    {
+                        "id": "en",
+                        "url": "/WebAI/en/",
+                        "label": "English"
+                    }
+                ]
+            }
+        ]
+    }
+}

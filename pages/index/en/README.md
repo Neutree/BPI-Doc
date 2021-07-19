@@ -8,5 +8,5 @@ id: doc_home
 
 # BPI Steam - Information and Docs
 
-[![](/static/image/WebAI.png)](/WebBit_doc/en/readme.md) [![](/static/image/WebBit.png)](/WebBit/en/readme.md)
+[![](/static/image/WebAI.png)](/WebBit_doc/en/readme.md) [![](/static/image/WebBit.png)](/WebBit_doc/en/readme.md)
 [![](/static/image/QCar.png)](/QCar/en/readme.md) [![](/static/image/TriodeCar.png)](/TriodeCar/en/readme.md)

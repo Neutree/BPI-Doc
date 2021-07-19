@@ -134,10 +134,6 @@
                 "label": "Copyright © 2021 Banana Pi",
                 "url": "https://www.banana-pi.org.cn",
                 "target": "_blank"
-            },
-            {
-                "label": "网站地图",
-                "url": "/sitemap.xml"
             }
         ]
     },

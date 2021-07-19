@@ -31,7 +31,6 @@
         },
         "assets": {
             "/static/": "static",
-            "/get_started/assets/": "docs/get_started/assets",
             "/WebAI/zh-tw/assets/": "docs/WebAI/zh-tw/assets"
         },
         "/blog/": "blog"

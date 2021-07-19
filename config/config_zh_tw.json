@@ -85,18 +85,14 @@
                         "target": "_blank"
                     },
                     {
+                        "label": "Webduino",
+                        "url": "https://webduino.io/",
+                        "target": "_blank"
+                    },
+                    {
                         "label": "淘寶",
                         "url": "https://shop108780008.taobao.com/",
                         "target": "_blank"
-                    },
-                    {
-                        "label": "Copyright © 2021 Banana Pi",
-                        "url": "https://www.banana-pi.org.cn",
-                        "target": "_blank"
-                    },
-                    {
-                        "label": "网站地图",
-                        "url": "/sitemap.xml"
                     }
                 ]
             },
@@ -131,6 +127,17 @@
                         "label": "地址: 廣東省松山湖高新技術產業開發區融易大廈 7 樓"
                     }
                 ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "Copyright © 2021 Banana Pi",
+                "url": "https://www.banana-pi.org.cn",
+                "target": "_blank"
+            },
+            {
+                "label": "網站地圖",
+                "url": "/sitemap.xml"
             }
         ]
     },

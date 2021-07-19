@@ -84,18 +84,14 @@
                         "target": "_blank"
                     },
                     {
+                        "label": "Webduino",
+                        "url": "https://webduino.io/en/",
+                        "target": "_blank"
+                    },
+                    {
                         "label": "Aliexpress",
                         "url": "https://www.aliexpress.com/store/302756",
                         "target": "_blank"
-                    },
-                    {
-                        "label": "Copyright © 2021 Banana Pi",
-                        "url": "http://www.banana-pi.org",
-                        "target": "_blank"
-                    },
-                    {
-                        "label": "Sitemap",
-                        "url": "/sitemap.xml"
                     }
                 ]
             },
@@ -129,6 +125,17 @@
                     "label": "Address: 7th Floor, Rongyi Building, Songshan Lake High-tech Industrial Development Zone, Guangdong Province, China"
                 }
                 ]
+            }
+        ],
+        "bottom": [
+            {
+                "label": "Copyright © 2021 Banana Pi",
+                "url": "http://www.banana-pi.org",
+                "target": "_blank"
+            },
+            {
+                "label": "Sitemap",
+                "url": "/sitemap.xml"
             }
         ]
     }

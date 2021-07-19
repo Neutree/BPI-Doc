@@ -84,6 +84,11 @@
                         "target": "_blank"
                     },
                     {
+                        "label": "Aliexpress",
+                        "url": "https://www.aliexpress.com/store/302756",
+                        "target": "_blank"
+                    },
+                    {
                         "label": "Copyright © 2021 Banana Pi",
                         "url": "http://www.banana-pi.org",
                         "target": "_blank"
@@ -121,7 +126,7 @@
                     "label": "Technical Support: support@sinovoip.com.cn (Technical Department)"
                 },
                 {
-                    "label": "Address: 7th Floor, Complex Building, Zhongxing Industrial Park, Chuangye Road, Nanshan District, Shenzhen"
+                    "label": "Address: 7th Floor, Rongyi Building, Songshan Lake High-tech Industrial Development Zone, Guangdong Province, China"
                 }
                 ]
             }

@@ -8,7 +8,7 @@ id: doc_home
 
 # BPI Steam - 資料和文檔
 
-[![](/static/image/WebAI.png)](./soft/maixpy/zh/readme.md) [![](/static/image/WebBit.png)](./hardware/lichee/zh/)
-[![](/static/image/QCar.png)](http://longan.sipeed.com/) [![](/static/image/TriodeCar.png)](https://dl.sipeed.com/)
+[![](/static/image/WebAI.png)](/WebAI/zh-tw/readme.md) [![](/static/image/WebBit.png)](/WebBit_doc/zh-tw/readme.md)
+[![](/static/image/QCar.png)](/QCar/zh-tw/readme.md) [![](/static/image/TriodeCar.png)](/TriodeCar/zh-tw/readme.md)
 
 

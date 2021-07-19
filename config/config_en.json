@@ -1,8 +1,8 @@
 {
     "navbar": {
-        "title": "teedoc",
+        "title": "BPI Steam",
         "logo": {
-            "alt": "teedoc logo",
+            "alt": "BPI logo",
             "src": "/static/image/logo.png"
         },
         "home_url": "/en/",

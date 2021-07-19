@@ -8,18 +8,45 @@
         "home_url": "/en/",
         "items": [
             {
-                "url": "/get_started/en/",
-                "label": "Install",
+                "url": "/",
+                "label": "Home",
                 "position": "left"
             },
             {
-                "url": "/develop/en/",
-                "label": "Develop",
+                "url": "/Q-Car/en/",
+                "label": "Q-Car",
                 "position": "left"
             },
             {
-                "url": "/blog/",
-                "label": "blog",
+                "url": "/Triode-Car/en/",
+                "label": "Triode-Car",
+                "position": "left"
+            },
+            {
+                "id": "WebBit",
+                "label": "WebBit:",
+                "position": "left",
+                "items": [
+                    {
+                        "id": "Doc",
+                        "url": "/WebBit_doc/en/",
+                        "label": "WebBit_doc"
+                    },
+                    {
+                        "id": "Dev",
+                        "url": "/WebBit_dev/en/",
+                        "label": "WebBit_dev"
+                    }
+                ]
+            },
+            {
+                "url": "/WebAi/en/",
+                "label": "WebAi",
+                "position": "left"
+            },
+            {
+                "url": "/About/en/",
+                "label": "About Qubot",
                 "position": "left"
             },
             {

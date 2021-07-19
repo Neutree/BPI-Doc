@@ -53,12 +53,12 @@
                 "label": "Links",
                 "items": [
                     {
-                        "label": "Banan Pi",
+                        "label": "Banana Pi",
                         "url": "http://www.banana-pi.org",
                         "target": "_blank"
                     },
                     {
-                        "label": "Copyright © 2021 Neucrack",
+                        "label": "Copyright © 2021 Banana Pi",
                         "url": "https://neucrack.com",
                         "target": "_blank"
                     },

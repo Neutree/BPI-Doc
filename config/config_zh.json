@@ -55,12 +55,12 @@
                 "items": [
                     {
                         "label": "Banana Pi",
-                        "url": "https://www.banana-pi.org.cn/",
+                        "url": "https://www.banana-pi.org.cn",
                         "target": "_blank"
                     },
                     {
                         "label": "Copyright © 2021 Banana Pi",
-                        "url": "https://neucrack.com",
+                        "url": "https://www.banana-pi.org.cn",
                         "target": "_blank"
                     },
                     {

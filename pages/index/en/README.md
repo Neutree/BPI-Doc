@@ -1,21 +1,12 @@
 ---
-title: open source static doc site generator
-keywords: teedoc, markdown, jupyter notebook, html, document generation, alternative gitbook, website generation, static website, document website generation, multiple documents
-desc: teedoc, open source static doc site generator, convert markdown or jupyter notbook into html static webpage
+title: BPI Steam - Information and documentation
+keywords: BananaPi, Steam, Documentation, Open Source Software, Open Source Hardware, Banana Pi, AI, AIOT, Edge Computing, Face Recognition, Embedded AI, Q-Car, Triode-Car, WebAI, WebBit
+desc: BananaPi, Steam team documentation (Wiki), including open source software and open source hardware information, AIOT information, etc.
+id: doc_home
 ---
 
 
+# BPI Steam - Information and documentation
 
-
-<div id="home_page">
-    <div>
-        <h1><span>teedoc</span></h1>
-        <h3>Concise and comprehensive website/document generator</h3>
-    </div>
-    <div id="big_btn_wrapper">
-        <div class="big_btn">
-            <a href="/get_started/en/">Get started</a>
-        </div>
-    </div>
-
-</div>
+[![](/static/image/WebAI.png)](./soft/maixpy/zh/readme.md) [![](/static/image/WebBit.png)](./hardware/lichee/zh/)
+[![](/static/image/QCar.png)](http://longan.sipeed.com/) [![](/static/image/TriodeCar.png)](https://dl.sipeed.com/)

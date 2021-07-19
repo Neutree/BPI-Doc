@@ -39,3 +39,107 @@
     box-shadow: 6px 4px 20px #000000;
     background-color: #2a7d53;
 }
+
+#doc_home body:before {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #d8edff;
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+
+#doc_home body::after {
+    content: '';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 13em;
+    left: 0;
+    background: url(/static/image/bg2.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+#doc_home #page_content {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+}
+#doc_home #page_content a {
+    margin: 0.5em;
+}
+#doc_home #page_content a:hover, #store a:hover {
+    background-color: transparent;
+}
+#doc_home #page_content a > img {
+    padding: 0;
+    border-radius: 10px;
+}
+#doc_home #page_content a > img {
+    box-shadow: 0px 0px 7px 1px #bbdfff;
+}
+#doc_home #page_content a:hover > img {
+    box-shadow: 8px 9px 15px 1px #81a1bf;
+    transition: 0.4s;
+}
+#store a > img {
+    height: 40px;
+    transition:height 0.4s;
+    -moz-transition:height 0.4s; /* Firefox 4 */
+    -webkit-transition:height 0.4s; /* Safari and Chrome */
+    -o-transition:height 0.4s; /* Opera */
+}
+#store a:hover > img {
+    height: 50px;
+}
+#doc_home h1 {
+    margin-bottom: 2em;
+}
+#doc_home #search {
+    background-color: #6391ed;
+}
+#doc_home #search .placeholder {
+    color: #ffffff;
+}
+#doc_home body.dark:before {
+    background-color: transparent
+}
+#doc_home .dark #page_content a > img {
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+#doc_home .dark #page_content a:hover > img {
+    box-shadow: 0px 0 15px 5px #ffffff;
+}
+#doc_home .dark #navbar {
+    background: #1b1b1b;
+}
+
+@media screen and (max-width: 900px) {
+    #big_btn_wrapper {
+        flex-direction: column;
+    }
+    #big_btn_wrapper > div {
+        margin: 2em 0;
+    }
+    #footer_top > ul {
+        margin: 0 0;
+    }
+    #doc_home p {
+        display: flex;
+        flex-direction: column;
+    }
+    #doc_home #page_content a {
+        width: min-content;
+    }
+    #doc_home #page_content a:hover {
+        background-color: transparent;
+    }
+}

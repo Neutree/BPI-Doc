@@ -340,7 +340,7 @@ Then you can add the configuration of the current document, overwrite the templa
                     },
                     {
                         "url": "/zh-tw/",
-                        "label": "繁体中文"
+                        "label": "繁體中文"
                     },
                     {
                         "url": "/en/",
@@ -370,7 +370,7 @@ The configuration file of a specific document:
                     },
                     {
                         "url": "/WebAI/zh-tw/",
-                        "label": "繁体中文"
+                        "label": "繁體中文"
                     },
                     {
                         "url": "/get_started/en/",

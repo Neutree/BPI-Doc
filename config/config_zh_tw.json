@@ -58,7 +58,7 @@
             },
             {
                 "id": "language",
-                "label": "Language: ",
+                "label": "語言: ",
                 "position": "right",
                 "items": [
                     {
@@ -69,7 +69,7 @@
                     {
                         "id": "zh-tw",
                         "url": "/zh-tw/",
-                        "label": "繁体中文"
+                        "label": "繁體中文"
                     },
                     {
                         "id": "en",

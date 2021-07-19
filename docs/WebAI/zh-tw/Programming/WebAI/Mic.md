@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 麥克風
 
 Web:AI 開發板內建了麥克風，藉由麥克風錄音將音檔錄製到 SD 卡中，做出各種和聲音有關的物聯網互動。

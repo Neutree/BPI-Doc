@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 人臉追蹤
 
 在 AI 人工智慧中，最重要的就是人臉識別，可以根據人臉的特徵，如：眼睛、鼻子、嘴巴、鼻子等。透過這項技術，可以偵測到是否有人經過以及畫面中的人數，進一步做出監視器等應用。

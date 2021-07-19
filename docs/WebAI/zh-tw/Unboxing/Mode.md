@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU)
-
 # 操作模式
 
 當 Web:AI 做完 Wi-Fi 設定及韌體更新後，就可以開始執行各種 AIoT 應用了。

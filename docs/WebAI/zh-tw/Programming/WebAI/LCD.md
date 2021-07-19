@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # LCD 螢幕
 
 Web:AI 內建一塊 2.3 吋 LCD 螢幕，可以使用程式積木配合感測器、控制器、按鈕開關等物聯網相關硬體設備，將執行的結果顯示在螢幕上，達成各種跨領域應用。

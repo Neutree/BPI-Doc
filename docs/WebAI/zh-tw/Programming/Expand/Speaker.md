@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 喇叭
 
 Web:AI 開發板能夠搭配外接喇叭及 SD 卡，將指定的音檔播放出來，並且藉由編輯各類積木程式控制觸發條件和音量，達成在任何情境下的聲音互動。

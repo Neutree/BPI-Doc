@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 開發板
 
 Web:AI 提供了兩種控制開發板的方式，分別是 **USB** 和 **Wi-Fi**，透過這兩種不同操控方式的互相搭配，不論各種情境都能隨心所欲的控制。

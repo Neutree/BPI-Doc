@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU)
-
 # 開發板 Wi-Fi 設定
 
 需要更改連線的 Wi-Fi 時，需要對開發板進行 Wi-Fi 設定，完成後就能夠讓開發板連上網路。

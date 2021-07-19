@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 掃描條碼
 
 Web:AI 具備條碼掃描功能，能夠透過開發板上的鏡頭偵測條碼，並將條碼內容顯示在螢幕上。

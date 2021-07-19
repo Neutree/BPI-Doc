@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 網路廣播
 
 Web:AI 的網路廣播功能，不僅能讓 Web:AI 與 Web:AI 開發板彼此資訊互動，更可以和 Webduino 的其它平台之間連動。實現一對多、多對一、虛實互動、遠距廣播...等多樣化的操控情境，透過廣播功能的實現，便能將物聯網的應用發揮到極致。

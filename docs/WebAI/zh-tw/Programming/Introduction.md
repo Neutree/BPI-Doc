@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 程式積木平台介紹
 
 Web:AI 程式積木分成線上版和安裝版兩種，可透過 Wi-Fi 和 USB 進行控制，使用上功能幾乎相同，可以選擇符合自己需求的版本作使用。

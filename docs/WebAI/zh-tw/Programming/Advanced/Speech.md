@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 語音辨識
 
 Web:AI 能夠將收錄到的聲音轉換成訊號，經過處理後儲存成聲音模型，當偵測到聲音時，會開始和開發板儲存的聲音模型比對音色、頻率，進而得到辨識結果。

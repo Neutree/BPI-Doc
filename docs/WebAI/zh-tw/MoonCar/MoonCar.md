@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU)
-
 # 五、操控 MoonCar
 
 ![](../assets/images/upload_3873f6904888518d624142d07ba04302.png)

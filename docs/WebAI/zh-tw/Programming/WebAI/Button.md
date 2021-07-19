@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 按鈕開關
 
 「按鈕開關」積木可以感應 **按下**、**放開** 2 種按鈕操作，透過接收按鈕開關的動作，觸發後續的行為。

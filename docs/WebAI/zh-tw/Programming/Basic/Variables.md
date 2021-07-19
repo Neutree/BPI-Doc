@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 變數
 
 變數，是所有程式都會用到的基本元素，使用前會賦予變數一個名稱，可以用這個變數來表示文字、數字、陣列、顏色或邏輯。

@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU)
-
 # 四、使用 IDE 開發 Web:AI
 
 Web:AI 開發板除了可以用程式積木平台操作外，甚至也支援直接在 IDE 上撰寫 Python 程式，並透過開發板執行。

@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 數學式
 
 數學積木包含了許多數學運算，從基本的加減乘除，到四捨五入、平均值、中位數...等應有盡有，不論是簡單的程式或複雜應用，都能透過各式各樣的數學運算實現。

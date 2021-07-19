@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 重複
 
 在程式領域裡，重複 ( 迴圈 ) 是常常使用的基本功能，能夠控制重複執行的過程，也可以將需要重複執行的程式碼放在重複內，就能指定次數、延遲時間，或是無窮盡的執行。

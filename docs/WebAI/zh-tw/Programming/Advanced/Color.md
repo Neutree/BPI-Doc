@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 顏色追蹤
 
 駕駛看到紅燈就知道要停、看到綠燈知道要前進，這是因為人類能夠透過眼睛大腦感測並判別顏色，進一步根據看到的顏色做出反應，而 Web:AI 開發板也有一樣的能力。

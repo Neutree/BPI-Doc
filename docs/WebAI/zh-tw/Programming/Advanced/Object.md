@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU)
-
 # 物件追蹤
 
 1. 先依照上面步驟，將訓練過的物件追蹤模型下載到 Web:AI 開發板中。

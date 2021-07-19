@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # I/O 引腳
 
 在 Web:AI 開發板邊緣有一排有 25 個金屬接觸點，這些金屬接觸點稱為「引腳」，或通俗一點也可稱呼「金手指」。 引腳包含了 5 個標註 0、1、2、3V 和 GND 的大引腳，以及其他 20 個未標示號碼的小引腳。

@@ -1,5 +1,3 @@
-#### 回到 [`教學大綱`](https://md.kingkit.codes/s/siSKyknlU) / [`Web:AI 程式積木`](https://md.kingkit.codes/s/X4vMmbtp_)
-
 # 檔案讀寫
 
 Web:AI 檔案讀寫功能能夠將鏡頭拍攝的圖片存入，並透過 LCD 螢幕顯示的功能將儲存的圖片展示出來。透過檔案讀寫功能，可以讓 Web:AI 開發板實現照相機、自拍等影像應用。

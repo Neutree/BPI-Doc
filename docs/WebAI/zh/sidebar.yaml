@@ -1,55 +1,113 @@
 items:
--   label: teedoc 简介
-    file: README.md
--   label: 安装 teedoc
-    file: install/README.md
--   label: 开始写文档
-    file: usage/start.md
--   label: 写文档时需注意
-    file: usage/write_attention.md
--   label: 插件
-    file: plugins/README.md
+-   label: 一、开箱 Web:AI 开发板
     items:
-    -   label: 主题插件
-        file: plugins/themes.md
-    -   label: 其它插件
-        file: plugins/others.md
--   label: markdown 语法
-    file: syntax/syntax_markdown.md
--   label: Jupyter 语法
-    file: syntax/syntax_jupyter.ipynb
--   label: 博客
-    file: usage/blog.md
--   label: 部署
-    file: usage/deploy.md
-    items:
-    -   label: 部署到 github
-        file: usage/deploy_github_pages.md
-    -   label: 使用 nginx 部署到服务器
-        file: usage/deploy_nginx.md
-    -   label: 使用 CDN 加速网站
-        file: usage/deploy_cdn.md
--   label: SEO(为搜索引擎优化)
-    file: usage/seo.md
--   label: 使用了 teedoc 的网站
-    file: usage/sites.md
--   label: 从 gitbook 转换为 teedoc
-    file: usage/gitbook2teedoc.md
--   label: 常见问题
-    file: usage/problems.md
--   label: 更新历史
-    file: more/history.md
--   label: 更多
--   label: 更多样例
-    items:
-    -   label: 二级子目录样例
+    -   label: Web:AI 介绍
+        file: Unboxing/Introduction.md
         items:
-        -   label: 三级子目录样例
-            items:
-            -   label: 文章1
-                file: more/example_docs/doc1.md
-        -   label: 文章2
-            file: more/example_docs/doc2.md
-    -   label: 这是一个外部链接
-        url: https://github.com/teedoc/teedoc
-        target: _blank
+        -   label: 产品内容
+            file: Unboxing/Introduction.md#-1
+        -   label: Web:AI 开发板
+        -   label: Webduino 教育平台
+    -   label: 初始化设定 (第一次使用请看这里)
+        file: Unboxing/Initialization.md
+    -   label: 安裝版更新固件
+        file: Unboxing/Update.md
+    -   label: 开发板 Wi-Fi 设定
+        file: Unboxing/SettingWIFI.md
+    -   label: 操作模式
+        file: Unboxing/Mode.md
+        items:
+        -   label: 主程式模式
+        -   label: QRcode 模式
+        -   label: 恢复预设状态
+    -   label: 教学示例卡使用教学
+        file: Unboxing/Card.md
+-   label: 二、Web:AI 图形编程
+    items:
+    -   label: 图形编程平台介绍
+        file: Programming/Introduction.md
+    -   label: 基础功能
+        items:
+        -   label: 变量
+            file: Programming/Basic/Variables.md
+        -   label: 逻辑
+            file: Programming/Basic/Logic.md
+        -   label: 循环
+            file: Programming/Basic/Loops.md
+        -   label: 数学
+            file: Programming/Basic/Math.md
+        -   label: 文本
+            file: Programming/Basic/Text.md
+        -   label: 数组
+            file: Programming/Basic/Lists.md
+        -   label: 函数
+            file: Programming/Basic/Functions.md
+    -   label: 進階功能
+        items:
+        -   label: 文件读写
+            file: Programming/Advanced/FileRW.md
+        -   label: 二维码扫描
+            file: Programming/Advanced/QRCode.md
+        -   label: 颜色追踪
+            file: Programming/Advanced/Color.md
+        -   label: 人脸追踪
+            file: Programming/Advanced/Face.md
+        -   label: 影像分类
+            file: Programming/Advanced/Image.md
+        -   label: 物件追踪
+            file: Programming/Advanced/Object.md
+        -   label: 语音辨识
+            file: Programming/Advanced/Speech.md
+        -   label: 侦测
+    -   label: Web:AI
+        items:
+        -   label: 开发板
+            file: Programming/WebAI/Board.md
+        -   label: LCD 屏幕
+            file: Programming/WebAI/LCD.md
+        -   label: 按钮开关
+            file: Programming/WebAI/Button.md
+        -   label: 麦克风
+            file: Programming/WebAI/Mic.md
+        -   label: I/O 脚位
+            file: Programming/WebAI/IO.md
+    -   label: 扩充功能
+        items:
+        -   label: 网络广播
+            file: Programming/Expand/MQTT.md
+        -   label: 舵机
+            file: Programming/Expand/Servo.md
+        -   label: 扬声器
+            file: Programming/Expand/Speaker.md
+-   label: 三、影像训练
+    file: Train/Train.md
+    items:
+    -   label: Web:AI 影像辨识介绍
+    -   label: 影像辨识流程
+    -   label: A. 登录影像训练平台
+    -   label: B. 建立分类
+    -   label: C. 使用开发板拍摄影像
+    -   label: D. 建立模型
+    -   label: E. 下载模型
+    -   label: F. 使用图形编程积木执行影像辨识
+        items:
+        -   label: 影像分类
+            file: Train/Train.md
+        -   label: 物件追踪
+            file: Train/Train.md
+-   label: 四、使用 IDE 开发 Web:AI
+    file: IDE/Dev.md
+    items:
+    -   label: 开发环境介绍
+    -   label: 使用 kflash_gui 更新固件
+    -   label: 使用 MaixPy IDE 运行代码
+    -   label: 程序示例
+-   label: 五、操控 MoonCar
+    file: MoonCar/MoonCar.md
+    items:
+    -   label: 颜色侦测
+    -   label: 循迹行驶
+    -   label: 循跡 + 物件追踪
+    -   label: 马达控制
+    -   label: 相关传感器
+    -   label: 万用遥控器控制登月小车

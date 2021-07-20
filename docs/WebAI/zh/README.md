@@ -1,77 +1,87 @@
----
-title: 开源静态文档网站生成工具
-keywords: teedoc, markdown, jupyter notebook, html, 文档生成, 替代gitbook, 网站生成, 静态网站, 静态博客, 开源文档生成工具
-desc: teedoc，开源静态文档网站生成工具, 将 markdown 或者 jupyter notbook 转换成 html 静态网页， 用于个人或企业建站，建博客，建资料库，wiki等
----
+# 【 Web:AI 教学大纲 】
 
+###### tags: `webai`
 
-官网: [teedoc.neucrack.com](https://teedoc.neucrack.com/) 或 [teedoc.github.io](https://teedoc.github.io/)
-本文档源文件: [github.com/teedoc/teedoc.github.io](https://github.com/teedoc/teedoc.github.io)
-源码: [https://github.com/teedoc/teedoc](https://github.com/teedoc/teedoc) 欢迎 star
+## 一、开箱 Web:AI 开发板
 
-将 `Markdown` 或者 `Jupyter Notebook` 格式的文档转换为 `HTML` 静态网页
+- [Web:AI 介绍](https://md.kingkit.codes/s/A_tijML1I)
+    - 产品内容
+    - Web:AI 开发板
+    - Webduino 教育平台
+- [初始化设定 ( 第一次使用请看这里 )](https://md.kingkit.codes/s/AO_XqPykW)
+- [安裝版更新固件](https://md.kingkit.codes/s/wTzUFfJMb)
+- [开发板 Wi-Fi 设定](https://md.kingkit.codes/s/bTuPn-8HG)
+- [操作模式](https://md.kingkit.codes/s/1lgh1vuQ_)
+    - 主程序模式
+    - QRcode 模式
+    - 恢复预设状态
+- [教学示例使用教学](https://md.kingkit.codes/s/TASyDY-Eo)
 
-以下场景可使用`teedoc`：
-* 建文档网站，并且最好支持放多份文档，和自定义页面
-* 建`WiKi`网站
-* 建个人或者企业知识库
-* 建个人或者企业网站
-* 博客
+## [二、Web:AI 图形编程](https://md.kingkit.codes/s/X4vMmbtp_)
 
+- [图形编程平台介绍](https://md.kingkit.codes/s/4RVBELvRN)
+- 基础功能
+    - [变量](https://md.kingkit.codes/s/_kndEUW1q)
+    - [逻辑](https://md.kingkit.codes/M_6nBMTXQDiVOULcUQf7BA)
+    - [循环](https://md.kingkit.codes/s/b9mKWEcD8)
+    - [数学](https://md.kingkit.codes/s/j7X5gWPYz)
+    - [文本](https://md.kingkit.codes/s/Kpw-9mvB2)
+    - [数组](https://md.kingkit.codes/s/NrGWPeQI3)
+    - [函数](https://md.kingkit.codes/s/iirInmSN-)
+- 進階功能
+    - [文件读写](https://md.kingkit.codes/s/It4HyhnKL)
+    - [二维码扫描](https://md.kingkit.codes/s/pVYYz61j7)
+    - [颜色追踪](https://md.kingkit.codes/s/qzPrerH5n)
+    - [人脸追踪](https://md.kingkit.codes/s/TbBXXg7Jb)
+    - [影像分类](https://md.kingkit.codes/s/mopjgVaZU#%E5%BD%B1%E5%83%8F%E5%88%86%E9%A1%9E)
+    - [物件追踪](https://md.kingkit.codes/s/mopjgVaZU#%E7%89%A9%E4%BB%B6%E8%BF%BD%E8%B9%A4)
+    - [语音辨识](https://md.kingkit.codes/s/jIW79tnup)
+    - 侦测
+- Web:AI
+    - [开发板](https://md.kingkit.codes/s/cgb9OT6Hx)
+    - [LCD 屏幕](https://md.kingkit.codes/s/3KhHmkwBd)
+    - [按钮开关](https://md.kingkit.codes/s/c-0cuAp7v)
+    - [麦克风](https://md.kingkit.codes/s/u0A-IWLom)
+    - [I/O 脚位](https://md.kingkit.codes/s/67t3Yn1NM)
+- 扩充功能
+    - [网络广播](https://md.kingkit.codes/s/UpDUX83EN)
+    - [舵机](https://md.kingkit.codes/s/iNt4d-TSM)
+    - [扬声器](https://md.kingkit.codes/s/BgK_8mwNe)
 
+## [三、影像训练](https://md.kingkit.codes/s/mopjgVaZU)
 
+- Web:AI 影像辨识介绍
+- 影像辨识流程
+- A. 登录影像训练平台
+- B. 建立分类
+- C. 使用开发板拍摄影像
+- D. 建立模型
+- E. 下载模型
+- F. 使用图形编程积木执行影像辨识
+    - [影像分类](https://md.kingkit.codes/s/mopjgVaZU#%E5%BD%B1%E5%83%8F%E5%88%86%E9%A1%9E)
+    - [物件追踪](https://md.kingkit.codes/s/mopjgVaZU#%E7%89%A9%E4%BB%B6%E8%BF%BD%E8%B9%A4)
 
-## 特性
+## [四、使用 IDE 开发 Web:AI](https://md.kingkit.codes/s/y0NZkZUTv)
+- 开发环境介绍
+- 使用 kflash_gui 更新固件
+- 使用 MaixPy IDE 运行代码
+- 程序示例
 
-- [x] 使用简单， 跨平台，只依赖 `Python3`
-- [x] 不需要数据库，网站全静态页面
-- [x] 部署简单， 生成的网站是全静态页面，直接拷贝到服务器或者上传到三方机构即可部署
-- [x] 书写简单，使用 Markdown 语法编写
-- [x] Jupyter notebook 支持
-- [x] HTML 支持，可直接使用 HTML 编写页面，自由度大
-- [x] 多文档支持
-- [x] 插件支持
-- [x] 多主题支持（由插件实现）
-- [x] 通过 css 控制精确到页的样式（通过自定义每页的 id 和 class 实现）
-- [x] 多级目录支持
-- [x] 多语言支持（手动翻译）(国际化/i18n)
-- [ ] 多语言支持（自动翻译）
-- [x] 多版本支持（实现方法同多语言）
-- [x] 搜索支持
-- [x] SEO 友好
-- [x] 实时预览更改
-- [x] 多线程构建，更快的构建速度
-- [x] 博客支持
-- [x] gitbook 切换过来友好, 只需要设置好 `route` 和使用命令(`summary2yaml`)转换目录文件(`SUMMARY.md`)即可
+## [五、操控 MoonCar](https://md.kingkit.codes/s/zd-FyQjGP)
 
-## 演示
+- 颜色侦测
+- 循迹行驶
+- 循跡 + 物件追踪
+- 马达控制
+- 相关传感器
+- 万用遥控器控制登月小车
 
-[本网站](https://teedoc.github.io/)即采用 `teedoc` 生成，你现在看到的就是生成后的网站的样子。
+## [六、常见问题](https://md.kingkit.codes/s/JLv3I-jcC)
+- 使用问题
 
-另外还有其它网站使用了`teedoc`，具体请看[这里](./usage/sites.md)
+## 七、附录
 
-
-## 类似的工具
-
-实际上这种类型的工具已经有很多了，但是每一个又稍微不同，按照自己的需求选择一个就好了
-
-如果你有选择困难症，那么符合以下部分条件，都建议使用 teedoc：
-* 使用 `Jupyter notebook` 写文档或代码？ 果断选择 teedoc
-* 功能符合你的需求吗？
-* 界面符合你的审美吗（可以自定义 css， 或者换主题插件）
-* 对 Python 熟悉？ 可以随时自定义插件和功能
-
-其它类似工具：
-* docusaurus: teedoc 的 UI 布局几乎和它类似，不过它使用 vue 写的， teedoc 是原生 js, 如果你用的是 vue 可以考虑用这个
-* gitbook: 曾经很好用的工具，但是官方不维护了，转向商业了，不建议再使用
-* docsify: 只需要一个页面，markdown 在浏览器渲染，而不是预先渲染成 HTML， 好处就是轻量，但是 SEO 不太友好，可以用它的 SSR 功能， nodejs 编写
-* readthedocs: 很多开源项目使用的工具， 和 gitbook 一样也有网站服务，注册登录就可以开始写文档，也可以下载软件自己生成网站，对 RST 格式支持友好
-
-
-## 一些使用建议
-
-* 在 footer 添加 `使用 teedoc 生成`， 帮助更多人发现 teedoc，促进项目的成长
-* 使用模板项目开始一个新的文档项目，可以先跑起来，然后再根据自己的需求修改，这样上手更快哦
-
-
-
+- [Web:AI 介绍简报](https://drive.google.com/file/d/1JmjsZuch-tm4tUQECbrhGskjUuBOraTv/view?usp=sharing)
+- [基本 AIoT 介绍](https://md.kingkit.codes/s/wiuNxO2ph)
+- MaixPy 文件 [[简体](https://wiki.sipeed.com/soft/maixpy/zh/index.html)] [[英文](https://wiki.sipeed.com/soft/maixpy/en/)]
+- MaixPy 程序示例 [[github](https://github.com/sipeed/MaixPy_scripts)]

@@ -331,7 +331,8 @@ webai.cloud.download(url,address=0x400000,redirect=False,showProgress=True)
 
 Arduino 可以通过 UART 和 Web:AI 连线传送资料，下面程序示例是让 ESP8266 传送字符给 Web:AI 进行显示。
 
-{%youtube c9VH46zGpps %}
+<iframe src="https://www.youtube.com/embed/c9VH46zGpps" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe>
+
 ~~~python=
 from machine import UART
 import sensor, image, time, lcd

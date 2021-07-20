@@ -6,7 +6,7 @@
 
 欢迎参考下方教学视频：
 
-<iframe src=“https://www.youtube.com/embed/Qgtthh7d9xQ“allowfullscreen width=”100%“style=”aspect-ratio:728/410；border:none“></iframe>
+<iframe src="https://www.youtube.com/embed/Qgtthh7d9xQ" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe>
 
 ## 介绍
 

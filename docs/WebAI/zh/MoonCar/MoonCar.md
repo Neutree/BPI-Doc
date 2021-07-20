@@ -45,7 +45,7 @@ while True:
 
 让小车沿着黑线行驶。
 
-{%youtube D6cet80DZvM %}
+<iframe src="https://www.youtube.com/embed/D6cet80DZvM" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe>
 
 ~~~python=
 from webai import *
@@ -90,7 +90,7 @@ p16.irq(tracking,GPIO.IRQ_BOTH)
 
 沿着黑线移动，看见红色小怪兽停车，看见绿色小怪兽继续前进。
 
-{%youtube PNbYPFdmBk0 %}
+<iframe src="https://www.youtube.com/embed/PNbYPFdmBk0" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe>
 
 - 第 58 行 ～ 第 61 行：判断处
 

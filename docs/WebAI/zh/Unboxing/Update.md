@@ -12,7 +12,7 @@ Web:AI开发板的固件中使用了2种芯片，分别是主芯片(K210)和Wi-F
 
 欢迎参考下方教学视频：
 
-<iframe src=“https://www.youtube.com/embed/vl6XY0iCCuM“allowfullscreen width=”100%“style=”aspect-ratio:728/410；border:none“></iframe>
+<iframe src="https://www.youtube.com/embed/vl6XY0iCCuM" allowfullscreen width="100%" style="aspect-ratio:728/410;border:none " ></iframe>
 
 ## 通过Web:AI安装版进行固件更新
 

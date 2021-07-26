@@ -3,37 +3,21 @@ items:
     items:
     -   label: 开发板介绍
         file: getting_started/hardware.md
-        items:
-        -   label: 正面与背面
-        -   label: 尺寸规格图
-        -   label: 矩阵 LED 定义
-        -   label: 底部金手指定义
-        -   label: 内置传感器定义
-        -   label: 相关硬件资料
     -   label: 驱动安装
         file: getting_started/driver.md
-        items:
-        -   label: 连接板子
-        -   label: 查看驱动
-        -   label: 安装驱动
-        -   label: 确认串口
-        -   label: 其他系统
 -   label: Webduino 目录
     items:
     -   label: Web:Bit 软件安装&使用方法
         file: webduino/install&use.md
-        items:
-        -   label: 安装编程软件
-        -   label: 安装有线驱动
-        -   label: 有线连接板子
-        -   label: 使用积木编程
     -   label: Web:Bit 教育版
         file: webduino/education_edition/introduction.md
         items:
         -   label: 编辑器介绍
             file: webduino/education_edition/software.md
         -   label: 更新开发板固件
+            file: webduino/education_edition/update.md
         -   label: 开发板设置
+            file: webduino/education_edition/setup.md
         -   label: 积木编程基础
         -   label: 小怪兽互动
         -   label: 系统功能

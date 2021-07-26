@@ -30,13 +30,13 @@
                 "items": [
                     {
                         "id": "Doc",
-                        "url": "/WebBit_Doc/",
-                        "label": "WebBit_Doc"
+                        "url": "/WebBit_doc/zh/",
+                        "label": "WebBit_doc"
                     },
                     {
                         "id": "Dev",
-                        "url": "/WebBit_Dev/",
-                        "label": "WebBit_Dev"
+                        "url": "/WebBit_dev/zh/",
+                        "label": "WebBit_dev"
                     }
                 ]
             },

@@ -30,13 +30,13 @@
                 "items": [
                     {
                         "id": "Doc",
-                        "url": "/WebBit_doc/zh-tw/",
-                        "label": "WebBit_doc"
+                        "url": "/WebBit_Doc/zh-tw/",
+                        "label": "WebBit_Doc"
                     },
                     {
                         "id": "Dev",
-                        "url": "/WebBit_dev/zh-tw/",
-                        "label": "WebBit_dev"
+                        "url": "/WebBit_Dev/zh-tw/",
+                        "label": "WebBit_Dev"
                     }
                 ]
             },

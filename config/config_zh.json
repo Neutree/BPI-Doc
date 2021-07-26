@@ -14,12 +14,12 @@
                 "position": "left"
             },
             {
-                "url": "/Q-Car/",
+                "url": "/Q-Car/zh/",
                 "label": "Q-Car",
                 "position": "left"
             },
             {
-                "url": "/Triode-Car/",
+                "url": "/Triode-Car/zh/",
                 "label": "Triode-Car",
                 "position": "left"
             },
@@ -30,12 +30,12 @@
                 "items": [
                     {
                         "id": "Doc",
-                        "url": "/WebBit_Doc/",
+                        "url": "/WebBit_Doc/zh/",
                         "label": "WebBit_Doc"
                     },
                     {
                         "id": "Dev",
-                        "url": "/WebBit_Dev/",
+                        "url": "/WebBit_Dev/zh/",
                         "label": "WebBit_Dev"
                     }
                 ]

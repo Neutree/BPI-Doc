@@ -9,17 +9,17 @@
                 "items": [
                     {
                         "id": "zh",
-                        "url": "/WebBit_doc/zh/",
+                        "url": "/WebBit_Doc/zh/",
                         "label": "简体中文"
                     },
                     {
                         "id": "zh-tw",
-                        "url": "/WebBit_doc/zh-tw/",
+                        "url": "/WebBit_Doc/zh-tw/",
                         "label": "繁體中文"
                     },
                     {
                         "id": "en",
-                        "url": "/WebBit_doc/en/",
+                        "url": "/WebBit_Doc/en/",
                         "label": "English"
                     }
                 ]

@@ -19,8 +19,37 @@ items:
         -   label: 开发板设置
             file: webduino/education_edition/setup.md
         -   label: 积木编程基础
+            items:
+            -   label: 变量
+                file: webduino/education_edition/basic/variables.md
+            -   label: 逻辑
+                file: webduino/education_edition/basic/logic.md
+            -   label: 循环
+                file: webduino/education_edition/basic/loop.md
+            -   label: 文字
+                file: webduino/education_edition/basic/text.md
+            -   label: 数组
+                file: webduino/education_edition/basic/array.md
+            -   label: 颜色
+                file: webduino/education_edition/basic/color.md
+            -   label: 函数
+                file: webduino/education_edition/basic/function.md
+            -   label: 数学
+                file: webduino/education_edition/basic/math.md
         -   label: 小怪兽互动
+            items:
+            -   label: 小怪兽基本操作
+                file: webduino/education_edition/monster/basic.md
+            -   label: 小怪兽互动＆舞台
+                file: webduino/education_edition/monster/event.md
         -   label: 系统功能
+            items:
+            -   label: 键盘行为
+                file: webduino/education_edition/detect/keyboard.md
+            -   label: 日期＆时间
+                file: webduino/education_edition/detect/time.md
+            -   label: 对话框输入文字
+                file: webduino/education_edition/detect/input.md
         -   label: 音效 & 语音
         -   label: 开发板功能
         -   label: 网络功能

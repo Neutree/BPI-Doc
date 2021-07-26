@@ -1,18 +1,24 @@
 items:
--   label: 开发板介绍
-    file: bpi-steam/hardware.md
+-   label: 入门
     items:
-    -   label: 正面与背面
-    -   label: 尺寸规格图
-    -   label: 矩阵 LED 定义
-    -   label: 底部金手指定义
-    -   label: 内置传感器定义
-    -   label: 相关硬件资料
--   label: 驱动安装
-    file: bpi-steam/driver.md
-    items:
-    -   label: 连接板子
-    -   label: 查看驱动
-    -   label: 安装驱动
-    -   label: 确认串口
-    -   label: 其他系统
+    -   label: 开发板介绍
+        file: getting_started/hardware.md
+        items:
+        -   label: 正面与背面
+        -   label: 尺寸规格图
+        -   label: 矩阵 LED 定义
+        -   label: 底部金手指定义
+        -   label: 内置传感器定义
+        -   label: 相关硬件资料
+    -   label: 驱动安装
+        file: getting_started/driver.md
+        items:
+        -   label: 连接板子
+        -   label: 查看驱动
+        -   label: 安装驱动
+        -   label: 确认串口
+        -   label: 其他系统
+-   label: Webduino 目录
+    item:
+    -   label: Web:Bit 软件安装&使用方法
+        file: webduino/install&use.md

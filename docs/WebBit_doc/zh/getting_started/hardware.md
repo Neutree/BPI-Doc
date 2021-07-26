@@ -7,21 +7,21 @@ Bpi:Bit 又名 Web:Bit ，是 Webduino 的专用开发板，采用 ESP-WROOM-32 
 
 ### 正面与背面
 
-![](../assets/hardware/upload_9ca0f2e8545e2835e9b0a8b5ae0c1330.png)
+![](../assets/getting_started/hardware/upload_9ca0f2e8545e2835e9b0a8b5ae0c1330.png)
 
 Web:Bit 外观长约 5 公分，宽约 5 公分，重量约 10 ~ 12 公克，带 25 颗 LED 灯为正面（图左侧），反之为是背面（图右侧）。
 
-![](../assets/hardware/upload_51dd835e8e65108c6f4edee97babc922.png)
+![](../assets/getting_started/hardware/upload_51dd835e8e65108c6f4edee97babc922.png)
 
 ### 尺寸规格图
 
-![](../assets/hardware/upload_f43892b83561e0fbb5be54cd4b288b08.png)
+![](../assets/getting_started/hardware/upload_f43892b83561e0fbb5be54cd4b288b08.png)
 
 ### 矩阵 LED 定义
 
 Web:Bit 按照 5 * 5 排列方式焊接了 25 颗(编号 0 ~ 24 ) 1600 万色矩阵 LED (WS2812) ，所有的 LED 的控制仅使用一个引脚 (GPIO 4) 即可控制。
 
-![](../assets/hardware/upload_7fe376a15b4393441c58b84f052f8bb4.png)
+![](../assets/getting_started/hardware/upload_7fe376a15b4393441c58b84f052f8bb4.png)
 
 ### 底部金手指定义
 
@@ -29,15 +29,15 @@ Web:Bit 按照 5 * 5 排列方式焊接了 25 颗(编号 0 ~ 24 ) 1600 万色矩
 
 **注意：背面的金手指未连接硬件，所以无法使用**
 
-![](../assets/hardware/upload_4545d093f0c3899da1495995597ec383.png)
+![](../assets/getting_started/hardware/upload_4545d093f0c3899da1495995597ec383.png)
 
-![](../assets/hardware/upload_ca07897451dd2440025709b70978f2f4.png)
+![](../assets/getting_started/hardware/upload_ca07897451dd2440025709b70978f2f4.png)
 
 ### 内置传感器定义
 
 Web:Bit 搭载了 25 颗矩阵 LED ，两个光敏传感器、两个按钮开关、一个热敏电阻、一个无源蜂鸣器和一个九轴传感器（分别为三轴加速度、三轴陀螺仪与三轴磁力计）对应引脚如下：
 
-![](../assets/hardware/table.png)
+![](../assets/getting_started/hardware/table.png)
 
 ### 相关硬件资料
 

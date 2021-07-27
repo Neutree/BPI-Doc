@@ -7,7 +7,7 @@
 
 ### 初始化方法 1：使用安装版进行初始化
 
-> 什么是安装版？点此查看 [Web:bit 教育版 > 编辑器介绍 > 安装版](software.html#id3) 。
+> 什么是安装版？点此查看 [Web:bit 教育版 > 编辑器介绍 > 安装版](WebBit_doc/zh/webduino/education_edition/software.html#-5) 。
 
 使用安装版按照下列步骤进行初始化设置。
 

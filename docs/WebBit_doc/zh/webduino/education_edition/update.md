@@ -3,11 +3,11 @@
 
 想要使用编辑器软件控制 Web:bit 开发板，需要为开发板 安装 或 更新 固件，可以选择下述多种方法给 开发板更新固件 或 恢复出厂设置 。
 
-> 什么是编辑器？点此查看 [Web:bit 教育版 > 编辑器介绍](software.md) 。
+> 什么是编辑器？点此查看 [Web:bit 教育版 > 编辑器介绍](WebBit_doc/zh/webduino/education_edition/software.html#-1) 。
 
 ### 更新固件方法 1：使用 安装版 进行更新
 
-> 什么是安装版？点此查看 [Web:bit 教育版 > 编辑器介绍 > 安装版](software.md#id5) 。
+> 什么是安装版？点此查看 [Web:bit 教育版 > 编辑器介绍 > 安装版](WebBit_doc/zh/webduino/education_edition/software.html#-5) 。
 
 将开发板通过 Micro USB 线连接电脑，最上方会出现安装版的「版本号」（如：V1.2.4）以及「扫描 USB 设备」的提示，此时可以将开发板通过 USB 线连接电脑，让软件进行自动扫描并连接。
 

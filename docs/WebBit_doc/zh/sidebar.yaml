@@ -51,6 +51,9 @@ items:
             -   label: 对话框输入文字
                 file: webduino/education_edition/detect/input.md
         -   label: 音效 & 语音
+            items:
+            -   label: 特殊音效
+                file: webduino/education_edition/sound/sound-effect.md
         -   label: 开发板功能
         -   label: 网络功能
         -   label: 相关链接

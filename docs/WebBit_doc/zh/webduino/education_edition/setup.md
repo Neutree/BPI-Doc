@@ -21,7 +21,7 @@
 
 ![](../../assets/webduino/education_edition/setup/upload_c792e42e263f5a843da6255867d1a77f.png)
 
-> *注意！没有出现如图连接情况，请使用 [Web:bit 教育版 > 更新开发板固件 > 恢复出厂固件](update.md#id3)。
+> *注意！没有出现如图连接情况，请使用 [Web:bit 教育版 > 更新开发板固件 > 恢复出厂固件](update.html#-2)。
 
 #### 步骤 2、设置 Web:bit Wi-Fi 的名称（SSID）与密码
 
@@ -47,7 +47,7 @@
 
 - 若红灯持续闪烁或恒亮，请拔掉电源，重新操作步骤 1 与步骤 2 。
 
-- 若红灯闪完后亮起「蓝灯」而不是绿灯，表示已有新版本可以进行下载更新，请参考[Web:bit 教育版 > 更新开发板固件](update.md) 。
+- 若红灯闪完后亮起「蓝灯」而不是绿灯，表示已有新版本可以进行下载更新，请参考[Web:bit 教育版 > 更新开发板固件](update.html#-1) 。
 
 ![](../../assets/webduino/education_edition/setup/upload_184a8ab60565dbd34c2e4cac4a0a530b.gif)
 
@@ -87,6 +87,6 @@
 
 - 若红灯持续闪烁或恒亮，请拔掉电源，重新操作步骤 1 与步骤 2 。
 
-- 若红灯闪完后亮起「蓝灯」而不是绿灯，表示已有新版本可以进行下载更新，请参考[Web:bit 教育版 > 更新开发板固件](update.md) 。
+- 若红灯闪完后亮起「蓝灯」而不是绿灯，表示已有新版本可以进行下载更新，请参考[Web:bit 教育版 > 更新开发板固件](update.html#-1) 。
 
 ![](../../assets/webduino/education_edition/setup/upload_184a8ab60565dbd34c2e4cac4a0a530b.gif)

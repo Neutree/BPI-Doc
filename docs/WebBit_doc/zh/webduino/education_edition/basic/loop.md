@@ -117,6 +117,6 @@
 
 ![](../../../assets/webduino/education_edition/basic/loop/upload_7ce353ec6f92ec9ac4b9cc2bae786417.gif)
 
-如果有多个循环，也可以使用「停止所有循环」来停止，例如下方的程序，当小怪兽旋转角度大于 90 度，就会停止所有循环。 ( 此处勾选了后台执行，请参阅「[后台执行](loop.html#id9)」章节 )
+如果有多个循环，也可以使用「停止所有循环」来停止，例如下方的程序，当小怪兽旋转角度大于 90 度，就会停止所有循环。 ( 此处勾选了后台执行，请参阅「[后台执行](loop.html#-9)」章节 )
 
 ![](../../../assets/webduino/education_edition/basic/loop/upload_55f343e086261afb02b6988c542ea8f3.gif)

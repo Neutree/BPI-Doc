@@ -56,7 +56,7 @@
 
 ### 第二步，安装有线驱动
 
-打开链接 [安装驱动](https://bpi-steam-docs.readthedocs.io/zh_CN/latest/bpi-steam/driver.html) 进入教程，或点击左侧目录 安装驱动 。
+打开链接 [安装驱动](../getting_started/driver.html) 进入教程，或点击左侧目录 安装驱动 。
 
 ![](../assets/webduino/install&use/20190821221938626.png)
 

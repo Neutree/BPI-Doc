@@ -65,7 +65,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/logic/upload_b154c49ccea77e77c9a8018d8a4e6c3c.png)
 
-例如我们可以设定变量 a 为两个随机数相除，再通过小怪兽讲出整数或小数。 ( 除法的积木使用了「多行输入」，可以在积木上按右键选择多行输入，教学参考：[程序积木小技巧](../info/software.html#id8)
+例如我们可以设定变量 a 为两个随机数相除，再通过小怪兽讲出整数或小数。 ( 除法的积木使用了「多行输入」，可以在积木上按右键选择多行输入，教学参考：[程序积木小技巧](../software.html#-8)
 
 ![](../../../assets/webduino/education_edition/basic/logic/upload_32bdf404013aa3ff57dbfd13ec0cba63.jpg)
 

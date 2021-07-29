@@ -50,10 +50,28 @@ items:
                 file: webduino/education_edition/detect/time.md
             -   label: 对话框输入文字
                 file: webduino/education_edition/detect/input.md
-        -   label: 音效 & 语音
+        -   label: 音效＆语音
             items:
             -   label: 特殊音效
                 file: webduino/education_edition/sound/sound-effect.md
         -   label: 开发板功能
+            items:
+            -   label: 开发板
+                file: webduino/education_edition/board_function/board.md
+            -   label: 矩阵 LED
+                file: webduino/education_edition/board_function/rgbled-matrix.md
+            -   label: 按钮开关
+                file: webduino/education_edition/board_function/ab-button.md
+            -   label: 光线＆温度
+                file: webduino/education_edition/board_function/photocell-thermistor.md
+            -   label: 音乐＆声音
+                file: webduino/education_edition/board_function/buzzer.md
+            -   label: 运动＆姿态
+                file: webduino/education_edition/board_function/mpu9250.md
+            -   label: 输入＆输出
+                file: webduino/education_edition/board_function/pin_io.md
         -   label: 网络功能
-        -   label: 相关链接
+            items:
+            -   label: 网络广播
+                file: webduino/education_edition/network/broadcast.md
+    -   label: Webduino 高阶

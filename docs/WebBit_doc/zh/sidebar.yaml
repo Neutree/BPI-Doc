@@ -75,3 +75,21 @@ items:
             -   label: 网络广播
                 file: webduino/education_edition/network/broadcast.md
     -   label: Webduino 高阶
+        file: webduino/advanced/readme.md
+        items:
+        -   label: Webduino Bit 初始化设定
+            file: webduino/advanced/setting.md
+        -   label: 认识 Webduino Blockly Bit
+            file: webduino/advanced/blockly.md
+        -   label: 5x5 全彩 LED 点矩阵
+            file: webduino/advanced/rgbmatrix.md
+        -   label: 按钮开关
+            file: webduino/advanced/button.md
+        -   label: 侦测光线
+            file: webduino/advanced/photocell.md
+        -   label: 侦测温度
+            file: webduino/advanced/temperature.md
+        -   label: 蜂鸣器
+            file: webduino/advanced/buzzer.md
+        -   label: 九轴传感器
+            file: webduino/advanced/mpu9250.md

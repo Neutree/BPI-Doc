@@ -93,3 +93,8 @@ items:
             file: webduino/advanced/buzzer.md
         -   label: 九轴传感器
             file: webduino/advanced/mpu9250.md
+    -   label: Webduino 拓展积木
+        file: webduino/modules/basic.md
+-   label: MicroPython 目录
+    items:
+    -   label: MicroPython 上手指引

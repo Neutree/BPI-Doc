@@ -7,3 +7,10 @@ items:
     file: webduino_dev/README.md
     items:
     -   label: Blockly 是什么？
+        file: webduino_dev/blockly.md
+    -   label: 了解拓展积木模板
+        file: webduino_dev/develop.md
+    # -   label: 修改拓展积木模板
+    #     file:
+    # -   label: 附文：两类积木机制与设计思路
+    #     file:

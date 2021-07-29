@@ -2,13 +2,13 @@
 
 编辑器设计了四只可爱的小怪兽，通过程序积木编排逻辑顺序，就能控制每只小怪兽的说话、声音、互动和行为等动作，甚至能进一步与实体开发板互动，做出更多好玩的有趣应用。
 
-### 小怪兽积木清单 ( 基本操作 )
+## 小怪兽积木清单 ( 基本操作 )
 
 基本操作小怪兽的积木分别有讲话、展示图片、情绪、改变位置、改变角度、改变大小、显示隐藏和阶层...等，可以通过这些积木控制小怪兽的外在表现。
 
 ![](../../../assets/webduino/education_edition/monster/basic/upload_ecaf893841c42dfab8dba2e59219b3f0.png)
 
-### 讲话＆不讲话
+## 讲话＆不讲话
 
 「讲话」和「不讲话」积木可以让小怪兽讲出指定的文字，或不要讲出文字，通过下拉选单也可以选择哪一只小怪兽讲话，或所有小怪兽一起讲话。
 
@@ -22,7 +22,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/upload_e559ef990c771072f48b1693c8b762b9.png)
 
-### 展示图片
+## 展示图片
 
 「展示图片」积木可以让小怪兽展示一张「网络图片」。
 
@@ -34,7 +34,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/upload_0e42941e1908cd0eee54be33f33dc605.png)
 
-### 情绪
+## 情绪
 
 「情绪」积木可以改变小怪兽的情绪，包含开心、惊讶、生气、难过和随机情绪。
 
@@ -44,7 +44,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/upload_1ab6008309379d6e26ac09ad81d20011.png)
 
-### 改变位置
+## 改变位置
 
 「改变位置」积木可以指定小怪兽改变*目前的位置*，选项有往上、往下、往左、往右、随机或朝向鼠标方向。
 
@@ -58,7 +58,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-11.gif)
 
-### 定位
+## 定位
 
 「定位」积木能够把小怪兽摆放到指定的坐标位置。
 
@@ -68,7 +68,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-13.jpg)
 
-### 旋转角度
+## 旋转角度
 
 「旋转角度」可以指定小怪兽改变*目前的角度*，选项有往左或往右。
 
@@ -78,7 +78,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-15.gif)
 
-### 面朝方向
+## 面朝方向
 
 「面朝方向」角度可以指定小怪兽旋转的角度，顺时针为正，逆时针为负。
 
@@ -88,7 +88,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-17.gif)
 
-### 自动面朝鼠标方向
+## 自动面朝鼠标方向
 
 「自动面朝鼠标方向」积木能让小怪兽转到鼠标所在的方向，有自动和停止两个选项。
 
@@ -98,7 +98,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-19.gif)
 
-### 取得座标和角度
+## 取得座标和角度
 
 「取得座标和角度」积木能够读取小怪兽当前的 X 座标、Y 座标和旋转角度。
 
@@ -108,7 +108,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-21.jpg)
 
-### 尺寸放大缩小
+## 尺寸放大缩小
 
 「尺寸放大缩小」积木可以指定小怪兽改变*目前的大小*，选项有放大或缩小。
 
@@ -118,7 +118,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-23.gif)
 
-### 尺寸百分比
+## 尺寸百分比
 
 「尺寸百分比」积木可以指定小怪兽放大缩小的百分比。
 
@@ -128,13 +128,13 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-25.jpg)
 
-### 显示/不显示
+## 显示/不显示
 
 「显示/不显示」积木可以指定小怪兽是否显示在互动舞台区。
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-26.jpg)
 
-### 阶层
+## 阶层
 
 「阶层」积木可以指定小怪兽排列的阶层，最上层在最前面，最下层在最后面。
 
@@ -144,7 +144,7 @@
 
 ![](../../../assets/webduino/education_edition/monster/basic/basic-29.gif)
 
-### 回到原始状态
+## 回到原始状态
 
 「回到原始状态」积木可以让小怪兽回到初始状态，初始状态包含不说话、预设座标、预设旋转角度和预设尺寸大小。
 

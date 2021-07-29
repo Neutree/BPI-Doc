@@ -2,7 +2,7 @@
 
 开发板的正中央内嵌了一个由 25 颗矩阵 LED  组成的的 LED 矩阵 ，每个 LED 都可通过红、绿、蓝三种颜色进行混合产生各种不同颜色，让指定位置的 LED 显示指定的颜色并组合，就能显示各种图案。
 
-### 矩阵 LED 积木清单
+## 矩阵 LED 积木清单
 
 矩阵 LED 积木清单包含显示颜色、关灯、绘制图案、预设图案、指定第几颗灯的颜色、跑马灯和亮度等积木。
 
@@ -12,7 +12,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_a405d0e0455fd644717101c3751df0a6.png)
 
-### 显示颜色
+## 显示颜色
 
 「显示颜色」积木可以让 25 颗灯同时亮起指定的颜色。 ( 若选择黑色，效果等同不亮灯 )
 
@@ -22,7 +22,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_081903273b3fd8d4f529c88856192fe4.png)
 
-### 绘制图案
+## 绘制图案
 
 「绘制图案」积木能够自定义每颗灯不同的颜色，绘制一个 5x5 的图案。
 
@@ -36,7 +36,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_32a049fb957b51d0cc47af0c38baf1d1.png)
 
-### 预设图案
+## 预设图案
 
 「预设图案」积木提供 60 种预设图案，以及一个随机图案选项 ( 60 种图案随机取出一种 )。
 
@@ -46,7 +46,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_5a1b8919a68c65b2b25529c2278016ea.png)
 
-### 显示一个字
+## 显示一个字
 
 「显示一个字」积木可以显示*单个*大小写英文字母、数字或标点符号 ，并指定显示的颜色。 ( 不支持显示中文 )
 
@@ -56,7 +56,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_2810b8f54fbf9129c79c93a919bfa638.png)
 
-### 跑马灯
+## 跑马灯
 
 「跑马灯」积木可以通过跑马灯的方式，以指定的颜色显示一串文字，跑马灯可以只进行一次或无限次重复播放，并能设定文字移动的速度。 ( 不支持显示中文 )
 
@@ -70,7 +70,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_6fbc7a9ca95c10b182cce3a2b44b1952.gif)
 
-### 矩阵 LED 控制灯号
+## 矩阵 LED 控制灯号
 
 「矩阵 LED 控制灯号」积木可以控制矩阵 LED 指定灯号的运行。
 
@@ -88,7 +88,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_249539e18180c1815e49ef8dd3e51120.png)
 
-### 第几颗灯
+## 第几颗灯
 
 「第几颗灯」积木可以指定第几颗灯的颜色。
 
@@ -102,7 +102,7 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_670bd7d51c9f594273b0a4329f5a7511.png)
 
-### X、Y 座标控制灯号
+## X、Y 座标控制灯号
 
 「X、Y 座标控制灯号」积木可以通过 X 和 Y 的座标值指定灯号的颜色显示。
 
@@ -116,13 +116,13 @@
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_6e19592bbea111a87ba2441f6b44f05c.png)
 
-### 亮度
+## 亮度
 
 「亮度」积木可以控制「*全部 LED 灯*」的亮度，该积木无法指定单一颗灯的亮度，亮度最暗到最亮的数值为 0 ~20，预设值 10。
 
 ![](../../../assets/webduino/education_edition/board_function/rgbled-matrix/upload_e531c3542454cd50f41475c8f89ae4f9.png)
 
-### 关灯
+## 关灯
 
 「关灯」积木可以关闭「*全部 LED 灯*」，效果等同于把 25 颗灯的颜色同时设定为黑色。
 

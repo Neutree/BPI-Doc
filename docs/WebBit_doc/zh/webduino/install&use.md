@@ -2,11 +2,11 @@
 
 测试环境：Win10 家庭版 & WIN7 基础版
 
-### 第一步，安装编程软件 
+## 第一步，安装编程软件 
 
 [点击链接](https://banana-pi.dev/Image/BPI-BIT/WebBitSetup.exe) 下载软件。
 
-#### win10
+### win10
 
 ![](../assets/webduino/install&use/20190821221729518.png)
 
@@ -36,7 +36,7 @@
 
 ![](../assets/webduino/install&use/2019082122192570.png)
 
-#### Win7
+### Win7
 
 使用 360 浏览器下载软件。
 
@@ -54,7 +54,7 @@
 
 ![](../assets/webduino/install&use/20190826160442604.png)
 
-### 第二步，安装有线驱动
+## 第二步，安装有线驱动
 
 打开链接 [安装驱动](../getting_started/driver.html) 进入教程，或点击左侧目录 安装驱动 。
 
@@ -81,7 +81,7 @@
 
 ![](../assets/webduino/install&use/20190821222046881.png)
 
-### 第三步，有线连接板子
+## 第三步，有线连接板子
 
 用 USB 数据线连接 BIT 板后，打开设备管理器，显示USB-SERIAL-CH340（COMX），这说明你已经成功安装驱动了。
 
@@ -95,9 +95,9 @@
 
 接下来就可以使用 BIT 板子开始积木编程了。
 
-### 第四步，使用积木编程
+## 第四步，使用积木编程
 
-#### 载入范例体验
+### 载入范例体验
 
 打开 Web:Bit 看到整个界面
 
@@ -111,7 +111,7 @@
 
 ![](../assets/webduino/install&use/20190826160537525.gif)
 
-#### 控制实体开发板
+### 控制实体开发板
 
 使用 USB 线连接
 

@@ -2,19 +2,19 @@
 
 数学积木包含了许多数学运算，从基本的加减乘除，到四舍五入、平均值、中位数...等应有尽有，无论是简单的程序或复杂应用，都能通过各式各样的数学运算实现。
 
-### 数学积木清单
+## 数学积木清单
 
 数学的积木分别有数字、运算、基础函数、加和、随机数和尺度转换...等常用的数学运算式。
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_d1c8bbcfcd83e1a75e18857fdecc1b0f.png)
 
-### 指定数字
+## 指定数字
 
 「指定数字」积木用来让我们输入数字，可输入整数或是带有小数点的浮点数，常用于运算和判断。
 
 ![](../../../assets/webduino/education_edition/basic/math/math-02.jpg)
 
-### 取得范围内随机整数
+## 取得范围内随机整数
 
 「取得范围内随机整数」积木会指定一个数字范围，在每次执行这块积木时，就会从这个数字范围内取出随机的整数。
 
@@ -24,7 +24,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_1a99ebff4f17e890aedc046d6cdfbf13.gif)
 
-### 取得随机分数
+## 取得随机分数
 
 「取得随机分数」积木会在每次执行时，随机取得一个 0 到 1 之间的浮点数。
 
@@ -34,7 +34,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_0e48c7c544fd464e89cf892aeab62892.gif)
 
-### 数学运算
+## 数学运算
 
 「数学运算」积木可以针对数字进行加、减、乘、除和乘方五种运算。
 
@@ -48,19 +48,19 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_849725911c5a02d0056710c11cc79394.png)
 
-### 取得余数
+## 取得余数
 
 「数学运算」积木可以取得两个数字相除所得的余数。
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_1602c8514bc2334c227b4d36469d3644.png)
 
-### 限制数字范围
+## 限制数字范围
 
 「限制数字范围」积木可以设定最大值与最小值，并将数字限制在这个指定的范围内。
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_e52951bf6667bf3c9391ee0a5e28ee4a.png)
 
-### 四舍五入
+## 四舍五入
 
 「四舍五入」积木可以对带有浮点数的数字进行四舍五入、无条件舍去或无条件进位三种运算，同时亦可选择舍去或进位到第几位小数点。
 
@@ -70,7 +70,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_07c8fc616442712daebf914cd03225aa.png)
 
-### 尺度转换
+## 尺度转换
 
 「尺度转换」积木可以将某个尺度区间内的数值，转换为另外一个区间尺度对应数值。
 
@@ -88,7 +88,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_e1ce4490809efa423df2ed35e25c8b72.jpg)
 
-### 数组运算
+## 数组运算
 
 「数组运算」积木能针对以数字组成的数组，进行加总、取出最小值、取出最大值、计算平均值、取得中位数、取得比较众数、计算标准差和随机抽取的计算。
 
@@ -98,13 +98,13 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_768f06c1ab0df9e9ac09b213cbdf6350.jpg)
 
-### 常用数学函数
+## 常用数学函数
 
 「常用数学函数」提供常用的数学计算积木，常用数学函数包含以下几种：开根号、绝对值、负数(-)、对数函数(ln)、log10 函数(log10)、指数函数(e^)和10 的几次方(10^)。
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_d2fe94565c95ebfb3971d8fba23b8aed.jpg)
 
-### 三角函数
+## 三角函数
 
 「三角函数」积木里头提供了两种三角函数用法，分别是角度 ( sin、cos、tan ) 以及弧度 ( asin、acos、atan )，三角函数可以从下拉选单选择切换。
 
@@ -114,7 +114,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/math/upload_e08b1a75c5af43eb95e965088d061f7b.jpg)
 
-### 常数
+## 常数
 
 「常数」积木会表现是一个不会变动的常数数值，常数包含了以下几种：圆周率(π)、指数(e)、黄金分割率(φ)、sqrt(2)、sqrt(½) 和无限大(∞)。
 

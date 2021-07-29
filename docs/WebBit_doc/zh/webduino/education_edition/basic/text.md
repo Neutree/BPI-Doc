@@ -4,13 +4,13 @@
 
 在编程的领域中，文字即字符，字符是指计算机中使用的字母、数字、字和符号，文本即字符串，字符串是由一串字符组成。
 
-### 文字积木清单
+## 文字积木清单
 
 文字积木分别有指定文字、换行、转换大小写、建立字串、文字工具、文字查找、文字取代、文字转换...等常用的文字功能。
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_5c03f0c1fd1c247a8c76419994cbbe5b.png)
 
-### 指定文字
+## 指定文字
 
 「指定文字」积木可以输入指定的文字，以便其他积木使用。
 
@@ -20,13 +20,13 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/text-03.jpg)
 
-### 换行
+## 换行
 
 「换行」积木可以将一段文字从指定的位置换行。
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_d6a8bd61e12e54c7f3c5e3ad7a01a5da.png)
 
-### 建立文本
+## 建立文本
 
 「建立文本」积木可以把不同的文字积木组合成一段文本。
 
@@ -44,7 +44,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_362a69d6462aeb94b797a5625fd46b44.png)
 
-### 在变量后方加入文字
+## 在变量后方加入文字
 
 「在变量后加入文字」积木能够改变原本变量的内容，使原本变量的内容后方额外增加文字。
 
@@ -54,7 +54,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_021201b6ae68c449d8395d9703d1e792.png)
 
-### 取代文字
+## 取代文字
 
 「取代文字」积木可以快速将一段文字里的某些字，替换为其他的文字，下拉选单可以选择更换第一个指定的文字，或所有指定的文字。 (取代文字不会对变量进行变更，而是产生一段全新的文本)
 
@@ -64,7 +64,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_3f8739691e3973af97e356cf0e6de17b.png)
 
-### 寻找文本出现位置
+## 寻找文本出现位置
 
 「寻找文本出现位置」积木可以在一段文本中找出指定文本出现的位置，可以选择第一个出现的位置或最后一个出现的位置。
 
@@ -74,7 +74,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_7b239d9fbc07c0bc8d35fa6bd420e84d.png)
 
-### 取得指定位置的文字
+## 取得指定位置的文字
 
 「取得指定位置的文字」积木会取出文本中指定位置的文字，下拉选单共有五种指定位置，分别是第几个、倒数第几个、第一个、最后一个和随机位置。
 
@@ -84,7 +84,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_d23a1f6a85a95b0b688d13584547be27.png)
 
-### 取得指定区间的文本
+## 取得指定区间的文本
 
 「取得指定区间的文本」积木会取出一段指定区间内的文本，需注意的是*第一个空格的数字要比第二个空格内的数字小*。
 
@@ -94,7 +94,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_acc74ac1a1f548668e24207009839685.jpg)
 
-### 转换大小写
+## 转换大小写
 
 「转换大小写」积木可以针对「英文字母」进行大小写转换，包含全部转大写、全部转小写或是首字母大写。
 
@@ -104,13 +104,13 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_9c985f296dbec4db22f7591469fc5777.png)
 
-### 消除空格
+## 消除空格
 
 「消除空格」积木可以消除一段文字中左边、右边或左右两边的空格。
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_609a2bc25a8e60cbac6ad06a5b405702.png)
 
-### 进制转换
+## 进制转换
 
 「进制转换」积木能把数字转换为二进制、八进制、十进制或十六进制的数字。
 
@@ -120,7 +120,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/text/upload_b0abca256a8565665b466e2068206fa5.png)
 
-### 文字长度
+## 文字长度
 
 「文字长度」积木可以取得一段文本的总字数，需要注意的是英文字以「字母」为单位，且空格也算是一个文字。
 

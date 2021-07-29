@@ -2,11 +2,11 @@
 
 通过颜色积木，可以改变小怪兽互动舞台的颜色，或指定实体开发板矩阵 LED 的灯光颜色。
 
-### 颜色积木清单
+## 颜色积木清单
 
 ![](../../../assets/webduino/education_edition/basic/color/upload_90684cbefd049b2c7f29bf1d66f7af70.png)
 
-### 指定颜色
+## 指定颜色
 
 「指定颜色」积木可以让我们通过色彩选取面板，选择对应的颜色。
 
@@ -14,7 +14,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/color/upload_b6df48315ec88021377d9f3093e9ef79.png)
 
-### 随机颜色
+## 随机颜色
 
 「随机颜色」会在每次执行时，随机从各种颜色中取出一种颜色显示。
 
@@ -24,7 +24,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/color/upload_67a8f84a9ce43b92f130c1155cc613d9.gif)
 
-### RGB 三原色
+## RGB 三原色
 
 「RGB 三原色」积木能够指定积木中三原色的数值，直接通过数值来呈现不同的颜色。
 
@@ -42,7 +42,7 @@
 
 ![](../../../assets/webduino/education_edition/basic/color/upload_f0478b8767b710d98996e73c7ff96844.gif)
 
-### 混合颜色
+## 混合颜色
 
 「混合颜色」积木是指两种颜色积木按照比例混合产生新的颜色，比例为 0~1 之间的数值，数字越小颜色越接近颜色 1，数字越大颜色越接近颜色 2。
 

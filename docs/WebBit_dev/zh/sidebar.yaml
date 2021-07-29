@@ -1,0 +1,6 @@
+items:
+-   label: 开发板介绍
+    file: getting_started/hardware.md
+-   label: 驱动安装
+    file: getting_started/driver.md
+-   label: Webduino Blockly 积木开发指导

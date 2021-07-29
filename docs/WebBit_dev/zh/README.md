@@ -1,59 +1,9 @@
-开发 teedoc
-===========
+# Welcome to BPI-STEAM documentation!
 
+>欢迎来到 BPI-STEAM 的开发指导，本项目托管于 [Github BPI-STEAM](https://github.com/BPI-STEAM)开源组织。
 
-## 获得源码
+>此处文档并不会照顾到一般用户的理解，请先具备隔壁 [用户文档](https://bpi-steam-docs.readthedocs.io)的基础。
+    
+以下是我们所用的 BPI-BIT 教育开发板,它是一款基于 ESP32 高性能芯片且兼容 micro:bit 设计的开源 STEAM 教育产品。
 
-```
-git clone https://github.com/Neutree/teedoc
-```
-
-## 安装环境
-
-```
-sudo apt install python3 python3-pip
-cd teedoc
-pip3 install -r requirements.txt
-```
-
-
-
-## 运行源码
-
-* 安装插件
-
-```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site install
-```
-
-* 运行
-
-```
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site build
-python3 teedoc/teedoc_main.py  -p examples/teedoc_site serve
-```
-
-* 插件导入问题和更新调试问题
-
-在`site_config.json`中设置插件的本地路径，比如：
-```json
-"teedoc-plugin-markdown-parser":{
-            "from": "../../plugins/teedoc-plugin-markdown-parser"
-        }
-```
-然后在运行时将会优先从这个路径导入包（将这个路径加入`sys.path`，然后导入），而不是系统路径，可以保证修改及时生效
-
-
-
-
-## 调试
-
-在 vscode 中调试，直接调试单文件 `teedoc_debug.py` 文件即可
-
-
-
-
-
-
-
-
+![](assets/_static/facade.gif)

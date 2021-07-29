@@ -3,4 +3,7 @@ items:
     file: getting_started/hardware.md
 -   label: 驱动安装
     file: getting_started/driver.md
--   label: Webduino Blockly 积木开发指导
+-   label: Webduino Blockly 开发指导
+    file: webduino_dev/README.md
+    items:
+    -   label: Blockly 是什么？

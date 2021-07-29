@@ -1,5 +1,5 @@
 
-# 产品介绍
+# 开发板介绍
 
 ![](../assets/https://img.shields.io/badge/open%20source-bananpi-brightgreen.svg)
 ![](../assets/https://img.shields.io/badge/support-webduino-blue.svg)

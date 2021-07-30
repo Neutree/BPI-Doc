@@ -28,5 +28,5 @@ items:
             file: webduino_dev/modify/add_lang.md
         -   label: 积木使用示例
             file: webduino_dev/modify/examples.md
-    # -   label: 附文：两类积木机制与设计思路
-    #     file:
+    -   label: 附文：两类积木机制与设计思路
+        file: webduino_dev/mechanism.md

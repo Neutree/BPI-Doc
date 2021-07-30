@@ -1,61 +1,32 @@
-# &emsp;&emsp;&emsp;&emsp; BPI-STEAM/Docs 基础手册（自由编辑）
+# BPI-STEAM 用户文档
 
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
+BPI-STEAM 是专注于软硬件开源技术的开源组织，属于 `Banana-Pi <http://www.banana-pi.org/>`_ 的分支，从 2018 年起推出 BPI-BIT 开发板，随之推出 Webduino 、 MicroPython 、 Arduino 等开源技术支持，通过用户文档能够让用户轻松入门 BPI-STEAM 所提供的技术产品。
 
-[![Documentation Status](https://readthedocs.org/projects/bpi-steam-docs/badge/?version=latest)](https://bpi-steam-docs.readthedocs.io/zh_CN/latest/?badge=latest)
+>本文档托管于 `BPI-STEAM <https://github.com/BPI-STEAM>`_ 开源组织。
 
-## how to edit
+## 认识 BPI-BIT 开发板
 
-The document content is in [source](https://github.com/BPI-STEAM/Docs/tree/master/source).
+BPI-BIT 是一款基于 ESP32 高性能芯片且兼容 micro:bit 设计的开源 STEAM 教育开发板，又名 Bpi:Bit、Web:Bit 。
 
-文档结构如下：（如果你需要操作，请扫一遍关键目录，可以用 markdown 也可以用 rst，看自己喜欢）
+## 使用 Webduino 编程
 
-- [source](https://github.com/BPI-STEAM/Docs/tree/master/source) 文档原料。
-- [source/micropython](https://github.com/BPI-STEAM/Docs/tree/master/source/micropython) micropython 教程相关。
-- [source/webduino](https://github.com/BPI-STEAM/Docs/tree/master/source/webduino) webduino 教程相关。
-- [source/bpi-steam](https://github.com/BPI-STEAM/Docs/tree/master/source/bpi-steam) bpi-bit 产品、介绍相关。
-- mPython/docs 引用掌控板的公共文档。
-- micropython/docs 引用官方英文的公共文档。
-- conf.py 自动化部署脚本，不需要修改
-- contents.rst 和 index.rst 为 根目录（进入网站左边一排），需保持一致。
+通过 Web:Bit 专用积木编辑器，使用拖拽积木来轻松学习编程。
 
-如果想提交内容，直接提交即可，提交后，项目会自动编译部署到网站，而你只需要在本地 build 核对一下即可，如果出现问题请提交 issue 或直接反馈到群里。
+![](assets/_static/editor.png) 
 
-### micropytho list
 
-![](micropython.png)
+## 使用 MicroPython 编程
 
-## related and thank them
+通过烧写 MicroPython 固件，就可以在开发板中使用 Python 语言进行编程。
 
-感谢以下文档提供的公共部分内容，我将保留引用信息链接。
+将提供丰富的示例代码以及专业 IDE 的支持（如：VsCode、PyCharm）。
 
-[esp32 中文](https://docs.singtown.com/micropython/zh/latest/esp32/index.html)
+![](assets/_static/micropython_LOGO.jpg)
 
-[openmv 中文](https://docs.singtown.com/micropython/zh/latest/openmvcam/index.html)
+## 使用 Arduino 编程
 
-[microbit 中文](http://www.qingchuangzhiyi.com/doc/tutorials/hello.html)
+提供了入门 Arduino 的软件工具和最佳示例，降低进入 ESP32 嵌入式专业开发的门槛。
 
-[micropython 官方](http://docs.micropython.org/en/latest/esp32/quickref.html)
+![](assets/_static/Arduino_logo.png)
 
-[mPython中文](https://mPython.readthedocs.io/zh/master/)
-
-## python
-
-```unix
-pip install sphinx, sphinx_rtd_theme, recommonmark
-```
-
-## powershell
-
-```bat
-.\make.bat html
-```
-
-## git (Do not handle)
-
-```unix
-git submodule add https://github.com/micropython/micropython
-git submodule add https://github.com/labplus-cn/mPython
-
-git submodule update --init --recursive
-```
+>Arduino 将不会阐述过多基础内容，请具备 C/C++ 的语言开发基础。

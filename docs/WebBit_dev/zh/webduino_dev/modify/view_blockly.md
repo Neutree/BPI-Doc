@@ -1,5 +1,4 @@
-
-## 查看范例积木
+# 查看范例积木
 
 进入积木设计器，可以使用国内源 [Blockly Developer Tools](http://walkline.wang/blockly/blockfactory/) 如下图。
 
@@ -30,3 +29,5 @@
 ![](../../assets/webduino_dev/modify/images/blockly_result.png)
 
 现在知道有这些东西就行，回头就会用上，至少知道这些代码都是使用该工具生成的。
+
+> 欲读懂内部工作机制，请学习[HTML5](https://www.runoob.com/html/html5-intro.html)和[ECMAScript 6](https://www.runoob.com/w3cnote/es6-concise-tutorial.html)。

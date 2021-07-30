@@ -8,7 +8,6 @@
 
 先认识一下模板目录文件，如下一系列表格，稍后会详细介绍。
 
-
 ### webduino-blockly-template
 
 | 文件路径 | 介绍与用途 |
@@ -59,13 +58,11 @@
 
 ## 拓展积木的使用方法
 
-
 如果是托管在 Github 上的积木，可以根据[拓展积木的使用说明](../../../WebBit_doc\zh\webduino\modules\basic.html) 可知插件地址外链类似这样：https://bpi-steam.com/webduino-blockly-template/blockly.json 的地址，又或者是这样 https://junhuanchen.github.io/webduino-module-itpk-robot/blockly.json 的地址，请确保在访问的时候，使用 https 访问且内容类似下图的 JSON 效果。
 
 ![](../assets/webduino_dev/images/blockly_json.png)
 
 ## 拓展积木的模板创建
-
 
 请尝试使用该项目进行操作，如图点击绿色按钮（Use this template），这将 fork 到你的项目中，此时。
 
@@ -82,7 +79,6 @@
 上图的积木插件地址应为：https://junhuanchen.github.io/webduino-blockly-telecar/blockly.json ，而模板插件地址则是 https://bpi-steam.com/webduino-blockly-template/blockly.json ，记得在 readme 里修改对应提供的地址，将插件托管到 Github 的方法请继续往下看。
 
 ## 拓展积木的托管配置
-
 
 一般来说，我们会将积木托管在 Github 上，这样就不需要自己额外提供一个网络空间了，所以当我们 fork 项目的时候，会发现创建的模板项目，无法直接使用类似上述的插件外链使用，所以这时候需要你设置 Github Pages 的 Source，如下描述，这是因为它需要转换为该链接，以个人的 Github 为例，如下图是没有设置的情况。
 
@@ -103,3 +99,5 @@
 >注意 fork 的 readme 的内容并没有改变，所以发布的时候，别忘了修改积木地址。
 
 现在，你通过 fork 就已经学会了如何创建一个动态积木，那接下来就从修改一个示例模板开始写积木吧。
+
+> 欲读懂内部工作机制，请学习[HTML5](https://www.runoob.com/html/html5-intro.html)和[ECMAScript 6](https://www.runoob.com/w3cnote/es6-concise-tutorial.html)。

@@ -1,9 +1,18 @@
 最简单的开始
 ============
 
-> 工欲善其事，必先利其器。
-> 请确保你已经准备好 BPI-BIT ，且已经 刷入 MicroPython 固件。
-> 并从这里获取最简单的 MicroPython 编辑器 [mpy-editor](https://github.com/BPI-STEAM/mpy-editor)
+工欲善其事，必先利其器
+---------------------
+
+
+请确保你已经准备好 BPI-BIT ，且已经 刷入 MicroPython 固件。
+
+并从这里获取最简单的 MicroPython 编辑器 [mpy-editor](https://github.com/BPI-STEAM/mpy-editor)。
+
+MicroPython是 Python 3 语言的精简实现 ，包括Python标准库的一小部分，经过优化可在微控制器和受限环境中运行。
+
+如果你从没学过 Python3，建议你先在[Python 3 菜鸟教程](https://www.runoob.com/python3/python3-tutorial.html)进行学习 Python3 的软件基础知识，再过度到硬件部分会比较好。
+
 
 在 Windows 下连接设备
 ---------------------

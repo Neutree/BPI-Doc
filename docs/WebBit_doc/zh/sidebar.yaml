@@ -100,9 +100,9 @@ items:
     -   label: MicroPython 上手指引
         file: micropython/guide.md
     -   label: 基础教程
-        # items:
-        # -   label: 
-        #     file: 
+        items:
+        -   label: 刷入 MicroPython 固件 
+            file: micropython/flash_mpy.md
         # -   label: 
         #     file: 
         # -   label: 

@@ -98,3 +98,32 @@ items:
 -   label: MicroPython 目录
     items:
     -   label: MicroPython 上手指引
+        file: micropython/guide.md
+    -   label: 基础教程
+        # items:
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 
+        # -   label: 
+        #     file: 

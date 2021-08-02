@@ -54,4 +54,4 @@
 
 ![](../../assets/webduino/modules/basic/9.png)
 
-如果想要自己制作和设计积木，可以参考[**开发者文档**](http://dev.bpi-steam.com)。
+如果想要自己制作和设计积木，可以参考[**开发者文档**](../../../../WebBit_dev/zh/)。

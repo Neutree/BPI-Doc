@@ -105,8 +105,8 @@ items:
             file: micropython/flash_mpy.md
         -   label: 最简单的开始
             file: micropython/simple_use.md
-        # -   label: 
-        #     file: 
+        -   label: 初识 REPL
+            file: micropython/repl.md
         # -   label: 
         #     file: 
         # -   label: 

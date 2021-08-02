@@ -107,10 +107,10 @@ items:
             file: micropython/simple_use.md
         -   label: 初识 REPL
             file: micropython/repl.md
-        -   label: LED矩阵显示 Hello, World!
+        -   label: LED矩阵显示字符
             file: micropython/display.md
-        # -   label: 
-        #     file: 
+        -   label: 检测面板按键
+            file: micropython/button.md
         # -   label: 
         #     file: 
         # -   label: 

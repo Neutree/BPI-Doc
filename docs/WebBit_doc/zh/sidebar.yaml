@@ -103,12 +103,12 @@ items:
         items:
         -   label: 刷入 MicroPython 固件 
             file: micropython/flash_mpy.md
-        -   label: 最简单的开始
+        -   label: 点亮开发板
             file: micropython/simple_use.md
         -   label: 初识 REPL
             file: micropython/repl.md
-        # -   label: 
-        #     file: 
+        -   label: LED矩阵显示 Hello, World!
+            file: micropython/display.md
         # -   label: 
         #     file: 
         # -   label: 

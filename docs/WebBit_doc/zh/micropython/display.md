@@ -3,7 +3,7 @@ Hello, World!
 
 以一门新语言开始编程的传统方式是让计算机打印出“Hello，World！”。
 
-![](images/scroll-hello.gif)
+![](../assets/micropython/images/scroll-hello.gif)
 
 这对于 MicroPython 来说很容易的 :
 
@@ -31,7 +31,7 @@ microbit
 
 何不自己亲自试试呢？
 
-![](images/scroll.gif)
+![](../assets/micropython/images/scroll.gif)
 
 > **attention**
 >
@@ -57,7 +57,7 @@ microbit
 
 相比于 microbit，bpibit 的 led 面板采用的是可编程的 RGB 灯(ws2812b)。
 
-![](images/ws2812.png)
+![](../assets/micropython/images/ws2812.png)
 
 这种RGB灯通过编程理论上可以显示 255 \* 255 \* 255 种颜色的，也就是 1600
 万种颜色，是不是有点难以置信呢，那就让我们来开始我们的色彩 show 吧。
@@ -83,7 +83,7 @@ display = Display()
 display.scroll("Hello, World!", Yellow)
 ```
 
-![](images/yellow.gif)
+![](../assets/micropython/images/yellow.gif)
 
 板子默认显示的颜色是红色，只要在字符串(也就是上面的“Hello,
 World!”)后面添加其他颜色，就可以修改显示的字符的颜色。从上面那个图可以看到我们字符的颜色已经变为黄色了。到这里可能有的同学会发出疑问了
@@ -98,7 +98,7 @@ color = [Red, Orange, Yellow, Green, Blue, Indigo, Purple]
 display.scroll("ROYGBIP", color)
 ```
 
-![](images/color.gif)
+![](../assets/micropython/images/color.gif)
 
 我们新建了一个列表 color，里面按顺序存放着每个字符所需要的颜色，然后在
 scroll 函数的后面把 color
@@ -139,7 +139,7 @@ mycolor = [3,3,3]
 display.scroll("hello",mycolor)
 ```
 
-![](images/mycolor.gif)
+![](../assets/micropython/images/mycolor.gif)
 
 是不是很有趣，相信此时你会有很多有趣的想法，那就赶紧来尝试一下吧
 

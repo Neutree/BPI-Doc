@@ -33,7 +33,7 @@ while True:
 
 效果如下：
 
-![](images/base.gif)
+![](../assets/micropython/images/base.gif)
 
 反馈板子姿态
 ------------
@@ -100,4 +100,4 @@ while True:
     utime.sleep_ms(100)
 ```
 
-![](images/balance_ball.gif)
+![](../assets/micropython/images/balance_ball.gif)

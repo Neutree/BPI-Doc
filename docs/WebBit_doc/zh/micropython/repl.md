@@ -35,7 +35,7 @@ MicroPython将运行您输入的代码并打印结果（如果有的话）；如
 > 实际上 mpy-editor 下方面黑框实际上就是 repl
 > 区域，你可以在其中进行交互。
 >
-> ![](images/editor_repl.png)
+> ![](../assets/micropython/images/editor_repl.png)
 
 如果您已经了解了一些python，现在可以尝试一些基本命令。例如:
 
@@ -48,7 +48,7 @@ MicroPython将运行您输入的代码并打印结果（如果有的话）；如
 
 不妨实践试试？
 
-![](images/test_repl.png)
+![](../assets/micropython/images/test_repl.png)
 
 输入行编辑
 ----------

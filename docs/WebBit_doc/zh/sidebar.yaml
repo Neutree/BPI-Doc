@@ -103,8 +103,8 @@ items:
         items:
         -   label: 刷入 MicroPython 固件 
             file: micropython/flash_mpy.md
-        # -   label: 
-        #     file: 
+        -   label: 最简单的开始
+            file: micropython/simple_use.md
         # -   label: 
         #     file: 
         # -   label: 

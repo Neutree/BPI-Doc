@@ -3,7 +3,7 @@
 
 IO 在计算机中指 Input/Output ，也就是输入和输出，简称 IO 口。
 
-![](images/io.png)
+![](../assets/micropython/images/io.png)
 
 各种 IO
 接口都不尽相同，有些特殊的接口是要更大一些，而且一般来说，它附近也会印有标签方便用户理解，如这块板子的底部是按照
@@ -43,7 +43,7 @@ while True:
 
 运行效果如下：
 
-![](images/touched_io.gif)
+![](../assets/micropython/images/touched_io.gif)
 
 需要注意的是，因为我们人体（手）有静电，有可能会电到它，导致它的表情有时候会很抽搐。
 
@@ -59,18 +59,18 @@ while True:
 
 提示：区分正负极的意图是希望你在接线的时候，元件（LED）正极接电源正极（+），元件（LED）负极接电源负极（-）。
 
-![](images/leds.jpg)
+![](../assets/micropython/images/leds.jpg)
 
 我们开始第一步吧，先普通的把灯点亮，也就是直接将其（LED）接到电源上，那么就把大的那家伙直接接到板子的
 3V 和 GND 上吧，3V 指电源正极（3V），GND 指电源负级，也称接地。
 
-![](images/led.gif)
+![](../assets/micropython/images/led.gif)
 
 这样就点亮了一盏灯（注意正负极），但这样点亮的灯是不可以控制的，它只会亮，不能灭。
 
 本想拿另外一盏灯接上去做对比的，但我们发现一个问题，其他的灯都太短了，所以就交换了以下，用我们的大灯来控制了，可以看到此时接上去灯是不会亮的。
 
-![](images/led_off.jpg)
+![](../assets/micropython/images/led_off.jpg)
 
 那么我们就通过下面的代码来控制它的亮和灭吧，可以看图中我们使用了 pin2
 的引脚来控制。
@@ -82,7 +82,7 @@ pin2.write_digital(1)
 
 可以看到它亮了起来，那就说明我们可以控制了它的亮，这是不是就和最开始入门教程的一致了？
 
-![](images/led_on.jpg)
+![](../assets/micropython/images/led_on.jpg)
 
 那么我们这次就补充一个 Blink（闪烁）的效果吧，使用如下代码。
 
@@ -98,9 +98,9 @@ while True:
 
 运行效果如下：
 
-![](images/blink.gif)
+![](../assets/micropython/images/blink.gif)
 
-> **note**
+> 
 >
 > 1.  使用 pin2 引脚进行输出 1 ， 这会让 LED
 >     存在变成高电平，简单认为上就是这个引脚有电压了，效果相当于直接接了电源正极。（原理上应该理解为两个引脚之间形成电势差）。

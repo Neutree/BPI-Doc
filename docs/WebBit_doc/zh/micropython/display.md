@@ -1,4 +1,4 @@
-让LED矩阵显示 Hello, World!
+让LED矩阵显示字符
 =============
 
 以一门新语言开始编程的传统方式是让计算机打印出“Hello，World！”。
@@ -8,23 +8,19 @@
 这对于 MicroPython 来说很容易的 :
 
 ```python
-    from microbit import *
-    display.scroll("Hello, World!")
+from microbit import *
+display.scroll("Hello, World!")
 ```
 
 以上代码每一行都有其作用。
 
-`
-    from microbit import *
-`
+` from microbit import * `
 
 告知 MicroPython 获取它所需的所有信息用于 BPI-BIT。所有这些都置于microbit模块中（一个模块是一个预先存在的代码库）。当你输入某信息时，就是在告诉MicroPython你要使用该信息。
 
 另外，\* 是Python表示 所有信息 的方式。因此， from microbit import \*的意思是，我需要使用 microbit 代码库中的所有内容。
 
-`
-    display.scroll("Hello, World!")
-`
+` display.scroll("Hello, World!") `
 
 告诉 MicroPython 使用 display 命令去滚动 string 的 “helloworld”字符号，这个 display 是在 microbit中的一个模块，代表设备物理上的显示，显示的内容在引号之中（'）。
 

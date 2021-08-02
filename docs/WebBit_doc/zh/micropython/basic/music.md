@@ -136,11 +136,11 @@ while True:
 
 大家在使用板子播放音乐的时候有没有发现声音有点小呢，在这里我们向大家介绍如何把板子连接到音响，用音响来播放音乐，如下图所示
 
-![](../assets/micropython/music/music.jpg)
+![](../../assets/micropython/basic/music/music.jpg)
 
 P0口连接音频线的左声道或者右声道，GND 连接音频线的GND
 
-![](../assets/micropython/music/5.png)
+![](../../assets/micropython/basic/music/5.png)
 
 从网络上获取乐谱
 ----------------
@@ -160,15 +160,15 @@ P0口连接音频线的左声道或者右声道，GND 连接音频线的GND
 
 把下载的音乐源文件都解压，所有准备工作做好之后，打开我们之前下载的excel文件，你会见到像下面的界面。
 
-![](../assets/micropython/music/1.png)
+![](../../assets/micropython/basic/music/1.png)
 
 点击Open RTTTL tune file，它会自动弹出文件管理器，找到我们刚才解压的文件中的其中一个，选中要转换的音乐文件后，点击打开
 
-![](../assets/micropython/music/3.png)
+![](../../assets/micropython/basic/music/3.png)
 
 完成上面的步骤后我们就完成了转换的工作，点击 play 可以播放音乐文件，注意：这里的 Copy code 是使用不了的复制出来的是乱码，所以我们直接复制红框中的内容就好了
 
-![](../assets/micropython/music/4.png)
+![](../../assets/micropython/basic/music/4.png)
 
 复制转换出来的代码,就可以让板子播放音乐了
 

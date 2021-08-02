@@ -19,7 +19,7 @@ MicroPython是 Python 3 语言的精简实现 ，包括Python标准库的一小�
 
 当你插入设备，打开软件后会提示你选择设备串口，如图点击 COM4 即可，如果断开设备了，你也可以继续点击 Connect（连接设备） 图标重连。
 
-![](../assets/micropython/simple_use/ready.png)
+![](../../assets/micropython/basic/simple_use/ready.png)
 
 确认连接后，运行代码
 --------------------
@@ -32,7 +32,7 @@ MicroPython是 Python 3 语言的精简实现 ，包括Python标准库的一小�
 ```
 如你所见，板子显示了一个笑脸，我已经成功了运行 MicroPython 代码。
 
-![](../assets/micropython/simple_use/display.png)
+![](../../assets/micropython/basic/simple_use/display.png)
 
 
 > 固件已经兼容了 microbit 的 Python 代码，所以你可以直接调用大部分 microbit 功能。

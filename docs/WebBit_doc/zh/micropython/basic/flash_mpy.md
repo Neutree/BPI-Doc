@@ -11,7 +11,7 @@
 -   从[BPI-BIT-MicroPython/release](https://github.com/BPI-STEAM/BPI-BIT-MicroPython/releases/tag/FlashTool)中获取烧写工具的链接，附有国内微云网盘分流。
 -   下载后打开 FlashMicroPython-\*.zip 压缩包，然后运行里面的Flashtool.exe 工具即可。
 
-![](../assets/micropython/flash_mpy/flash_mpy.png)
+![](../../assets/micropython/basic/flash_mpy/flash_mpy.png)
 
 -   请先插入硬件后打开软件，这个软件会自动运行烧写，你也可以直接点击 Flash 按钮烧写。
 -   你也可以自己选择串口烧录，升级固件只需要替换压缩包中的 firmware.bin 重新烧入即可。

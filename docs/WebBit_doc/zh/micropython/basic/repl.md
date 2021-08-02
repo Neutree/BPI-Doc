@@ -28,7 +28,7 @@ REPL 对于学习一门新的编程语言具有很大的帮助，因为它能对
 
 > 实际上 mpy-editor 下方面黑框就是 repl 区域，可以在其中进行交互。
 
-![](../assets/micropython/images/editor_repl.png)
+![](../../assets/micropython/basic/images/editor_repl.png)
 
 如果你已经了解了一些python，现在可以尝试一些基本命令。例如:
 
@@ -42,7 +42,7 @@ REPL 对于学习一门新的编程语言具有很大的帮助，因为它能对
 ```
 不妨实践试试？
 
-![](../assets/micropython/images/test_repl.png)
+![](../../assets/micropython/basic/images/test_repl.png)
 
 输入行编辑
 ----------

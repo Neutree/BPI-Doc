@@ -14,7 +14,7 @@
 
 提示信息
 
-![](../assets/micropython/compass/prompt.png)
+![](../../assets/micropython/basic/compass/prompt.png)
 
 如果罗盘校准成功，返回True，否则返回False。
 
@@ -52,4 +52,4 @@ while True:
 
 在这个例子中第一步程序先校准了电子罗盘（mpu），校准完成后我们可以看到我们的led面板上有一个指南针它不管我们如何转动板子它始终指向南方
 
-![](../assets/micropython/compass/compass.gif)
+![](../../assets/micropython/basic/compass/compass.gif)

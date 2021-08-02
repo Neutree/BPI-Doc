@@ -23,12 +23,12 @@ while True:
 
 LED 面板显示的内容
 
-![](../assets/micropython/temperature/tem.gif)
+![](../../assets/micropython/basic/temperature/tem.gif)
 
 REPL 打印出来的数据
 
-![](../assets/micropython/temperature/tem2.png)
+![](../../assets/micropython/basic/temperature/tem2.png)
 
 温度枪实测的温度
 
-![](../assets/micropython/temperature/tem1.jpg)
+![](../../assets/micropython/basic/temperature/tem1.jpg)

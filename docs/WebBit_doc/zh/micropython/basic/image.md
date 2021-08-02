@@ -10,7 +10,7 @@ display.show(Image.HAPPY)
 
 运行效果如下
 
-![](../assets/micropython/images/emoj.jpg)
+![](../../assets/micropython/basic/images/emoj.jpg)
 
 通过先前的章节，我们想你应该知道了第一行的用途，那么第二行就是指通过了display 模块来显示内置的 Image 图片，我们展示的这个笑脸图案其实只是Image 的一部分，而它的名字叫做 Happy，并且我们要通过 show 并将它放置在括弧内，以使得它显示出来，所以写成 `display.show(Image.HAPPY)`，动手试试吧。
 
@@ -91,7 +91,7 @@ boat = Image("05050:"
 display.show(boat)
 ```
 
-![](../assets/micropython/images/emoj2.jpg)
+![](../../assets/micropython/basic/images/emoj2.jpg)
 
 > 运行时，你应该可以看到一张这样的图片！！
 
@@ -192,7 +192,7 @@ display.show(all_boats, delay=500, loop=True)
 
 运行效果：
 
-![](../assets/micropython/images/running.gif)
+![](../../assets/micropython/basic/images/running.gif)
 
 修改图片的颜色
 --------------
@@ -207,7 +207,7 @@ display.show(Image.ALL_CLOCKS, color=Blue, loop=True, delay=100)
 
 我们这里还是利用上面那个例子，通过简单的修改来改变它的颜色。我们可以看到与前面代码示例最大的不同就是在 show() 函数中添加了 color=Blue 。 这段代码要添加到Image的后面，也就是 show() 的第二个参数的位置。此时显示的颜色已经被我们修改了。
 
-![](../assets/micropython/images/blue.gif)
+![](../../assets/micropython/basic/images/blue.gif)
 
 在前面的章节了也讲过了，我们如果要使用内置的颜色就要导入 display 模块，我们这里使用了内置的颜色Blue，所以在一开始就通过 from display import \* 导入display模块。
 
@@ -219,7 +219,7 @@ mycolor = [3, 1, 1]
 display.show(Image.ALL_CLOCKS, color=mycolor, loop=True, delay=500)
 ```
 
-![](../assets/micropython/images/mycolor.gif)
+![](../../assets/micropython/basic/images/mycolor.gif)
 
 那么最后就来解释一下代码是如何工作的吧。
 -   首先代码是创造了 6 个船的 image。

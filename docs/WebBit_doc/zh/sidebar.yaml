@@ -102,29 +102,29 @@ items:
     -   label: 基础教程
         items:
         -   label: 刷入 MicroPython 固件 
-            file: micropython/flash_mpy.md
+            file: micropython/basic/flash_mpy.md
         -   label: 点亮开发板 
-            file: micropython/simple_use.md
+            file: micropython/basic/simple_use.md
         -   label: 初识 REPL
-            file: micropython/repl.md
+            file: micropython/basic/repl.md
         -   label: LED矩阵显示字符
-            file: micropython/display.md
+            file: micropython/basic/display.md
         -   label: LED矩阵显示图像 
-            file: micropython/image.md
+            file: micropython/basic/image.md
         -   label: 检测面板按键
-            file: micropython/button.md
+            file: micropython/basic/button.md
         -   label: 控制金手指 IO
-            file: micropython/io.md
+            file: micropython/basic/io.md
         -   label: 播放简单的音乐
-            file: micropython/music.md
+            file: micropython/basic/music.md
         -   label: 随机数生成器
-            file: micropython/random.md
+            file: micropython/basic/random.md
         -   label: 板子姿态检测
-            file: micropython/accelerometer.md
+            file: micropython/basic/accelerometer.md
         -   label: 光敏及手势检测
-            file: micropython/light.md
+            file: micropython/basic/light.md
         -   label: 制作一个指南针
-            file: micropython/compass.md
+            file: micropython/basic/compass.md
         -   label: 获取环境温度
-            file: micropython/temperature.md
+            file: micropython/basic/temperature.md
 

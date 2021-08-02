@@ -6,11 +6,11 @@
 
 细心的同学可能已经发现了，在bpibit这块板子上面有这样两个小东西，没错，这两个小东西就是光敏传感器。它是一个对光线敏感的传感器，经过采样电路可以把光的强度转换成电压的大小。
 
-![](../assets/micropython/light/bpi.png)
+![](../../assets/micropython/basic/light/bpi.png)
 
 它的型号是 PTSMD021 。
 
-![](../assets/micropython/light/ptsmd021.png)
+![](../../assets/micropython/basic/light/ptsmd021.png)
 
 获取周围光照强度
 ----------------
@@ -40,7 +40,7 @@ while True:
 
 我们可以此时串口 REPL 打印出来的数据，图中用得 REPL 工具是[mpfshell-lite](https://github.com/BPI-STEAM/mpfshell-lite) 。
 
-![](../assets/micropython/light/message.png)
+![](../../assets/micropython/basic/light/message.png)
 
 通过光敏识别手势
 ----------------
@@ -74,11 +74,11 @@ while True:
 
 我们用手扫过两个光敏传感器，它就能检测到动作并返回结果。我们用手来回在板子上面扫过的执行的结果如下图所示
 
-![](../assets/micropython/light/message1.png)
+![](../../assets/micropython/basic/light/message1.png)
 
 实测效果如下
 
-![](../assets/micropython/light/light.gif)
+![](../../assets/micropython/basic/light/light.gif)
 
 > 在使用 get\_gesture() 时要注意几个地方：
 > 要在光线强度适中的环境下使用，不要在光线太强或太弱的环境下使用，在室内日光灯下面使用，识别的准确率是最好的。
@@ -89,6 +89,6 @@ display ，开始你的脑洞并尝试动手做一些有趣的小东西吧
 
 如果你想知道为什么是 light.Intensity(39) 和 light.Intensity(36) ？就让我们来看一下电路图就一目了然了 (查看 bpibit 的原理图\_)
 
-![](../assets/micropython/light/sensor.png)
+![](../../assets/micropython/basic/light/sensor.png)
 
 左边的光敏传感器连接的是引脚 pin36 ，右边的光敏传感器连接的是引脚 pin39。

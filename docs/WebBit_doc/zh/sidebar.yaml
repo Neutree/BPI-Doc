@@ -146,19 +146,5 @@ items:
             file: micropython/advanced/codelab.md
         -   label: 使用 Pycharm IDE 编程
             file: micropython/advanced/pycharm.md
-    -   label: 标准案例
-        items:
-        -   label: 如何爬取城市天气
-            file: micropython/samples/weather.md
-    -   label: 内建模块
-        file: micropython/modules/index.md
-        items:
-        -   label: urequests 模块
-            file: micropython/modules/urequests.md
-        -   label: umqtt.simple 模块
-            file: micropython/modules/umqtt.simple.md
-        -   label: display 模块
-            file: micropython/modules/display.md
-        -   label: music 模块
-            file: micropython/modules/music.md
+
 

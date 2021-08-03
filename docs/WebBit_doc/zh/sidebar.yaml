@@ -127,4 +127,24 @@ items:
             file: micropython/basic/compass.md
         -   label: 获取环境温度
             file: micropython/basic/temperature.md
+    -   label: 进阶教程
+        file: micropython/advanced/index.md
+        items:
+        -   label: 再谈 REPL
+            file: micropython/advanced/mpfs.md
+        -   label: 再次点亮 LED 灯
+            file: micropython/advanced/leds.md
+        -   label: 让板子联上网
+            file: micropython/advanced/wifi.md
+        -   label: 认识无线编程
+            file: micropython/advanced/wireless.md
+        -   label: 改善一下编程环境（微软加持）
+            file: micropython/advanced/vscode.md
+        -   label: 尝试 MQTT 应用
+            file: micropython/advanced/mqtt.md
+        -   label: 如何使用 scratch3 for bpi:bit
+            file: micropython/advanced/codelab.md
+        -   label: 使用 Pycharm IDE 编程
+            file: micropython/advanced/pycharm.md
+
 

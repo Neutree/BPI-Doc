@@ -211,7 +211,7 @@ items:
         file: micropython/pythonStd/index.md
         items:
             -   label: builtin – 内建函数
-                file: micropython/pythonStd/builtin.md
+                file: micropython/pythonStd/builtins.md
             -   label: array – 数值数组
                 file: micropython/pythonStd/array.md
             -   label: gc – 回收内存碎片

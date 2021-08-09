@@ -235,11 +235,11 @@ items:
             -   label: ujson – JSON 编码和解码
                 file: micropython/pythonStd/ujson.md
             -   label: os – 操作系统
-                file: micropython/pythonStd/os.md
+                file: micropython/pythonStd/uos.md
             -   label: ure – 正则表达式
                 file: micropython/pythonStd/ure.md
             -   label: select – 等待流事件
-                file: micropython/pythonStd/select.md
+                file: micropython/pythonStd/uselect.md
             -   label: usocket – socket 模块
                 file: micropython/pythonStd/usocket.md
             -   label: ussl – SSL/TLS 模块
@@ -247,6 +247,6 @@ items:
             -   label: ustruct – 打包和解压缩原始数据类型
                 file: micropython/pythonStd/ustruct.md
             -   label: time – 时间相关函数
-                file: micropython/pythonStd/time.md
+                file: micropython/pythonStd/utime.md
             -   label: uzlib – zlib解压缩
                 file: micropython/pythonStd/uzlib.md

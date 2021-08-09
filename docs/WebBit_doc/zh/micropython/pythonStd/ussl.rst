@@ -1,10 +1,10 @@
-:mod:`ussl` -- SSL/TLS 模块
+ussl - SSL/TLS 模块
 =============================
 
 .. module:: ussl
    :synopsis: TLS/SSL wrapper for socket objects
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `ssl <https://docs.python.org/zh-cn/3/library/ssl.html#module-ssl>`_
+这个模块实现了相应 CPython 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: [ssl](https://docs.python.org/zh-cn/3/library/ssl.html#module-ssl)
 
 此模块提供对客户端和服务器端网络套接字的传输层安全性（以前称为“安全套接字层”）加密和对等身份验证工具的访问。
 

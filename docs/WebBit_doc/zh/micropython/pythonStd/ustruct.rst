@@ -1,10 +1,10 @@
-:mod:`ustruct` -- 打包和解压缩原始数据类型
+ustruct - 打包和解压缩原始数据类型
 ======================================================
 
 .. module:: ustruct
    :synopsis: 打包和解压缩原始数据类型
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `struct <https://docs.python.org/zh-cn/3/library/struct.html#module-struct>`_
+这个模块实现了相应 CPython 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: [struct](https://docs.python.org/zh-cn/3/library/struct.html#module-struct)
 
 
 支持的大小/字节顺序前缀: ``@``, ``<``, ``>``, ``!``.

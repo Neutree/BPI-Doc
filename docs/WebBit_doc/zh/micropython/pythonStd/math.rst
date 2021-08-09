@@ -4,7 +4,7 @@
 ..  :: math
    :synopsis: 数学运算函数
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档:`math <https://docs.python.org/3.5/library/math.html#module-math>`_.
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档:`math <https://docs.python.org/zh-cn/3/library/math.html#module-math>`_.
 
 该 ``math`` 模块提供了一些处理浮点数的基本数学函数.
 

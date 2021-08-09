@@ -4,7 +4,7 @@
 .. module:: ubinascii
    :synopsis: 二进制/ ASCII转换
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `binascii <https://docs.python.org/3.5/library/binascii.html#module-binascii>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `binascii <https://docs.python.org/zh-cn/3/library/binascii.html#module-binascii>`_
 
 该模块实现了二进制数据与各种ASCII编码之间的转换(双向).
 

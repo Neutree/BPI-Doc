@@ -4,7 +4,7 @@
 .. module:: uio
    :synopsis: 输入/输出流
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `io <https://docs.python.org/3.5/library/io.html#module-io>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `io <https://docs.python.org/zh-cn/3/library/io.html#module-io>`_
 
 此模块包含其他类型的stream（类文件）对象和帮助程序函数。
 

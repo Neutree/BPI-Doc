@@ -52,7 +52,7 @@ Webduino Blockly 使用的是标准的 Blockly 环境，它所用的 Blockly 生
 
 ![](../assets/webduino_dev/images/blockly_developer.png)
 
-设计器使用方法参见以下两篇介绍文档，两篇参考资料可选。
+设计器使用方法参考以下两篇介绍文档，两篇参考资料可选。
 
 - [Blockly 创建自定义块-概述](https://itbilu.com/other/relate/H1huYbEWQ.html)
 - [Blockly 创建自定义块-Blockly 开发者工具](https://itbilu.com/other/relate/r1IhFZV-X.html)

@@ -4,7 +4,7 @@
 .. module:: os
    :synopsis: 操作系统
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `os <https://docs.python.org/3.5/library/os.html#module-os>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `os <https://docs.python.org/zh-cn/3/library/os.html#module-os>`_
 
 ``os`` 模块包含文件系统访问和 ``urandom`` 功能
 

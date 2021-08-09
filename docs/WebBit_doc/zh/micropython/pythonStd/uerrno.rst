@@ -4,7 +4,7 @@
 .. module:: uerrno
    :synopsis: 系统错误代码
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `errno <https://docs.python.org/3.5/library/errno.html#module-errno>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `errno <https://docs.python.org/zh-cn/3/library/errno.html#module-errno>`_
 
 此模块提供访问符号错误代码以进行`OSError` 异常。特定的代码清单依赖于 `MicroPython port`.
 
@@ -26,7 +26,7 @@
 
 .. data:: errorcode
 
-    字典将数字错误代码映射到带有符号错误代码的字符串（参见上文）::
+    字典将数字错误代码映射到带有符号错误代码的字符串（参考上文）::
 
        >>> print(uerrno.errorcode[uerrno.EEXIST])
        EEXIST

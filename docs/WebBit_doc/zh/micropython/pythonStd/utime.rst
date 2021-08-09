@@ -4,7 +4,7 @@
 .. module:: time
    :synopsis: 时间相关函数
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `time <https://docs.python.org/3.5/library/time.html#module-time>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `time <https://docs.python.org/zh-cn/3/library/time.html#module-time>`_
 
 ``time`` 模块提供用于获取当前时间和日期、测量时间间隔和延迟的函数。
 

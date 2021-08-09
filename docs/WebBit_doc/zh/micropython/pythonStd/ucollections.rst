@@ -4,7 +4,7 @@
 .. module:: ucollections
    :synopsis: 容器数据类型
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `collections <https://docs.python.org/3.5/library/collections.html#module-collections>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `collections <https://docs.python.org/zh-cn/3/library/collections.html#module-collections>`_
 
 此模块实现高级集合和容器类型以保存/累积各种对象。
 

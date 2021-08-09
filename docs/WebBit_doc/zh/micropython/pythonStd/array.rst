@@ -5,7 +5,7 @@
 .. module:: array
    :synopsis: 高效的数值数组
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `array <https://docs.python.org/3.5/library/array.html#module-array>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `array <https://docs.python.org/zh-cn/3/library/array.html#module-array>`_
 
 支持的格式的代码： ``b``, ``B``, ``h``, ``H``, ``i``, ``I``, ``l``,
 ``L``, ``q``, ``Q``, ``f``, ``d`` (后者2取决于浮点支持).

@@ -4,7 +4,7 @@
 .. module:: ujson
    :synopsis: JSON 编码和解码
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `json <https://docs.python.org/3.5/library/json.html#module-json>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `json <https://docs.python.org/zh-cn/3/library/json.html#module-json>`_
 
 该模块提供json数据格式的转换。
 

@@ -4,7 +4,7 @@
 .. module:: uhashlib
    :synopsis: 散列算法
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `hashlib <https://docs.python.org/3.5/library/hashlib.html#module-hashlib>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `hashlib <https://docs.python.org/zh-cn/3/library/hashlib.html#module-hashlib>`_
 
 该模块实现二进制数据散列算法。可用算法的确切清单取决于board。在可以实现的算法中：
 

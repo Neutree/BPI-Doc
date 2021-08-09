@@ -4,7 +4,7 @@
 .. module:: select
    :synopsis: wait for events on a set of streams
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `select <https://docs.python.org/3.5/library/select.html#module-select>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `select <https://docs.python.org/zh-cn/3/library/select.html#module-select>`_
 
 该模块提供了有效等待多个 :term:`stream` （选择可用于操作的流）上的事件的功能。
 

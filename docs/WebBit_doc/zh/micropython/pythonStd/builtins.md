@@ -1,334 +1,189 @@
-`Builtin`{.interpreted-text role="mod"} \-- 内建函数
-====================================================
+builtin - 内建函数
+================================
 
-此处描述了所有内置函数和异常。它们也可通过 `builtins` 模块获取。
+此处描述了所有内置函数和异常。它们也可通过 ``builtins`` 模块获取。
 
 Functions and types
 -------------------
 
-::: {.function}
+```python
 abs()
-:::
 
-::: {.function}
 all()
-:::
 
-::: {.function}
 any()
-:::
 
-::: {.function}
 bin()
-:::
 
-::: {.bool()}
-::: {.bytearray()}
-::: {.bytes()}
-参见CPython文档：
-[bytes](https://docs.python.org/3.5/library/functions.html#bytes)
-:::
-:::
-:::
+class bool()
 
-::: {.function}
+class bytearray()
+
+class bytes()
+#参考CPython文档：https://docs.python.org/zh-cn/3/library/functions.html#bytes
+
 callable()
-:::
 
-::: {.function}
 chr()
-:::
 
-::: {.function}
 classmethod()
-:::
 
-::: {.function}
 compile()
-:::
 
-::: {.complex()}
-::: {.function}
+class complex()
+
 delattr(obj, name)
+#参数名应该是一个string，这个函数从obj给出的对象中删除命名属性.
 
-参数名应该是一个string，这个函数从obj给出的对象中删除命名属性.
-:::
-:::
+class dict()
 
-::: {.dict()}
-::: {.function}
 dir()
-:::
-:::
 
-::: {.function}
 divmod()
-:::
 
-::: {.function}
 enumerate()
-:::
 
-::: {.function}
 eval()
-:::
 
-::: {.function}
 exec()
-:::
 
-::: {.function}
 filter()
-:::
 
-::: {.float()}
-::: {.frozenset()}
-::: {.function}
+class float()
+
+class frozenset()
+
 getattr()
-:::
-:::
-:::
 
-::: {.function}
 globals()
-:::
 
-::: {.function}
 hasattr()
-:::
 
-::: {.function}
 hash()
-:::
 
-::: {.function}
 hex()
-:::
 
-::: {.function}
 id()
-:::
 
-::: {.function}
 input()
-:::
 
-::: {.int()}
-::: {.method}
-from\_bytes(bytes, byteorder)
+class int()
+    from_bytes(bytes, byteorder)
+    #在MicroPython中， `byteorder` 参数必须是位置的（这与CPython兼容）
 
-在MicroPython中， [byteorder]{.title-ref}
-参数必须是位置的（这与CPython兼容）
-:::
 
-::: {.method}
-to\_bytes(size, byteorder)
+    to_bytes(size, byteorder)
+    #在MicroPython中， `byteorder` 参数必须是位置的（这与CPython兼容）
+    
 
-在MicroPython中， [byteorder]{.title-ref}
-参数必须是位置的（这与CPython兼容）
-:::
-:::
-
-::: {.function}
 isinstance()
-:::
 
-::: {.function}
 issubclass()
-:::
 
-::: {.function}
 iter()
-:::
 
-::: {.function}
 len()
-:::
 
-::: {.list()}
-::: {.function}
+class list()
+
 locals()
-:::
-:::
 
-::: {.function}
 map()
-:::
 
-::: {.function}
 max()
-:::
 
-::: {.memoryview()}
-::: {.function}
+class memoryview()
+
 min()
-:::
-:::
 
-::: {.function}
 next()
-:::
 
-::: {.object()}
-::: {.function}
+class object()
+
 oct()
-:::
-:::
 
-::: {.function}
 open()
-:::
 
-::: {.function}
 ord()
-:::
 
-::: {.function}
 pow()
-:::
 
-::: {.function}
 print()
-:::
 
-::: {.function}
 property()
-:::
 
-::: {.function}
 range()
-:::
 
-::: {.function}
 repr()
-:::
 
-::: {.function}
 reversed()
-:::
 
-::: {.function}
 round()
-:::
 
-::: {.set()}
-::: {.function}
+class set()
+
 setattr()
-:::
-:::
 
-::: {.slice()}
-slice内置函数是slice对象的类型.
-:::
+class slice()
+#slice内置函数是slice对象的类型.
 
-::: {.function}
 sorted()
-:::
 
-::: {.function}
 staticmethod()
-:::
 
-::: {.str()}
-::: {.function}
+class str()
+
 sum()
-:::
-:::
 
-::: {.function}
 super()
-:::
 
-::: {.tuple()}
-::: {.function}
+class tuple()
+
 type()
-:::
-:::
 
-::: {.function}
 zip()
-:::
+```
 
 Exceptions
 ----------
 
-::: {.exception}
-AssertionError
-:::
+```python
+exception AssertionError
 
-::: {.exception}
-AttributeError
-:::
+exception AttributeError
 
-::: {.exception}
-Exception
-:::
+exception Exception
 
-::: {.exception}
-ImportError
-:::
+exception ImportError
 
-::: {.exception}
-IndexError
-:::
+exception IndexError
 
-::: {.exception}
-KeyboardInterrupt
-:::
+exception KeyboardInterrupt
 
-::: {.exception}
-KeyError
-:::
+exception KeyError
 
-::: {.exception}
-MemoryError
-:::
+exception MemoryError
 
-::: {.exception}
-NameError
-:::
+exception NameError
 
-::: {.exception}
-NotImplementedError
-:::
+exception NotImplementedError
 
-::: {#OSError}
-::: {.exception}
-OSError
+exception OSError
+#参考CPython文档： ``OSError`` . MicroPython不实现 ``errno``  属性，而是使用标准方式访问异常参数： ``exc.args[0]`` .
 
-参见CPython文档： `OSError` . MicroPython不实现 `errno`
-属性，而是使用标准方式访问异常参数： `exc.args[0]` .
-:::
-:::
+exception RuntimeError
 
-::: {.exception}
-RuntimeError
-:::
+exception StopIteration
 
-::: {.exception}
-StopIteration
-:::
+exception SyntaxError
 
-::: {.exception}
-SyntaxError
-:::
+exception SystemExit
+#参考CPython文档： ``SystemExit`` .
 
-::: {.exception}
-SystemExit
+exception TypeError
+#参考CPython文档： ``SystemExit`` .
 
-参见CPython文档： `SystemExit` .
-:::
+exception ValueError
 
-::: {.exception}
-TypeError
-
-参见CPython文档： `SystemExit` .
-:::
-
-::: {.exception}
-ValueError
-:::
-
-::: {.exception}
-ZeroDivisionError
-:::
+exception ZeroDivisionError
+```

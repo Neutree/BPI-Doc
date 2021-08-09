@@ -4,7 +4,7 @@
 .. module:: gc
    :synopsis:  回收内存碎片
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档:`array <https://docs.python.org/3.5/library/gc.html#module-gc>`_.
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档:`array <https://docs.python.org/zh-cn/3/library/gc.html#module-gc>`_.
 
 Functions
 ---------

@@ -7,7 +7,7 @@
 
 sys模块中提供了与MicroPython运行环境有关的函数和变量。
 
-这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `sys <https://docs.python.org/3.5/library/sys.html#module-sys>`_
+这个模块实现了相应 :term:`CPython` 模块的一个子集，如下所述。有关更多信息，请参阅原始CPython文档: `sys <https://docs.python.org/zh-cn/3/library/sys.html#module-sys>`_
 
 Functions
 ---------

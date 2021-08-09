@@ -80,12 +80,13 @@ os.listdir([dir])
 ```
 如果没有参数，请列出当前目录。否则列出给定目录。
 
-示例::
+示例:
+```
 >>> os.listdir()
 ['boot.py', 'lib']
 >>> os.listdir("./lib")
 ['test.py']
-
+```
 
 ```python
 os.mkdir(path)

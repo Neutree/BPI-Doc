@@ -84,6 +84,11 @@
                         "target": "_blank"
                     },
                     {
+                        "label": "Wiki",
+                        "url": "http://wiki.banana-pi.org/Main_Page",
+                        "target": "_blank"
+                    },
+                    {
                         "label": "Webduino",
                         "url": "https://webduino.io/en/",
                         "target": "_blank"

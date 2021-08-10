@@ -30,10 +30,10 @@ RTC.init([datetimetuple])
 ```
 
 始化RTC。日期时间为下列形式的8元组：
-
+```
 ( year,month,day,weekday,hour,minute,second,microsecond )
-
-      - ``weekday`` -从周一到周日对应1-7。
+```
+ - ``weekday`` -从周一到周日对应1-7。
 
 
 ```python

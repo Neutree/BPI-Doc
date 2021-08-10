@@ -93,7 +93,7 @@ time.ticks_add(ticks, delta)
 （或先前调用的 `ticks_add()` ）的直接结果。但是，delta可为一个任意整数或一个数字表达。 `ticks_add()` 对计算事件/任务的截止时间非常有用。
 （注意：您必须使用 `ticks_diff()` 函数来处理截止时间。） 
 
-Examples:
+示例:
 ```python
 # Find out what ticks value there was 100ms ago 找到100ms前的ticks值
 print(ticks_add(time.ticks_ms(), -100))

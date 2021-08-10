@@ -55,10 +55,11 @@ UART.any()
 即使有多个可读的字符，该方法也可以返回1。
 
 要查询更复杂的可用字符，请使用`select.poll`:
-
+```python
 poll = select.poll()
 poll.register(uart, select.POLLIN)
 poll.poll(timeout)
+```
 
 ```python
 UART.read([nbytes])

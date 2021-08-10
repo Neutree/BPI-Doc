@@ -167,7 +167,7 @@ items:
         -   label: btree – 简单的 BTree 数据库
             file: micropython/library/btree.md
         -   label: framebuf — 帧缓冲操作
-            file: 
+            file: micropython/library/framebuf.md
         -   label: machine — 与硬件相关的功能
             file: micropython/library/machine/machine.md
             items:

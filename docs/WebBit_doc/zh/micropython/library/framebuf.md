@@ -1,22 +1,20 @@
 framebuf - 帧缓冲操作
 =============================================
 
-This module provides a general frame buffer which can be used to create
-bitmap images, which can then be sent to a display.
+该模块提供一个可用于创建位图、可发送到显示器的通用帧缓冲区。
 
-class FrameBuffer
+帧缓冲区类
 -----------------
 
-The FrameBuffer class provides a pixel buffer which can be drawn upon with
-pixels, lines, rectangles, text and even other FrameBuffer's. It is useful
-when generating output for displays.
+帧缓冲区类提供一个像素缓冲区，此缓冲区可使用像素、线、矩形、文本甚至其他帧缓冲区来绘制。此缓冲区可在生成显示器输出时发挥作用。
 
-For example:
+示例:
 
 ```python
 import framebuf
 
 # FrameBuffer needs 2 bytes for every RGB565 pixel
+#对于每个RGB565像素，帧缓冲区都需2字节
 buffer=bytearray(10 * 100 * 2)
 fbuf = framebuf.FrameBuffer(buffer, 10, 100, framebuf.RGB565)
 
@@ -24,50 +22,38 @@ buf.fill(0)
 fbuf.text('MicroPython!', 0, 0, 0xffff)
 ```
 
-Constructors
+构造函数
 ------------
 
 ```python
 class FrameBuffer(buffer, width, height, format, stride=width)
 ```
-Construct a FrameBuffer object.  The parameters are:
+构建一个帧缓冲区对象。参数为:
 
-   - *buffer* is an object with a buffer protocol which must be large
-enough to contain every pixel defined by the width, height and
-format of the FrameBuffer.
-   - *width* is the width of the FrameBuffer in pixels
-   - *height* is the height of the FrameBuffer in pixels
-   - *format* specifies the type of pixel used in the FrameBuffer;
-permissible values are listed under Constants below. These set the
-number of bits used to encode a color value and the layout of these
-bits in *buffer*.
-Where a color value c is passed to a method, c is a small integer
-with an encoding that is dependent on the format of the FrameBuffer.
-   - *stride* is the number of pixels between each horizontal line
-of pixels in the FrameBuffer. This defaults to *width* but may
-need adjustments when implementing a FrameBuffer within another
-larger FrameBuffer or screen. The *buffer* size must accommodate
-an increased step size.
+构建一个帧缓冲区对象。参数为:
 
-One must specify valid *buffer*, *width*, *height*, *format* and
-optionally *stride*.  Invalid *buffer* size or dimensions may lead to
-unexpected errors.
+*   *buffer* 缓冲区是一个带有缓冲区协议的对象，且其大小须足以容纳由宽度、高度和帧缓冲区定义的每个像素。
+*   *width* 宽度为以像素为单位的帧缓冲区的宽度。
+*   *height* 高度为以像素为单位的帧缓冲区的高度。
+*   *format* 形式指定用于帧缓冲区的像素类型； 有效值为 `framebuf.MVLSB`, `framebuf.RGB565` 和 `framebuf.GS4_HMSB`. MVLSB为单色1位色彩，RGB565为RGB16位色彩，GS4\_HMSB为灰度4位色彩。 色彩值c传递给类函数时，c是一个编码取决于帧缓冲区格式的小整数。
+*   *stride* 跨度是帧缓冲区中每条水平线之间的像素数量。此参数默认值为宽度， 但是在另一更大帧缓冲区或屏幕中实现一个帧缓冲区时可能需要调整。缓冲区空间须适应增大的步骤大小。
 
-Drawing primitive shapes
+必须指定有效缓冲区、宽度、高度和可选跨度。无效帧缓冲区大小或维度可能会导致意外错误。
+
+绘制原始形状
 ------------------------
 
-The following methods draw shapes onto the FrameBuffer.
+下面的类函数将图形绘制到帧缓冲区中。
 
 ```python
 FrameBuffer.fill(c)
 ```
-Fill the entire FrameBuffer with the specified color.
+使用指定颜色填满整个帧缓冲区。
 
 ```python
 FrameBuffer.pixel(x, y[, c])
 ```
-If *c* is not given, get the color value of the specified pixel.
-If *c* is given, set the specified pixel to the given color.
+若未给定c，则获取指定像素的色值。若给定c，将指定像素设置到给定颜色。
 
 ```python
 FrameBuffer.hline(x, y, w, c)
@@ -75,93 +61,78 @@ FrameBuffer.vline(x, y, h, c)
 FrameBuffer.line(x1, y1, x2, y2, c)
 ```
 
-Draw a line from a set of coordinates using the given color and
-a thickness of 1 pixel. The `line` method draws the line up to
-a second set of coordinates whereas the `hline` and `vline`
-methods draw horizontal and vertical lines respectively up to
-a given length.
+使用给定颜色和1像素的厚度从一组坐标中绘制一条线。line类函数将这条线画到另一组坐标上， 而hline和vline类函数分别将水平和垂直线绘制到给定长度。
 
 ```python
 FrameBuffer.rect(x, y, w, h, c)
 FrameBuffer.fill_rect(x, y, w, h, c)
 ```
 
-Draw a rectangle at the given location, size and color. The `rect`
-method draws only a 1 pixel outline whereas the `fill_rect` method
-draws both the outline and interior.
+在给定位置、按照给定大小和颜色绘制一个矩形。 rect 类函数仅绘制1个像素的边框，而 fill_rect 类函数可绘制出边框和矩形内部。
 
-Drawing text
+绘制文本
 ------------
 
 ```python
 FrameBuffer.text(s, x, y[, c])
 ```
-Write text to the FrameBuffer using the the coordinates as the upper-left
-corner of the text. The color of the text can be defined by the optional
-argument but is otherwise a default value of 1. All characters have
-dimensions of 8x8 pixels and there is currently no way to change the font.
+使用坐标作为文本的左上角，将文本写入帧缓冲区。文本颜色可由任意参数定义，否则将保持其默认值1。所有字符都有8x8像素的尺寸，目前尚无办法改变字体。
 
-
-Other methods
+其他类函数
 -------------
 
 ```python
 FrameBuffer.scroll(xstep, ystep)
 ```
-Shift the contents of the FrameBuffer by the given vector. This may
-leave a footprint of the previous colors in the FrameBuffer.
+使用给定向量转换帧缓冲区的内容。这可能会在帧缓冲区中留下之前颜色的覆盖区。
 
 ```python
 FrameBuffer.blit(fbuf, x, y[, key])
 ```
-Draw another FrameBuffer on top of the current one at the given coordinates.
-If *key* is specified then it should be a color integer and the
-corresponding color will be considered transparent: all pixels with that
-color value will not be drawn.
+在当前帧缓冲区的顶部的给定坐标下绘制另外一个帧缓冲区。若指定*key*，则其应为一个颜色整数，且相应颜色被认为是透明的：所有具有该色值的像素都不会被绘制。
 
-This method works between FrameBuffer instances utilising different formats,
-but the resulting colors may be unexpected due to the mismatch in color
-formats.
+此类函数在帧缓冲区使用的不同格式间运行，但是由于颜色格式不匹配，最终颜色可能与预想的存在差异。
 
-Constants
+常量
 ---------
 
 ```python
 framebuf.MONO_VLSB
 ```
-Monochrome (1-bit) color format
-This defines a mapping where the bits in a byte are vertically mapped with
-bit 0 being nearest the top of the screen. Consequently each byte occupies
-8 vertical pixels. Subsequent bytes appear at successive horizontal
-locations until the rightmost edge is reached. Further bytes are rendered
-at locations starting at the leftmost edge, 8 pixels lower.
+单色（1位）颜色模式
+
+此模式定义了一个映射，其中一个字节的位为垂直映射，而0位位于屏幕的最顶部。因此，每个字节占据8个垂直像素。 后续字节在连续的水平位置出现，直至到达最右侧的边缘。更多字节从最左边开始低8个像素显示。
 
 ```python
 framebuf.MONO_HLSB
 ```
-Monochrome (1-bit) color format
-This defines a mapping where the bits in a byte are horizontally mapped.
-Each byte occupies 8 horizontal pixels with bit 0 being the leftmost.
-Subsequent bytes appear at successive horizontal locations until the
-rightmost edge is reached. Further bytes are rendered on the next row, one
-pixel lower.
+单色（1位）颜色模式
+
+此模式定义了一个映射，其中一个字节的位为水平映射。每个字节占据8个水平像素，0位位于最左边。 后续字节在连续的水平位置出现，直至到达最右侧的边缘。更多字节在下一行低1个像素显示
 
 ```python
 framebuf.MONO_HMSB
 ```
-Monochrome (1-bit) color format
-This defines a mapping where the bits in a byte are horizontally mapped.
-Each byte occupies 8 horizontal pixels with bit 7 being the leftmost.
-Subsequent bytes appear at successive horizontal locations until the
-rightmost edge is reached. Further bytes are rendered on the next row, one
-pixel lower.
+单色（1位）颜色模式
+
+此模式定义了一个映射，其中一个字节的位为水平映射。每个字节占据8个水平像素，而7位位于屏幕的最左边。 后续字节在连续的水平位置出现，直至到达最右侧的边缘。更多字节在下一行低1个像素显示。
 
 ```python
 framebuf.RGB565
 ```
-Red Green Blue (16-bit, 5+6+5) color format
+RGB565彩色（16位，5+6+5）颜色模式
+
+```python
+framebuf.GS2_HMSB
+```
+灰度（2位）颜色模式
 
 ```python
 framebuf.GS4_HMSB
 ```
-Grayscale (4-bit) color format
+灰度（4位）颜色模式
+
+```python
+framebuf.GS8_HMSB
+```
+灰度（8位）颜色模式

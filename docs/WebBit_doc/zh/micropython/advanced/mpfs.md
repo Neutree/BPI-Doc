@@ -1,42 +1,30 @@
 再谈 REPL
 =========
 
-> 请确认您的编程环境里已经安装了 Python3 和 pip
-> 工具，否则下面的内容你都无法开始。
->
-> 这里推荐使用
-> [MicroPython-Samples](https://github.com/BPI-STEAM/MicroPython-Samples)
-> 来部署你的开发环境。
+> 请确认您的编程环境里已经安装了 Python3 和 pip工具，否则下面的内容你都无法开始。这里推荐使用[MicroPython-Samples](https://github.com/BPI-STEAM/MicroPython-Samples)来部署你的开发环境。
 
-我们已经知道 REPL
-可以进行一些简单的代码交互和反馈，现在我们就要让重新认识一下 REPL 了。
+我们已经知道 REPL可以进行一些简单的代码交互和反馈，现在我们就要让重新认识一下 REPL 了。
 
 安装 mpfshell 工具
 ------------------
 
-请从此处获取 [mpfshell-lite](https://github.com/BPI-STEAM/mpfshell-lite)
-工具，安装与使用方法均在此提及。
+请从此处获取 [mpfshell-lite](https://github.com/BPI-STEAM/mpfshell-lite)工具，安装与使用方法均在此提及。
 
 在 mpfshell 的 REPL
 -------------------
 
-安装了它，在 repl 即可使用下述的功能，当然你也可以在 Xshell 、 MobaXterm
-等其他串口终端中实现。
+安装了它，在 repl 即可使用下述的功能，当然你也可以在 Xshell 、 MobaXterm等其他串口终端中实现。
 
 ![image](../../assets/micropython/advanced/mpfs.png)
 
 ### 输入历史记录
 
-REPL 会记住您输入的一定数量的前几行文本（在 ESP32 上最多 8 行）。
-要调用上一行，请使用 向上 和 向下 箭头键。
+REPL 会记住您输入的一定数量的前几行文本（在 ESP32 上最多 8 行）。要调用上一行，请使用 向上 和 向下 箭头键。
 
 ### 使用 Tab 键
 
-Tab
-键可以查看模块中所有成员列表。这对于找出模块或对象具有的函数和方法非常有用。
-假设您在下面的例子中导入了 import machine 然后键入 `.` 再按 Tab 键以查看
-machine 模块所有成员列表:
-
+Tab键可以查看模块中所有成员列表。这对于找出模块或对象具有的函数和方法非常有用。假设您在下面的例子中导入了 import machine 然后键入 `.` 再按 Tab 键以查看 machine 模块所有成员列表:
+```
     >>> import machine
     >>> machine.
     __class__        __name__        ADC              DAC
@@ -51,48 +39,45 @@ machine 模块所有成员列表:
     reset            reset_cause     sleep            time_pulse_us
     unique_id        wake_reason
     >>> machine.
-
+```
 ### 行继续和自动缩进
 
-您键入的某些内容将需要“继续”，也就是说，需要更多行文本才能生成正确的
-Python 语句。在这种情况下，
-提示符将更改为`...`并且光标将自动缩进正确的数量，以便您可以立即开始键入下一行。
-通过定义以下函数来尝试此操作:
-
+您键入的某些内容将需要“继续”，也就是说，需要更多行文本才能生成正确的Python 语句。在这种情况下，提示符将更改为`...`并且光标将自动缩进正确的数量，以便您可以立即开始键入下一行。通过定义以下函数来尝试此操作:
+```
     >>> def toggle(p):
     ...    p.value(not p.value())
     ...    
     ...    
     ...    
     >>>
-
+```
 在上面，您需要连续按三次Enter键才能完成复合语句（即三条线上只有点）。完成复合语句的另一种方法是按退格键到达行的开头，然后按Enter键。
 （如果您输错了并且想要退出，那么按ctrl-C，所有行都将被忽略。）
 
-您刚刚定义函数功能为翻转引脚电平。您之前创建的pin对象应该仍然存在
-（如果没有，则需重新创建它），您可以使用以下命令翻转LED:
+您刚刚定义函数功能为翻转引脚电平。您之前创建的pin对象应该仍然存在（如果没有，则需重新创建它），您可以使用以下命令翻转LED:
 
+```
     >>> toggle(pin)
+```
 
-现在让我们在一个循环中翻转 LED （如果您没有 LED
-，那么您可以打印一些文本而不是调用切换，看看效果）：
+现在让我们在一个循环中翻转 LED （如果您没有 LED，那么您可以打印一些文本而不是调用切换，看看效果）：
 
-> \>\>\> import time \>\>\> while True: ... toggle(pin) \# print('test')
-> ... time.sleep\_ms(500) ... ... ... \>\>\>
+```
+\>\>\> import time \>\>\> while True: ... toggle(pin) \# print('test')
+... time.sleep\_ms(500) ... ... ... \>\>\>
+```
 
-这将以1Hz（半秒开，半秒关）翻转LED。要停止切换按 `ctrl-C`
-，这将引发键盘中断异常并退出循环。
+这将以1Hz（半秒开，半秒关）翻转LED。要停止切换按 `ctrl-C`，这将引发键盘中断异常并退出循环。
 
 ### 粘贴模式
 
-按 `ctrl-E`
-将进入特殊粘贴模式，您可将一大块文本复制并粘贴到REPL中。如果按ctrl-E，您将看到粘贴模式提示:
-
+按 `ctrl-E`将进入特殊粘贴模式，您可将一大块文本复制并粘贴到REPL中。如果按ctrl-E，您将看到粘贴模式提示:
+```
     paste mode; Ctrl-C to cancel, Ctrl-D to finish
     === 
+```
 
-然后，您可以粘贴（或键入）您的文本。请注意，没有任何特殊键或命令在粘贴模式下工作（例如Tab或退格）
-，它们只是按原样接受。按 `ctrl-D` 完成输入文本并执行。
+然后，您可以粘贴（或键入）您的文本。请注意，没有任何特殊键或命令在粘贴模式下工作（例如Tab或退格），它们只是按原样接受。按 `ctrl-D` 完成输入文本并执行。
 
 ### 其他控制命令
 
@@ -109,8 +94,7 @@ Python 语句。在这种情况下，
 
 mpfs 提供了真正意义上的文件管理功能，近似大多数 linux 终端文件管理工具。
 
-MicroPython 内部提供了基于 oofats 建立的 FAT16
-分区文件系统，就可以在上面存放一些文件内容，如代码文件、资源文件、音乐文件等等。
+MicroPython 内部提供了基于 oofats 建立的 FAT16分区文件系统，就可以在上面存放一些文件内容，如代码文件、资源文件、音乐文件等等。
 
 详细的你需要去看 mpfshell 的 readme 文档，在这里我说明几个重要功能即可。
 
@@ -118,8 +102,7 @@ MicroPython 内部提供了基于 oofats 建立的 FAT16
 
 ### 运行 python 文件 lexecfile 和 execfile
 
-execfile 指运行板子上存在的代码文件，添加了 l
-即可将本地的代码文件传到板子中并进入 repl 中运行。
+execfile 指运行板子上存在的代码文件，添加了 l即可将本地的代码文件传到板子中并进入 repl 中运行。
 
 ### 查看板子上的所有文件 ls
 

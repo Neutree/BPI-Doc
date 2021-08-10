@@ -13,16 +13,6 @@
                 "position": "left"
             },
             {
-                "url": "/Q-Car/en/",
-                "label": "Q-Car",
-                "position": "left"
-            },
-            {
-                "url": "/Triode-Car/en/",
-                "label": "Triode-Car",
-                "position": "left"
-            },
-            {
                 "id": "WebBit",
                 "label": "WebBit:",
                 "position": "left",
@@ -42,6 +32,16 @@
             {
                 "url": "/WebAI/en/",
                 "label": "WebAI",
+                "position": "left"
+            },
+            {
+                "url": "/Q-Car/en/",
+                "label": "Q-Car",
+                "position": "left"
+            },
+            {
+                "url": "/Triode-Car/en/",
+                "label": "Triode-Car",
                 "position": "left"
             },
             {

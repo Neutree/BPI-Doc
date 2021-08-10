@@ -250,3 +250,11 @@ items:
                 file: micropython/pythonStd/utime.md
             -   label: uzlib – zlib解压缩
                 file: micropython/pythonStd/uzlib.md
+-   label: Arduino 目录
+    items:
+    -   label: 使用基础
+        items:
+        -   label: 安装Arduino IDE并添加BPI-BIT开发扩展
+            file: arduino/tutorials/basic/arduino-ide.md
+    -   label: 进阶开发
+    -   label: 第三方库

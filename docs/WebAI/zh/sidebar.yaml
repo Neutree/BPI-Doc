@@ -5,9 +5,12 @@ items:
         file: Unboxing/Introduction.md
         items:
         -   label: 产品内容
-            file: Unboxing/Introduction.md#产品内容
+            file: https://bpi-steam.com/WebAI/zh/Unboxing/Introduction.html#%E4%BA%A7%E5%93%81%E5%86%85%E5%AE%B9
         -   label: Web:AI 开发板
+            file: https://bpi-steam.com/WebAI/zh/Unboxing/Introduction.html#Web:AI-%E5%BC%80%E5%8F%91%E6%9D%BF
         -   label: Webduino 教育平台
+            url: https://bpi-steam.com/WebAI/zh/Unboxing/Introduction.html#Webduino-%E6%95%99%E8%82%B2%E5%B9%B3%E5%8F%B0
+            target: _blank
     -   label: 初始化设定 (第一次使用请看这里)
         file: Unboxing/Initialization.md
     -   label: 安裝版更新固件

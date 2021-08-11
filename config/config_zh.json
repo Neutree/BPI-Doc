@@ -21,12 +21,12 @@
                     {
                         "id": "Doc",
                         "url": "/WebBit_doc/zh/",
-                        "label": "WebBit_doc"
+                        "label": "使用手册"
                     },
                     {
                         "id": "Dev",
                         "url": "/WebBit_dev/zh/",
-                        "label": "WebBit_dev"
+                        "label": "开发手册"
                     }
                 ]
             },

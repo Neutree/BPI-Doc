@@ -20,12 +20,12 @@
                     {
                         "id": "Doc",
                         "url": "/WebBit_doc/en/",
-                        "label": "WebBit_doc"
+                        "label": "Manual"
                     },
                     {
                         "id": "Dev",
                         "url": "/WebBit_dev/en/",
-                        "label": "WebBit_dev"
+                        "label": "Development Manual"
                     }
                 ]
             },

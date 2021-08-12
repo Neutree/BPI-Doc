@@ -351,7 +351,7 @@ for i in [0,1,2] :
 
 執行程式後開發板螢幕會顯示 QRcode，使用手機掃描後即可用 Webduino 萬用遙控器控制小車。
 
-> 萬用遙控器的使用方式可以參考：[萬用遙控器控制登月小車](https://md.kingkit.codes/s/TASyDY-Eo#F-%E8%90%AC%E7%94%A8%E9%81%99%E6%8E%A7%E5%99%A8%E6%8E%A7%E5%88%B6%E7%99%BB%E6%9C%88%E5%B0%8F%E8%BB%8A)。
+> 萬用遙控器的使用方式可以參考：[萬用遙控器控制登月小車](https://bpi-steam.com/WebAI/zh-tw/MoonCar/MoonCar.html#%E8%90%AC%E7%94%A8%E9%81%99%E6%8E%A7%E5%99%A8%E6%8E%A7%E5%88%B6%E7%99%BB%E6%9C%88%E5%B0%8F%E8%BB%8A)。
 
 ![](../assets/images/upload_755911840efc039cab699de0c0465ec0.png)
 

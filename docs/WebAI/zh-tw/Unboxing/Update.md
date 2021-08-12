@@ -16,7 +16,7 @@ Web:AI 開發板的韌體中使用了 2 種晶片，分別是主晶片 ( K210 ) 
 
 ## 透過 Web:AI 安裝版 進行韌體更新
 
-1. 首先下載 [**Web:AI 安裝版**](https://drive.google.com/file/d/1m4qGyWGae-2yytYrSorrJKaP-XBBarHR/view)。
+1. 首先下載 [Web:AI 安裝版](https://drive.google.com/file/d/1m4qGyWGae-2yytYrSorrJKaP-XBBarHR/view)。
 
 2. 下載後點擊執行，安裝完成後就可以開啟 Web:AI 安裝版了。
 
@@ -42,4 +42,4 @@ Web:AI 開發板的韌體中使用了 2 種晶片，分別是主晶片 ( K210 ) 
 
     ![](../assets/images/upload_cffca67e2ed07221bf1445851c16c967.png)
 
-> 完成韌體更新後，歡迎參考 [初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW) 來完成 Wi-Fi 設定。
+> 完成韌體更新後，歡迎參考 [初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html) 來完成 Wi-Fi 設定。

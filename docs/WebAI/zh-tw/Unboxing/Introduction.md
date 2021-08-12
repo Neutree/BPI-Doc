@@ -2,7 +2,7 @@
 
 Web:AI 使用 AI 晶片 ( K210 ) 以及 Wi-Fi 晶片 ( ESP8285 )，能夠做出人臉追蹤、影像分類、物件追蹤、語音辨識、QRcode 掃描等應用，讓教師與學生只需要一塊板子就能夠讓 AI 人工智慧融入生活。
 
-不論是連上網路或是離線，只要透過  [**Webduino 教育平台**](https://account.webduino.io/dashboard)，就能夠用最簡單的方式上手 AIoT。
+不論是連上網路或是離線，只要透過  [Webduino 教育平台](https://account.webduino.io/dashboard)，就能夠用最簡單的方式上手 AIoT。
 
 ## 產品內容
 
@@ -70,7 +70,6 @@ Web:AI 的開發和程式的使用可以透過程式積木平台以及 IDE，程
 選擇「Web:AI 程式積木」，進入程式積木平台。
 
    >-  連結：[程式積木平台](https://ai-blockly.webduino.io/)。
-   >- 關於 Web:AI 程式積木的使用，歡迎參考：[三、使用積木工具](https://md.kingkit.codes/s/X4vMmbtp_)。
 
    ![](../assets/images/upload_18082d1a3d97ce4893aafb92a70997eb.png)
 
@@ -78,7 +77,7 @@ Web:AI 的開發和程式的使用可以透過程式積木平台以及 IDE，程
 
 選擇「Webduino 影像訓練平台」，進入影像訓練平台。
 
->- 關於影像訓練平台的使用，歡迎參考：[四、訓練影像分類、物件追蹤](https://md.kingkit.codes/s/mopjgVaZU)。
+>- 關於影像訓練平台的使用，歡迎參考：[影像分類](https://bpi-steam.com/WebAI/zh-tw/Programming/Advanced/Image.html)。
 
    ![](../assets/images/upload_48339186b99e357a04e4f64061681b4b.png)
 
@@ -86,7 +85,7 @@ Web:AI 的開發和程式的使用可以透過程式積木平台以及 IDE，程
 
 選擇「MaixPy IDE 下載」，下載 IDE。
 
->- 關於 IDE 的開發使用，歡迎參考：[五、使用 IDE 開發 Web:AI](https://md.kingkit.codes/s/y0NZkZUTv)。
+>- 關於 IDE 的開發使用，歡迎參考：[使用 IDE 開發 Web:AI](https://bpi-steam.com/WebAI/zh-tw/IDE/Dev.html)。
 
    ![](../assets/images/upload_443f3bd4facb8552328c0e336bf3d4d7.png)
 

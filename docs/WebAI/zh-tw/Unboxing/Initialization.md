@@ -70,9 +70,9 @@ Web:AI 開發板的韌體中使用了 2 種晶片，分別是主晶片 ( K210 ) 
 
     ![](../assets/images/upload_9c75be672cbd440d6ee3fdb4f04b77c9.png)
 
-- 想要再次設定 Wi-Fi 時，請先將開發板 [**回復預設狀態**](https://md.kingkit.codes/s/1lgh1vuQ_#%E5%9B%9E%E5%BE%A9%E9%A0%90%E8%A8%AD%E7%8B%80%E6%85%8B)，當開發板顯示和上圖相同就可以進行設定。
+- 想要再次設定 Wi-Fi 時，請先將開發板 [回復預設狀態](https://bpi-steam.com/WebAI/zh-tw/Unboxing/Mode.html#%E5%9B%9E%E5%BE%A9%E9%A0%90%E8%A8%AD%E7%8B%80%E6%85%8B)，當開發板顯示和上圖相同就可以進行設定。
 
-- 若使用上述步驟卻無法更新韌體，可以參考：[安裝版更新韌體](https://md.kingkit.codes/s/wTzUFfJMb) 來完成設定！
+- 若使用上述步驟卻無法更新韌體，可以參考：[安裝版更新韌體](https://bpi-steam.com/WebAI/zh-tw/Unboxing/Update.html) 來完成設定！
 
 - 如果設定頁面文字顯示為「網路：人工智能」，如下圖，代表 Chrome 瀏覽器有經過網頁自動翻譯。網頁自動翻譯會造成 Wi-Fi 設定出錯，需要將語言設定回「英文」並重新整理才能正常使用。
 

@@ -3,7 +3,7 @@
 當 Web:AI 做完 Wi-Fi 設定及韌體更新後，就可以開始執行各種 AIoT 應用了。
 而使用 Web:AI 開發板時，有一些操作方式需要先了解，清楚之後可以盡情使用 Web:AI 了！
 
-> 關於 Wi-Fi 設定及韌體更新，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW)。
+> 關於 Wi-Fi 設定及韌體更新，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 ## 開機
 
@@ -59,8 +59,8 @@
 
 ![](../assets/images/upload_80075f62e13de57602897782d53ce31e.png)
 
->- [初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW)
->- [教學範例卡使用教學](https://md.kingkit.codes/s/TASyDY-Eo)
+>- [初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)
+>- [教學範例卡使用教學](https://bpi-steam.com/WebAI/zh-tw/Unboxing/Card.html)
 
 ## 回復預設狀態
 
@@ -84,5 +84,5 @@
 3. 當螢幕出現紅色全屏畫面，放開 L 按鈕
 4. 開發板重新開機，完成回復預設狀態
 
-> 回復預設狀態之後的設定，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW)。
+> 回復預設狀態之後的設定，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 

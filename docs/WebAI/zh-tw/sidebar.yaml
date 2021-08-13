@@ -81,33 +81,7 @@ items:
             file: Programming/Expand/Speaker.md
 -   label: 三、影像訓練
     file: Train/Train.md
-    items:
-    -   label: Web:AI 影像辨識介紹
-    -   label: 影像辨識流程
-    -   label: A. 登入影像訓練平台
-    -   label: B. 建立分類
-    -   label: C. 使用開發板拍攝影像
-    -   label: D. 建立模型
-    -   label: E. 下載模型
-    -   label: F. 使用程式積木執行影像辨識
-        items:
-        -   label: 影像分類
-            file: Train/Train.md
-        -   label: 物件追蹤
-            file: Train/Train.md
 -   label: 四、使用 IDE 開發 Web:AI
     file: IDE/Dev.md
-    items:
-    -   label: 開發環境介紹
-    -   label: 使用 kflash_gui 更新韌體
-    -   label: 使用 MaixPy IDE 執行指令
-    -   label: 程式範例
 -   label: 五、操控 MoonCar
     file: MoonCar/MoonCar.md
-    items:
-    -   label: 顏色偵測
-    -   label: 循跡自走
-    -   label: 循跡 + 物件追蹤
-    -   label: 馬達控制
-    -   label: 相關感測器
-    -   label: 萬用遙控器控制登月小車

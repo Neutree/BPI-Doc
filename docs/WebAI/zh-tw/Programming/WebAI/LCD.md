@@ -96,7 +96,7 @@ Web:AI 內建一塊 2.3 吋 LCD 螢幕，可以使用程式積木配合感測器
 
 ![](../../assets/images/upload_0c373ab6bb919c3edab14ac253040cfb.png)
 
-> 關於照相畫面的更多應用變化，可以參考：[照相畫面](https://md.kingkit.codes/s/3KhHmkwBd#%E7%85%A7%E7%9B%B8%E7%95%AB%E9%9D%A2)。
+> 關於照相畫面的更多應用變化，可以參考：[照相畫面](https://bpi-steam.com/WebAI/zh-tw/Programming/WebAI/LCD.html#%E7%85%A7%E7%9B%B8%E7%95%AB%E9%9D%A2)。
 
 ### 範例：改變表情
 

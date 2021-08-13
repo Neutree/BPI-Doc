@@ -27,7 +27,7 @@ F. 萬用遙控器控制登月小車
 
 1. 使用 Web:AI 開發板進入 QRcode 模式
  
-   > 關於如何進入 QRcode 模式，歡迎參考：[操作模式：QRcode 模式教學](https://md.kingkit.codes/s/1lgh1vuQ_#QRcode-%E6%A8%A1%E5%BC%8F)。
+   > 關於如何進入 QRcode 模式，歡迎參考：[操作模式: QRcode 模式](https://bpi-steam.com/WebAI/zh-tw/Unboxing/Mode.html#QRcode-%E6%A8%A1%E5%BC%8F)。
 
 2. 拿出教學範例卡，翻到背面的 QRcode。
 
@@ -46,7 +46,7 @@ F. 萬用遙控器控制登月小車
 
 ![](../assets/images/upload_fc87a0d0fbc684b427ac1f6884f322fe.png)
 
->- 關於人臉追蹤，歡迎參考：[人臉追蹤積木](https://md.kingkit.codes/s/TbBXXg7Jb)。
+>- 關於人臉追蹤，歡迎參考：[人臉追蹤](https://bpi-steam.com/WebAI/zh-tw/Programming/Advanced/Face.html)。
 
 ## B. 語音互動
 
@@ -70,7 +70,7 @@ Web:AI 開發板開啟攝像鏡頭，對著自己拍一張照片並顯示在 LCD
 
 夢想成為科技教具的 Web:AI 會自我介紹給大家聽！
 
->- 關於語音辨識，歡迎參考：[語音辨識積木](https://md.kingkit.codes/s/jIW79tnup)。
+>- 關於語音辨識，歡迎參考：[語音辨識](https://bpi-steam.com/WebAI/zh-tw/Programming/Advanced/Speech.html)。
 
 ## C. 小怪獸追蹤
 
@@ -83,8 +83,8 @@ Web:AI 開發板開啟攝像鏡頭，對著自己拍一張照片並顯示在 LCD
 範例小卡使用的小怪獸模型是預設在開發板中的物件追蹤模型，如果從 [影像訓練平台](https://vision.webduino.io/) 下載物件追蹤模型會將小怪獸模型覆蓋。
 若是要再次使用，就需要將開發板回復韌體。
 
->- 關於物件追蹤，歡迎參考：[四、訓練影像分類、物件追蹤](https://md.kingkit.codes/s/mopjgVaZU)。
->- 關於回復韌體，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW)。
+>- 關於物件追蹤，歡迎參考：[影像分類](https://bpi-steam.com/WebAI/zh-tw/Programming/Advanced/Image.html)。
+>- 關於回復韌體，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 ## D. 口罩偵測
 
@@ -95,7 +95,7 @@ Web:AI 開發板開啟攝像鏡頭，對著自己拍一張照片並顯示在 LCD
 
 ![](../assets/images/upload_49f5f3bf9c0c9758d2afc71cdbbbd849.png)
 
->- 關於口罩偵測，歡迎參考：[人臉追蹤積木](https://md.kingkit.codes/s/TbBXXg7Jb)。
+>- 關於口罩偵測，歡迎參考：[人臉追蹤](https://bpi-steam.com/WebAI/zh-tw/Programming/Advanced/Face.html)。
 
 ## E. 登月小車追蹤小怪獸
 

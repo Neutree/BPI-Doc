@@ -85,7 +85,7 @@ Web:AI 積木平台的操作介面分成下列幾個區塊：
 
    ![](../assets/images/upload_5e9768158864380f4612cc2516820864.jpg)
 
-   > 關於開發板的 Device ID，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://md.kingkit.codes/s/AO_XqPykW)。
+   > 關於開發板的 Device ID，歡迎參考：[初始化設定 ( 第一次使用請看這裡 )](https://bpi-steam.com/WebAI/zh/Unboxing/Initialization.html)。
 
 4. 從左側的 **積木清單** 中找到「Web:AI」，點擊下方的「LCD 螢幕」。
 
@@ -105,4 +105,3 @@ Web:AI 積木平台的操作介面分成下列幾個區塊：
 
 8. 成功執行第一支程式後，就可以開始體驗後續的更多更強大的 Web:AI 程式了！
 
-> 關於更多的程式教學，歡迎參考：[三、Web:AI 程式積木](https://md.kingkit.codes/s/X4vMmbtp_)。

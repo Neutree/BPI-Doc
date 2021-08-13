@@ -2,7 +2,7 @@
 
 Web:AI 檔案讀寫功能能夠將鏡頭拍攝的圖片存入，並透過 LCD 螢幕顯示的功能將儲存的圖片展示出來。透過檔案讀寫功能，可以讓 Web:AI 開發板實現照相機、自拍等影像應用。
 
-> 更多相關應用，可以參考：[LCD 顯示圖片](https://md.kingkit.codes/s/3KhHmkwBd#LCD-%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87)。
+> 更多相關應用，可以參考：[LCD 顯示圖片](https://bpi-steam.com/WebAI/zh-tw/Programming/WebAI/LCD.html#LCD-%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87)。
 
 ## 寫入檔案
 

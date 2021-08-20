@@ -3,7 +3,7 @@ BPI Steam 的 Triode-Car 是一款专注于教育用途的机器人，售价低�
 
 Triode-Car 同时兼容Web:Bit和Micro:Bit两款开发板。小巧的机身，大量可扩展的接口，元件简单易用，能快速吸引小朋友的注意力，完成图形编程的快速入门，恰当利用即可用于培养独立思考能力和逻辑思维能力。
 
-![](assets/Triode-Car_With_BPI_Bit.png)
+![](assets/Triode-Car_webbit&microbit.png)
 
 
 

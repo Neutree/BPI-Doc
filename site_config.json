@@ -35,6 +35,7 @@
         },
         "assets": {
             "/static/": "static",
+            "/Triode-Car/zh/assets/": "docs/Triode-Car/zh/assets",
             "/WebAI/zh-tw/assets/": "docs/WebAI/zh-tw/assets",
             "/WebAI/zh/assets/": "docs/WebAI/zh/assets",
             "/WebBit_dev/zh/assets/": "docs/WebBit_dev/zh/assets",

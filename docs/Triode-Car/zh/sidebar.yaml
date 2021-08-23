@@ -1,14 +1,5 @@
 items:
 -   label: 产品介绍
     items:
-     -   label: 硬件介绍
-#         file: 
-# -   label: 
-#     items:
-#     -   label: 
-#         file: 
-#     -   label: 
-#         items:
-#         -   label: 
-#             file: 
-
+    -   label: 硬件介绍
+        file: introduction/hardware.md

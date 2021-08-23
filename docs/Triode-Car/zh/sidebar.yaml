@@ -1,5 +1,8 @@
 items:
--   label: 产品介绍
-    items:
-    -   label: 硬件介绍
-        file: introduction/hardware.md
+-   label: 产品硬件介绍
+    file: introduction/hardware.md
+-   label: 硬件的浅析与调试
+    file: hardware/analysis&calibrate.md
+    # items:
+    # -   label: 
+    #     file: 

@@ -4,7 +4,9 @@
 
 1. 这是一个最基础的电路：
 
-<div align=center><img src="../assets/Triode-Car-Sch1.png" width="30%"></div>
+<div align=center>
+<img src="../assets/Triode-Car-Sch1.png" width="30%"/>
+</div>
 
 电池，二极管，电感，手动开关四者串联，两个负载并联接入，一个负载是电机，一个负载是发光二极管，作为对发光二极管的保护又给其串联了一个用于分压的电阻。
 
@@ -45,7 +47,9 @@
 
 2. 设计这样的电路：
 
-<div align=center><img src="../assets/Triode-Car-Sch3.png" width="65%"></div>
+<div align=center>
+<img src="../assets/Triode-Car-Sch3.png" width="65%"/>
+</div>
 
 除了用于保护作用的电容和电阻，在两个光敏电阻所在的线路上又各串联了一个可调电阻，根据串联分压的原理，通过调节可调电阻的阻值，可用于校准 LL 与 LR 两个节点的电压值，以便后续 电压比较器 的应用。
 
@@ -53,8 +57,12 @@
 
 1. 这是LM393电压比较器的原理图:
 
-<div align=center><img src="../assets/LM393_sch.jpg" width="50%"></div>
+<div align=center>
+<img src="../assets/LM393_sch.jpg" width="25%"/>
+</div>
 
-<div align=center><img src="../assets/LM393-1.png" width="100%"></div>
+<div align=center>
+<img src="../assets/LM393-1.png"/>
+</div>
 
 可见其内部集成了两个电压比较器.

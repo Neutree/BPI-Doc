@@ -58,11 +58,11 @@
 1. 这是LM393电压比较器的原理图:
 
 <div align=center>
-<img src="../assets/LM393_sch.jpg" width="25%"/>
+<img src="../assets/LM393_sch.jpg" width="250"/>
 </div>
 
 <div align=center>
-<img src="../assets/LM393-1.png"/>
+<img src="../assets/LM393-1.png" width="400"/>
 </div>
 
 可见其内部集成了两个电压比较器.

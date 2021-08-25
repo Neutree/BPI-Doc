@@ -3,6 +3,17 @@ items:
     file: introduction/hardware.md
 -   label: 硬件的浅析与调试
     file: hardware/analysis&calibrate.md
-    # items:
-    # -   label: 
-    #     file: 
+-   label: micro:bit 教程   
+    collapsed: false
+    items:
+    -   label: 初识 micro:bit
+        file: microbit_tutorial/first_meeting.md
+    -   label: 创建MakeCode项目 
+    -   label: 导入扩展积木
+    -   label: 用microbit按钮控制电机
+    -   label: 调整电机转速
+    -   label: 采集巡线检测电路的电压模拟信号
+    -   label: 无线电通讯控制电机
+    -   label: 蓝牙控制
+    -   label: 校准巡线检测电路
+    -   label: 巡线行驶

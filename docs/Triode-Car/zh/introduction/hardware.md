@@ -27,7 +27,7 @@
 * 电机空载转速（3V）：90rpm
 * 电机驱动方式：PWM电机驱动
 * 扩展M3螺丝孔×6（支持乐高接口）
-* 编程方式：makecode图形化编程、Mind+图形化编程（Webduino）、MicroPython编程
+* 编程方式：MakeCode图形化编程、Mind+图形化编程（Webduino）、MicroPython编程
 
 ## 硬件接口示意
 
@@ -44,7 +44,7 @@
 
 ## 功能引脚定义
 
-| Function | Web:Bit GPIO |
+| Function | web:bit GPIO |
 | :----: | :----: |
 | Wheel(Left) | P14 |
 | Wheel(Right) | P15 |

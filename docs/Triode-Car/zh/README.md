@@ -1,7 +1,7 @@
 # Triode-Car
 BPI Steam 的 Triode-Car 是一款专注于教育用途的机器人，售价低廉，目的明确，功能完备。
 
-Triode-Car 同时兼容Web:Bit和Micro:Bit两款开发板。小巧的机身，大量可扩展的接口，元件简单易用，能快速吸引小朋友的注意力，完成图形编程的快速入门，恰当利用即可用于培养独立思考能力和逻辑思维能力。
+Triode-Car 同时兼容web:bit和micro:bit两款开发板。小巧的机身，大量可扩展的接口，元件简单易用，能快速吸引小朋友的注意力，完成图形编程的快速入门，恰当利用即可用于培养独立思考能力和逻辑思维能力。
 
 ![](assets/Triode-Car_webbit&microbit.png)
 
@@ -9,9 +9,9 @@ Triode-Car 同时兼容Web:Bit和Micro:Bit两款开发板。小巧的机身，�
 
 ## 关键特性
 
-* 两种控制模式，可使用 LM393 比较器或者Micro:Bit 与 Web:Bit 控制
+* 两种控制模式，可使用 LM393 比较器或者micro:bit 与 web:bit 控制
 
-* 支持MakeCode图形化编程(与Mico:bit配合)，支持Webduino图形化编程（与Web:Bit配合）及MicroPython编程（Micro:Bit 与Web:Bit）
+* 支持MakeCode图形化编程(与micro:bit配合)，支持Webduino图形化编程（与web:bit配合）及MicroPython编程（micro:bit 与web:bit）
 
 * 机身小巧，整体性强
 

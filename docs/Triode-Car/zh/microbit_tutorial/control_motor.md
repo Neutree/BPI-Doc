@@ -9,9 +9,13 @@
 
 ## 例程
 
-<div style="position:relative;height:0;padding-bottom:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8MqMbVYFbXev" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div align=center>
+<img src="../assets/Triode-Car_motor_control_1.png" width="200"/>
+</div>
 
-> 点击例程中的 Edit 编辑 即可作为一个项目在makecode编辑器中打开，点击下方 Downlord 下载 即可通过USB下载进micro:bit中。
+[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_1.hex)
+
+> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
 
 ## 设计说明
 

@@ -8,9 +8,12 @@ items:
     items:
     -   label: 初识 micro:bit
         file: microbit_tutorial/first_meeting.md
-    -   label: 创建MakeCode项目 
+    -   label: 创建MakeCode项目
+        file: microbit_tutorial/new_project.md
     -   label: 导入扩展积木
+        file: microbit_tutorial/import_extension.md
     -   label: 用microbit按钮控制电机
+        file: 
     -   label: 调整电机转速
     -   label: 采集巡线检测电路的电压模拟信号
     -   label: 无线电通讯控制电机

@@ -10,7 +10,7 @@
 ## 例程
 
 <div align=center>
-<img src="../assets/Triode-Car_motor_control_1.png" width="200"/>
+<img src="../assets/Triode-Car_motor_control_1.png" width="300"/>
 </div>
 
 [在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_1.hex)

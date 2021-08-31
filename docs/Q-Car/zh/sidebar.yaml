@@ -1,0 +1,10 @@
+items:
+-   label: 产品硬件介绍
+    file: introduction/hardware.md
+-   label: micro:bit 教程   
+    collapsed: false
+    items:
+    -   label: 初识 micro:bit
+        file: 
+    -   label: 
+        file: 

@@ -35,6 +35,7 @@
         },
         "assets": {
             "/static/": "static",
+            "/Q-Car/zh/assets/":"docs//Q-Car/zh/assets",
             "/Triode-Car/zh/assets/": "docs/Triode-Car/zh/assets",
             "/WebAI/zh-tw/assets/": "docs/WebAI/zh-tw/assets",
             "/WebAI/zh/assets/": "docs/WebAI/zh/assets",

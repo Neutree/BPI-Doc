@@ -5,7 +5,7 @@
 在MakeCode编辑器中，除了能使蜂鸣器播放预设乐曲的音乐积木外，还有能进行简单编曲的积木可供使用，能模拟36键电子琴。
 
 <div align=center>
-<img src="../assets/Music_Arrangement1.png" width="500"/>
+<img src="../assets/Music_Arrangement1.png" width="300"/>
 </div>
 
 ## 简谱入门
@@ -69,7 +69,7 @@
 用积木表示即为：
 
 <div align=center>
-<img src="../assets/Music_Arrangement3.png" width="300"/>
+<img src="../assets/Music_Arrangement3.png" width="400"/>
 </div>
 
 ## 例程

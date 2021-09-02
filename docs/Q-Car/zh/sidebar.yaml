@@ -5,6 +5,17 @@ items:
     collapsed: false
     items:
     -   label: 初识 micro:bit
-        file: 
-    -   label: 
-        file: 
+        file: microbit_tutorial/first_meeting.md
+    -   label: 创建MakeCode项目
+        file: microbit_tutorial/new_project.md
+    -   label: 导入扩展积木
+        file: microbit_tutorial/import_extension.md
+    -   label: 用microbit按钮控制电机
+        file: microbit_tutorial/button_control-1.md
+    -   label: 超声波测距
+        file: microbit_tutorial/ultrasonic_ranging.md
+    -   label: 编曲并用蜂鸣器播放
+        file: microbit_tutorial/music_arrangement.md
+    -   label: 设计光电计数器
+        file: microbit_tutorial/photoelectric_counter.md
+        

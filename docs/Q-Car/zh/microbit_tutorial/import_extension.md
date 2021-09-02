@@ -12,7 +12,7 @@
 <img src="../assets/makecode-extensions_2.png" width="500"/>
 </div>
 
-3.在上方搜索栏中输入此链接：`https://github.com/bpi-steam/pxt-triodecar` 即可看到专用于 Triode-Car 的扩展积木。
+3.在上方搜索栏中输入此链接：`https://github.com/Q-car/Qcar-pxt` 即可看到专用于 Q-Car 的扩展积木。
 
 <div align=center>
 <img src="../assets/makecode-extensions_3.png" width="500"/>

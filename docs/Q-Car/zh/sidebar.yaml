@@ -18,4 +18,8 @@ items:
         file: microbit_tutorial/music_arrangement.md
     -   label: 设计光电计数器
         file: microbit_tutorial/photoelectric_counter.md
-        
+    -   label: 利用光电计数器进行转速测量
+        file: microbit_tutorial/RPM_measurement.md
+
+
+

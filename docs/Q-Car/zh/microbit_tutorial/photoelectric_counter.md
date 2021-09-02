@@ -43,7 +43,9 @@ micro:bit的P11引脚为高电平时Q-Car上的红外对管才会通电工作。
 <div align=center>
 <img src="../assets/microbit-show-0.png" width="250"/>
 </div>
+
 旋转右轮使编码盘的凸柱对向红外对管，此时micro:bit显示1，即表明此时红外对管输出给P5引脚的是高电平信号。
+
 <div align=center>
 <img src="../assets/Q-car_wheel_4.jpg" width="600"/>
 </div>
@@ -51,6 +53,7 @@ micro:bit的P11引脚为高电平时Q-Car上的红外对管才会通电工作。
 <div align=center>
 <img src="../assets/microbit-show-1.png" width="250"/>
 </div>
+
 这犹如一个物理开关的接通与关断两个状态，编码盘与红外对管的组合，构成了一个光电开关。
 
 ## 用光电开关来制作计数器

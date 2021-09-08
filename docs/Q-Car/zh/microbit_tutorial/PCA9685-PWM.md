@@ -36,7 +36,7 @@ micro:bit I²C总线的串行时钟线（SCL）由P19引脚引出，串行资料
 <img src="../assets/makecode-extensions-pca9685.png" width="200"/>
 </div>
 
-### 例程
+### 例程1
 
 <div align=center>
 <img src="../assets/Q-Car_Motor_control_module.png" width="600"/>
@@ -70,3 +70,28 @@ set pin pulse range[1][2][3][4]积木中[1]选项栏选择PCA9685芯片的引脚
 
 所以在例程中，按一下A按钮，左右电机将同时正转2s，同时反转2s，右电机单独正转2s，左电机单独正转2s，最后两电机都停转。
 
+## Q-Car扩展积木的PWM调速
+
+在例程1中的PCA9685扩展积木相对原始的展示了该芯片如何输出与调整PWM的。而在Q-Car扩展积木中将用于控制两个电机转速与转向的程序一起封装为1个积木以便使用，这其实也近似于例程1中使用的 function函数积木，都是将程序装入内部然后提供一些可供外部调整的变量，以便在其他程序中有效利用，区别就是不再将内部程序用图形积木来展示。
+
+> 事实上所有的积木都是对程序的一种“封装”，在MakeCode编辑器中切换至JavaScript代码编辑器即可看到它们的代码。
+
+### 例程2
+
+<div align=center>
+<img src="../assets/microbit-Qcar-demo-button_control-2.png" width="400"/>
+</div>
+
+[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Qcar-demo-button_control-2.hex)
+
+> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+
+### 设计说明
+
+Q-Car 的电机调速扩展积木可选左右两轮分别调整其正反转，以及100级PWM占空比，每1级对应增加1%占空比。
+
+按一次A按钮将增加变量值使占空比增加10%，到达100%占空比后再按一次A按钮将通过 if 判断置零。
+
+micro:bit将循环显示当前占空比数值。
+
+我们可以应用类似的思路，在其他任何程序中通过控制变量的方式来调整电机转速。

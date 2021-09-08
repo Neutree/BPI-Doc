@@ -20,6 +20,5 @@ items:
         file: microbit_tutorial/photoelectric_counter.md
     -   label: 利用光电计数器进行转速测量
         file: microbit_tutorial/RPM_measurement.md
-
-
-
+    -   label: PCA9685芯片的PWM调速
+        file: microbit_tutorial/PCA9685-PWM.md

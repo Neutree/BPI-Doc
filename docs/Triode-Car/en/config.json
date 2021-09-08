@@ -8,8 +8,8 @@
                 "position": "right",
                 "items": [
                     {
-                        "id": "zh-tw",
-                        "url": "/Triode-Car/zh-tw/",
+                        "id": "zh",
+                        "url": "/Triode-Car/zh/",
                         "label": "简体中文"
                     },
                     {

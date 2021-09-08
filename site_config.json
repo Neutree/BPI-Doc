@@ -86,7 +86,7 @@
                     "clientSecret": "830239001737febb2419f5446f9a8518d240833b",
                     "repo": "BPI-Doc",
                     "owner": "BPI-STEAM",
-                    "admin": ["BigQubot", ""],
+                    "admin": ["BigQubot", "Wind-stormger"],
                     "main_color": "#FF6B63",
                     "second_color": "#e25d55"
                 }

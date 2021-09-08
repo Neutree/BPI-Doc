@@ -77,6 +77,20 @@
             "config": {
                 "code": "0a495693906e5482a1afd1dda6ea6234"
             }
+        },
+        "teedoc-plugin-comments-gitalk": {
+            "from": "pypi",
+            "config": {
+                "env": {
+                    "clientID": "a49cf8907bbf60cd5e06",
+                    "clientSecret": "830239001737febb2419f5446f9a8518d240833b",
+                    "repo": "BPI-Doc",
+                    "owner": "BPI-STEAM",
+                    "admin": ["BigQubot", ""],
+                    "main_color": "#FF6B63",
+                    "second_color": "#e25d55"
+                }
+            }
         }
     },
     "rebuild_changes_delay": 0,

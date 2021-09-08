@@ -10,7 +10,7 @@ items:
         file: microbit_tutorial/first_meeting.md
     -   label: Create MakeCode project
         file: microbit_tutorial/new_project.md
-    -   label: Import expansion blocks
+    -   label: Import extension blocks
         file: microbit_tutorial/import_extension.md
     -   label: Use the microbit button to control the motor
         file: microbit_tutorial/control_motor.md

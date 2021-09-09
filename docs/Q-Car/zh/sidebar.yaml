@@ -26,3 +26,5 @@ items:
         file: microbit_tutorial/ultrasonic_ranging2.md
     -   label: 利用超声波测距使Q-Car自动保持距离
         file: microbit_tutorial/ultrasonic_ranging3.md
+    -   label: 巡线行驶（综合应用）
+        file: microbit_tutorial/line_tracking.md

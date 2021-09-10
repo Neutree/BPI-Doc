@@ -34,7 +34,7 @@ micro:bit的P11引脚为高电平时Q-Car上的红外对管才会通电工作。
 
 > 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
 
-将程序下载进micro:bit，然后保持USB串口连接，将micro:bit插入Q-Car的插槽，旋转右轮使编码盘的凹口对向红外对管，此时micro:bit显示0，即表明此时红外对管输出给P5引脚的是低电平信号。
+将程序下载进micro:bit，然后保持USB串口连接，将micro:bit插入Q-Car的插槽，旋转右轮使编码盘的凹槽对向红外对管，此时micro:bit显示0，即表明此时红外对管输出给P5引脚的是低电平信号。
 
 <div align=center>
 <img src="../assets/Q-car_wheel_3.jpg" width="600"/>
@@ -44,7 +44,7 @@ micro:bit的P11引脚为高电平时Q-Car上的红外对管才会通电工作。
 <img src="../assets/microbit-show-0.png" width="250"/>
 </div>
 
-旋转右轮使编码盘的凸柱对向红外对管，此时micro:bit显示1，即表明此时红外对管输出给P5引脚的是高电平信号。
+旋转右轮使编码盘的凸块对向红外对管，此时micro:bit显示1，即表明此时红外对管输出给P5引脚的是高电平信号。
 
 <div align=center>
 <img src="../assets/Q-car_wheel_4.jpg" width="600"/>
@@ -54,7 +54,7 @@ micro:bit的P11引脚为高电平时Q-Car上的红外对管才会通电工作。
 <img src="../assets/microbit-show-1.png" width="250"/>
 </div>
 
-这犹如一个物理开关的接通与关断两个状态，编码盘与红外对管的组合，构成了一个光电开关。
+凸块因为距离近所以使红外反射增强，凹槽因为距离远所以使红外反射减弱，这犹如一个物理开关的接通与关断两个状态，编码盘与红外对管的组合，构成了一套光电开关。
 
 ## 用光电开关来制作计数器
 

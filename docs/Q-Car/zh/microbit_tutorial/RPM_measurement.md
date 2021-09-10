@@ -36,7 +36,7 @@
 
 至此我们对如何着手设计程序就会很明了了，仅需在光电计数器程序的基础上改进即可。
 
-## 例程1
+### 例程1
 
 <div align=center>
 <img src="../assets/microbit-RPM_measurement_1-2.png" width="500"/>
@@ -82,7 +82,7 @@ every 1000ms 积木即间隔1S执行一次，设置一个变量将计数值通�
 
 依据此方程式，我们需要在程序中添加能采集到时间的积木才可实现功能，即需要采集到计数值为0时的开始时间，和计数值达到12时的结束时间。
 
-## 例程2 
+### 例程2 
 
 <div align=center>
 <img src="../assets/microbit-RPM_measurement_2-2.png" width="700"/>

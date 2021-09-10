@@ -1,7 +1,7 @@
 items:
 -   label: 硬件介绍
     file: introduction/hardware.md
--   label: 原理分析与小车校准
+-   label: TriodeCar硬件分析及校准
     file: hardware/analysis&calibrate.md
 -   label: micro:bit 教程   
     collapsed: false

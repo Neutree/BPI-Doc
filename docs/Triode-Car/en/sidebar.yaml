@@ -1,7 +1,7 @@
 items:
 -   label: Hardware introduction
     file: introduction/hardware.md
--   label: Principle analysis and car calibration
+-   label: Hardware analysis and calibration
     file: hardware/analysis&calibrate.md
 -   label: micro:bit tutorial  
     collapsed: false

@@ -16,10 +16,14 @@
 <img src="../assets/makecode-new.png" width="150"/>
 </div>
 
-4.除了将项目保存为一个文件，还可以作为一个Github项目保存。
+4.除了将项目保存为一个 `.hex` 文件，还可以作为一个Github项目保存，这需要准备一个[Github](https://github.com/)账户，并与MakeCode关联登录。
 
 <div align=center>
 <img src="../assets/makecode-save.png" width="300"/>
 </div>
 
-> 这需要准备一个[Github](https://github.com/)账户
+5.后续所有例程提供的链接都是 `.hex` 文件的链接，下载它们不需要登录Github账户。在链接所打开的网页中，鼠标右键点击 `Download` 按钮，再点击 `将链接另存为` 即可将`.hex`文件下载至计算机本地硬盘中。
+
+<div align=center>
+<img src="../assets/makecode-save_2.png" width="600"/>
+</div>

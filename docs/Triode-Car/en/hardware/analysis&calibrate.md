@@ -1,62 +1,68 @@
-# TriodeCar硬件分析及校准
+# Hardware analysis and calibration
 
-## 驱动电路
+## Drive circuit
 
-这是一个最基础的电路：
+This is a basic circuit:
 
 <div align=center>
 <img src="../assets/Triode-Car-Sch1.png" width="30%"/>
 </div>
 
-电池，二极管，电感，手动开关四者串联，两个负载并联接入，一个负载是电机，一个负载是发光二极管，作为对发光二极管的保护又给其串联了一个用于分压的电阻。
+Battery, diode, inductor and manual switch are connected in series,two loads are connected in parallel. 
 
-在这样的电路中唯一能控制两个负载的只有一个手动开关。
+One load is a motor and the other load is a light-emitting diode. 
 
-这是PNP型三极管：
+In order to protect the light-emitting diode, a resistor for voltage division is connected in series.
+
+In this circuit, the only one that can control the two loads is a manual switch.
+
+A **bipolar junction transistor (BJT)** is a type of transistor that uses both electrons and electron holes as charge carriers. In contrast, a unipolar transistor, such as a field-effect transistor, uses only one kind of charge carrier. A bipolar transistor allows a small current injected at one of its terminals to control a much larger current flowing between two other terminals, making the device capable of amplification or switching.
+
+A BJT consists of three differently doped semiconductor regions: the emitter region, the base region and the collector region. These regions are, respectively, p type, n type and p type in a PNP transistor, and n type, p type and n type in an NPN transistor. Each semiconductor region is connected to a terminal, appropriately labeled: emitter (E), base (B) and collector (C).
+
+PNP transistor：
 
 ![](../assets/Triode-S8550.png)
 
-* 1脚 Emitter发射极
-* 2脚 Base基极
-* 3脚 Collector集电极
+* pin 1 Emitter
+* pin 2 Base
+* pin 3 Collector
 
-> 一般在原理图中三极管的E、B、C指的就是此三脚。
+> For more detailed information, you can continue to refer to[Wikipedia：Bipolar junction transistor](https://en.wikipedia.org/wiki/Bipolar_junction_transistor)
 
-**双极性结型晶体管**（bipolar junction transistor, BJT），俗称**三极管**，是一种具有三个终端的电子器件。双极性晶体管是电子学历史上具有革命意义的一项发明，其发明者威廉·肖克利、约翰·巴丁和沃尔特·布喇顿被授予1956年的诺贝尔物理学奖。
-
-双极性晶体管的一种类型即为PNP型，由两层P型掺杂区域和介于二者之间的一层N型掺杂半导体组成。流经 Base基极 的微小电流可以在 Emitter发射极 端得到放大。也就是说，当PNP型晶体管的 Base基极 电压低于 Emitter发射极 时，Collector集电极 电压低于 Base基极 ，晶体管处于正向放大区。
-
-在双极性晶体管电学符号中， Base基极 和 Emitter发射极 之间的箭头指向电流的方向，这里的电流为电子流动的反方向。PNP型晶体管的箭头从 Emitter发射极 指向 Base基极 ，而NPN型与之相反。
-
-> 想了解其更详尽的信息，可以继续参考[维基百科：双极性晶体管](https://zh.wikipedia.org/wiki/%E5%8F%8C%E6%9E%81%E6%80%A7%E6%99%B6%E4%BD%93%E7%AE%A1)，或者检索其他相关的文献资料，需要具备相应的 数理化 前置知识才能更好的理解。
-
-将一个PNP型三极管加入电路：
+Add a PNP transistor to the circuit:
 
 ![](../assets/Triode-Car-Sch2.png)
 
-设计这样的电路可以控制PNP型三极管的2脚 Base基极 电压，给予2脚 Base基极 电平信号，这个PNP型三极管即可作为一个开关使用， 1脚 Emitter发射极 与 3脚 Collector集电极 **导通**条件为2脚 Base基极 低电平，而当2脚 Base基极 为高电平时则**关断**，两个负载即可被2脚 Base基极 所接收到的电平信号所控制，而此电平信号则由 电压比较器 的输出端提供，通过另一个开关还可切换至由 micro:bit 或 web:bit 开发板来提供。
+As shown in FIG design circuit may control the PNP transistor of the Base, Base terminal level signal is given, the PNP transistor can be used as a switch.
+The conduction condition of Emitter and Collector is Base low level, and turn off when Base is high level. 
+In this way, the two loads can be controlled by the level signal received by the Base, and this level signal is provided by the output of the voltage comparator.Another button can also be used to switch to micro:bit or web:bit development boards to provide level signals. 
 
-> 有关“高低电平”、“电平信号”更详尽的信息可以参考[百度百科：逻辑电平](https://baike.baidu.com/item/%E9%80%BB%E8%BE%91%E7%94%B5%E5%B9%B3)，或者检索其他相关的文献资料。
+> For more detailed information about "high & low level" and "level signal", please refer to [Wikipedia：Logic level](https://en.wikipedia.org/wiki/Logic_level)
 
-## 巡线检测电路
+## Line tracking circuit
 
-在Triode-Car的底部，有两个巡线检测电路，每一路包含了一个光敏电阻和一个LED。当LED的光照到黑色和白色的材料上面时，由于反射率的不同，光敏电阻的阻值会发生明显的变化。
+At the bottom of the Triode-Car, there are two line tracking circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity. 
 
 ![](../assets/Photoresistor-GL5506.png)
 
-在Triode-Car上，光敏电阻使用的是GL5506，这个型号的电阻会随着光照的加强而减小，亮电阻（10Lux）是2-5KΩ，暗电阻是0.2MΩ。（亮电阻：用400-600Lux光照射2小时后，在标准光源（色温2854K）10Lux光下的测试值。暗电阻：关闭10Lux光照后第10秒的阻值。）
+On Triode-Car, the photoresistor used is GL5506. The resistance of this model will decrease with the increase of light. The light resistance (10 Lux illumination) is 2-5KΩ, and the dark resistance is 0.2MΩ.
 
-设计这样的电路：
+Light resistance: The resistance value measured under 10 Lux illumination with a standard light source (color temperature of 2854K) after being irradiated with 400-600 Lux illumination for 2 hours.
+
+Dark resistance: the resistance value measured at 10 seconds after turning off the 10 Lux illumination. 
+
+Design a circuit like this: 
 
 <div align=center>
 <img src="../assets/Triode-Car-Sch3.png" width="65%"/>
 </div>
 
-除了用于保护作用的电容和电阻，在两个光敏电阻所在的线路上又各串联了一个可调电阻，根据串联分压的原理，通过调节可调电阻的阻值，可用于校准 LL 与 LR 两个节点的电压值，以便后续 电压比较器 的应用。
+In addition to the capacitance and resistance used for protection, an adjustable resistor is connected in series on the line where the two photoresistors are located. According to the principle of series voltage division, the two node voltages are calibrated by adjusting the resistance of the adjustable resistor. For the subsequent application of the voltage comparator. 
 
-## 电压比较器
+## Voltage comparator 
 
-这是LM393电压比较器的原理图:
+This is the schematic diagram of the LM393 voltage comparator: 
 
 <div align=center>
 <img src="../assets/LM393_sch.jpg" width="250"/>
@@ -66,55 +72,69 @@
 <img src="../assets/LM393-1.png" width="400"/>
 </div>
 
-其内部集成了两个电压比较器，当电压比较器的同相输入端(+)大于反相输入端(-)电压时，输出高电平，当电压比较器的正相输入端(+)小于反相输入端(-)电压时，输出低电平。而其电压比较器的内部原理图则是这样：
+Two voltage comparators are integrated inside. When the positive input (IN+) of the voltage comparator is greater than the negative input (IN-) voltage, the output is high. Otherwise, the output is low.
+
+The internal schematic diagram of its voltage comparator is like this: 
 
 ![](../assets/LM393-2.png)
 
-由此可见，实现 **“比较两个输入端的电压大小”** 这样相对复杂的功能，也是基于二极管、三极管等基础元件来设计并封装而成的。
+This shows,the realization of such a relatively complex function is also designed and packaged based on basic components such as semiconductor diode and BJT. 
 
-> 此处不对其做更深入的原理分析，感兴趣的可以参考[维基百科：比较器](https://zh.wikipedia.org/wiki/%E6%AF%94%E8%BE%83%E5%99%A8)，或者检索其他相关的文献资料。
+> If you are interested, you can refer to [Wikipedia：Comparator](https://en.wikipedia.org/wiki/Comparator)
 
-将LM393电压比较器加入电路中，并补全驱动电路和巡线检测电路(`单击图片可放大查看`)：
+Add LM393 voltage comparator to the circuit, and complement the drive circuit and line tracking circuit：
 
-![](../assets/Triode-Car-sys.png)
+![](../assets/Triode-Car-sys.jpg)
 
 ![](../assets/Triode-Car-Sch4.png)
 
+U1A is the first voltage comparator in LM393, and U1B is its second. 
 
+Connect the LL node of the line tracking circuit to the positive input pin 3 of U1A, connect the LR node to the negative input pin 2 of U1A, connect the LL node to the negative input pin 6 of U1B, and connect the LR node to the positive input pin 5 of U1B.
 
-U1A是LM393中第一个电压比较器，而U1B则是其第二个电压比较器。
+This design can make U1A output high level and U1B output low level when LL node voltage > LR node voltage, and U1A output low level and U1B output high level when LL node voltage < LR node voltage. 
 
-将巡线检测电路的 LL节点 与U1A的正相输入端3脚连接，LR节点 与U1A的反相输入端2脚连接，再使 LL节点 与U1B的反相输入端6脚连接，LR节点 与U1B的正相输入端5脚连接，这样设计，即可使 LL节点电压 > LR节点电压 时 U1A 1脚 输出高电平，U1B 7脚 输出低电平，而当 LL节点电压 < LR节点电压 时 U1A 1脚 输出低电平，U1B 7脚 输出高电平。
+Since the LM393 voltage comparator uses an open collector output, it is necessary to add pull-up resistors R8 and R7 to the output terminals U1A  pin 1 and U1B pin 7. 
 
-由于LM393电压比较器使用的是集电极开路输出，所以需要在输出端U1A 1脚 和 U1B 7脚 加上上拉电阻 R8 与 R7 。
+U1A pin 1 is connected to Q2 pin 2 Base, and the M2 it controls is the right-wheel motor. 
 
-U1A 1脚 连接到了 Q2 2脚 Base基极，其控制的M2电机为右轮电机。
+U1A pin 7 is connected to Q1 pin 2 Base, and the M1 it controls is the left-wheel motor. 
 
-U1B 7脚 连接到了 Q1 2脚 Base基极，其控制的M1电机为左轮电机。
+At this point, we have basically constructed an automatic control system.
 
-至此，我们就基本构建出一个自动控制系统，在其较为理想的工作状况下，它可以在一定范围内经由光敏电阻采集左右两侧道路明暗的信息，电压比较器在信息变化中不断的分别控制着两个轮子启停，以修正行驶方向，达成自动沿着线路行驶的目的。
+Under ideal working conditions, it can collect light and dark information on the left and right sides of the line through the photoresistor within a certain range.
 
-## 各元件的信号与工作状态关系表
+The voltage comparator continuously controls the start and stop of the two wheels during the information change to correct the driving direction and achieve the purpose of automatic line tracking.
 
-| 车头相较线路偏向 | (左)R5 LDR光感 | (右)R6 LDR光感 | LL 电位 | LR 电位 | P3输入 | P2输入 | P1输出 | P5输入 | P6输入 | P7输出 | M1左电机 | M2右电机 | 小车行进方向 |
+## State relation table 
+
+| Car lean Direction | Left LDR(R5) | Right LDR(R6) | LL Potential | LR Potential | P3 Input | P2 Input | P1 Output | P5 Input | P6 Input | P7 Output | M1 Left Motor | M2 Right Motor | Car Move Direction |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 左 | 明 | 暗 | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 右 |
-| 右 | 暗 | 明 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 左 |
+| Left | Bright | Dark | 0 | 1 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | Right |
+| Right | Dark | Bright | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | Left |
 
-> 条件为黑色线路与白色路面
+> Conditions are black lines and white roads 
 
-当小车偏离线路向左时，右边的光敏电阻会来到黑色线路的上方，光敏电阻阻值变高，而左边的光敏电阻处于白色地面，此时，LL点的电压会比LR点的电压低，比较器U1A的正向电压高于反向电压，1号引脚输出高电平。同理，U1B的正向电压低于反向电压，7号引脚输出低电平。从而控制左边电机正转，小车右拐，R6和D2离开黑色线路，直到左边的传感器探测到黑线路，原理与前面类似。小车在前进过程中不断重复以上动作，从而达到沿着黑色的线路前进的目的。
+When the car deviates from the line to the left, the photoresistor on the right will come to the top of the black line, the resistance of the photoresistor will become higher, and the photoresistor on the left will be on the white ground. At this time, the voltage at point LL will be lower than the voltage at point LR . The forward voltage of the comparator U1A is higher than the reverse voltage, and pin 1 outputs a high level.
 
-## 巡线检测电路的校准
+In the same way, the positive input voltage of U1B is lower than the negative input voltage, and the output is low.
 
-为了使巡线检测电路在单独使用LM393芯片控制的状态下有着对明暗变化更高的灵敏度，以及减少相同光照亮度下的电势差，需要通过手动调整可调电阻来进行校准。
+In this way, the left motor is controlled to rotate forward, the car turns right, R6 and D2 leave the black line, until the sensor on the left detects the black line.
 
-校准步骤如下：
+When the trolley deviates from the line to the right, the principle is the same.
 
-1. 将小车用小物件微微将轮子抬起以防接触表面，将小车的光敏电阻对准一个稳定光源（台灯或手电筒）。
-2. 随意调整任一边可调电组，直到两侧马达同时运转。
-3. 调整完成后，放置在跑道上测试结果。
-4. 若小车还是有概率冲出跑道，将小车放置于白纸上，重复2~3步骤进行微调，尝试使巡线检测电路对明暗变化有更高的灵敏度。
+The trolley repeats the above actions continuously in the process of advancing, so as to achieve the purpose of advancing along the black line. 
+
+## Line tracking circuit calibration 
+
+In order to make the line tracking circuit have higher sensitivity to light and dark changes under the control of the LM393 chip alone, and to reduce the potential difference under the same illumination brightness, it is necessary to manually adjust the adjustable resistance for calibration. 
+
+The calibration steps are as follows: 
+
+1. use a small object to lift up the back wheels slightly to prevent contact,point a stable light source towards the photoresistors.
+2. Adjust either side of potentiometers until both motors are operating simultaneously.
+3. After adjustments, put the car on the track to test the results.
+4. If the car is still likely to run out of the track, place the car on a white paper, repeat steps 2~3 for fine-tuning, and try to make the Line tracking circuit more sensitive to light and dark changes. 
 
 ![](../assets/Triodecar_calibration_1.jpg)
 

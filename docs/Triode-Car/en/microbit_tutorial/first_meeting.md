@@ -1,29 +1,30 @@
-# 初识 micro:bit
+# First meeting with micro:bit
 
-[micro:bit](https://microbit.org/) 是一款由英国广播电视公司为青少年编程教育设计，并由微软，三星，ARM，英国兰卡斯特大学等合作伙伴共同完成开发的微型电脑，目前推出V1，V2两款，后者较比前者性能稍强。
+The [micro:bit](https://microbit.org/)(also referred to as BBC Micro Bit) is an open source hardware ARM-based embedded system designed by the BBC for use in computer education.This is jointly developed by partners such as Microsoft, Samsung, ARM, Lancaster University, etc. They currently have designed two models, V1 and V2, the latter has a slightly stronger performance than the former.
 
 ![](../assets/microbit.png)
 
-## MakeCode编辑器
-MakeCode 是微软所推行的应用于编程教育的图形编程语言，也是 micro:bit 目前主流应用的编程语言，无需下载安装任何本地应用，在浏览器中打开网页即可在线编程。
+## MakeCode editor
 
-[micro:bit-MakeCode 网页链接](https://makecode.microbit.org/#)
+MakeCode is a graphical code editor for programming education promoted by Microsoft. It is also the code editor for micro:bit's current mainstream applications. You don't need to download and install any local applications. You can open the webpage in the browser to program online. 
 
-在MakeCode编辑器中可以在零编程基础的情况下通过搭建图形积木的方式入门，更有将实现比较复杂的程序封装起来的扩展积木可以使用，进一步降低门槛，对多国语言的本地化支持也是其重要的优势。
+[micro:bit-MakeCode ](https://makecode.microbit.org/#)
 
-其编辑器主要由三个部分组成，图形化积木（blocks）编辑器，仿真模拟器，图形化积木所对应的JavaScript代码编辑器。
+In the MakeCode editor, you can start by building blocks with zero programming foundation, and you can use Extensions’ blocks that have encapsulated more complex programs, further reducing the threshold. Localization support for multiple languages is also an important advantage. 
+
+The editor is mainly composed of three parts, a graphical block editor, a simulation simulator, and a JavaScript code editor. 
 
 ![](../assets/microbit-MakeCode.png)
 
-## MicroPython编辑器
+## MicroPython editor
 
-MicroPython是相对进阶但也并不难上手学习的编程语言，micro:bit 更有提供较为易用的模块来降低对其编程难度，其相对图形编程最大的不同就是转变为抽象的字符代码。
+MicroPython is a relatively advanced but not difficult to learn programming language.Micro:bit provides easier-to-use modules to reduce the difficulty of programming. The biggest difference between micro:bit and graphics programming is that it is transformed into abstract character codes.
 
-[micro:bit-micropython 网页链接](https://python.microbit.org/v/2)
+[micro:bit-micropython](https://python.microbit.org/v/2)
 
-如其名所述，它是 Python 3 编程语言的一个精简高效的实现，它包含了 Python 标准库的一小部分子集，并且经过优化，可以在微控制器上和受限环境中运行。
+As the name suggests, it is a streamlined and efficient implementation of the Python 3 programming language. It contains a small subset of the Python standard library and is optimized to run on microcontrollers and in restricted environments. 
 
-如果曾经学过python，那将会相当容易上手，反之在开发板上学习了MicroPython后，也能几乎无障碍地切换到python做进一步的学习或开发应用。
+If you have ever learned Python, it will be quite easy to get started. On the contrary, after learning MicroPython on the development board, you can switch to Python for further learning or application development almost without obstacles. 
 
 ![](../assets/microbit-micropython.png)
 

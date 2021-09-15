@@ -6,7 +6,7 @@ items:
 -   label: micro:bit tutorial  
     collapsed: false
     items:
-    -   label: First acquaintance with micro:bit
+    -   label: First meeting with micro:bit
         file: microbit_tutorial/first_meeting.md
     -   label: Create MakeCode project
         file: microbit_tutorial/new_project.md

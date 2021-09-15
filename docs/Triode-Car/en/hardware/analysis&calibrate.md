@@ -44,7 +44,9 @@ In this way, the two loads can be controlled by the level signal received by the
 
 At the bottom of the Triode-Car, there are two line tracking circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity. 
 
-![](../assets/Photoresistor-GL5506.png)
+<div align=center>
+<img src="../assets/Photoresistor-GL5506.png"/>
+</div>
 
 On Triode-Car, the photoresistor used is GL5506. The resistance of this model will decrease with the increase of light. The light resistance (10 Lux illumination) is 2-5KΩ, and the dark resistance is 0.2MΩ.
 
@@ -136,6 +138,12 @@ The calibration steps are as follows:
 3. After adjustments, put the car on the track to test the results.
 4. If the car is still likely to run out of the track, place the car on a white paper, repeat steps 2~3 for fine-tuning, and try to make the Line tracking circuit more sensitive to light and dark changes. 
 
-![](../assets/Triodecar_calibration_1.jpg)
+<div align=center>
+<img src="../assets/Triodecar_calibration_1.jpg" width="500"/>
+</div>
 
-![](../assets/Triodecar_calibration_2.jpg)
+<div align=center>
+<img src="../assets/Triodecar_calibration_2.jpg" width="500"/>
+</div>
+
+

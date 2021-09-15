@@ -34,7 +34,7 @@ Add a PNP transistor to the circuit:
 
 ![](../assets/Triode-Car-Sch2.png)
 
-As shown in FIG design circuit may control the PNP transistor of the Base, Base terminal level signal is given, the PNP transistor can be used as a switch.
+As shown in figure design circuit may control the PNP transistor of the Base, Base terminal level signal is given, the PNP transistor can be used as a switch.
 The conduction condition of Emitter and Collector is Base low level, and turn off when Base is high level. 
 In this way, the two loads can be controlled by the level signal received by the Base, and this level signal is provided by the output of the voltage comparator.Another button can also be used to switch to micro:bit or web:bit development boards to provide level signals. 
 

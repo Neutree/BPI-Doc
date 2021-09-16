@@ -1,23 +1,23 @@
-# 调整电机转速
+# Adjust motor speed
 
-## 例程
+## Example program 
 
 <div align=center>
 <img src="../assets/Triode-Car_motor_control_2.png" width="500"/>
 </div>
 
-[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_2.hex)
+[Example project file on Github](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_2.hex)
 
-> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+> After the project file is downloaded locally, it can be imported into MakeCode for viewing and re-editing, or it can be burned directly to micro:bit via USB to run. 
 
-## 设计说明
+## Design description 
 
-1. 按一次A按钮转速加1档
-2. 按一次B按钮转速减1档
-3. micro:bit显示当前挡位数值。
+1. Press button A once to increase the speed by 1 level.
+2. Press button B once to reduce the speed by 1 level.
+3. The micro:bit displays the current level value. 
 
-Triode-Car专用扩展积木中有可单独控制左右电机转速的积木，可进行10级调速。
+In the Triode-Car extension, there are blocks that can independently control the speed of the left and right motors, and can perform 10-level speed regulation. 
 
-例程中"forever"积木会在"on start"积木执行完后开始无限循环执行其内部的积木，而在每次循环的间隙则可执行其他事件处理程序，如on button A/B pressed。
+In the example, the "forever" block will start an infinite loop after the execution of the "on start" block, and execute other event handlers, such as "on button A/B pressed", between each loop.
 
-加入了一个"if"判断积木，若变量"speed"值小于0或大于10时，将变量"speed"值设为0，这样可以将值限定在0到10范围内不会溢出而报错。
+A "if" judgment block is added. If the value of the variable "speed" is less than 0 or greater than 10, the value of the variable "speed" is set to 0, so that the value can be limited to the range of 0 to 10 without overflowing and reporting an error. 

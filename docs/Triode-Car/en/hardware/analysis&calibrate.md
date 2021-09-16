@@ -40,9 +40,9 @@ In this way, the two loads can be controlled by the level signal received by the
 
 > For more detailed information about "high & low level" and "level signal", please refer to [Wikipedia：Logic level](https://en.wikipedia.org/wiki/Logic_level)
 
-## Line tracking circuit
+## line detection circuit
 
-At the bottom of the Triode-Car, there are two line tracking circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity. 
+At the bottom of the Triode-Car, there are two line detection circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity. 
 
 <div align=center>
 <img src="../assets/Photoresistor-GL5506.png"/>
@@ -84,7 +84,7 @@ This shows,the realization of such a relatively complex function is also designe
 
 > If you are interested, you can refer to [Wikipedia：Comparator](https://en.wikipedia.org/wiki/Comparator)
 
-Add LM393 voltage comparator to the circuit, and complement the drive circuit and line tracking circuit：
+Add LM393 voltage comparator to the circuit, and complement the drive circuit and line detection circuit：
 
 ![](../assets/Triode-Car-sys.jpg)
 
@@ -92,7 +92,7 @@ Add LM393 voltage comparator to the circuit, and complement the drive circuit an
 
 U1A is the first voltage comparator in LM393, and U1B is its second. 
 
-Connect the LL node of the line tracking circuit to the positive input pin 3 of U1A, connect the LR node to the negative input pin 2 of U1A, connect the LL node to the negative input pin 6 of U1B, and connect the LR node to the positive input pin 5 of U1B.
+Connect the LL node of the line detection circuit to the positive input pin 3 of U1A, connect the LR node to the negative input pin 2 of U1A, connect the LL node to the negative input pin 6 of U1B, and connect the LR node to the positive input pin 5 of U1B.
 
 This design can make U1A output high level and U1B output low level when LL node voltage > LR node voltage, and U1A output low level and U1B output high level when LL node voltage < LR node voltage. 
 
@@ -127,16 +127,16 @@ When the trolley deviates from the line to the right, the principle is the same.
 
 The trolley repeats the above actions continuously in the process of advancing, so as to achieve the purpose of advancing along the black line. 
 
-## Line tracking circuit calibration 
+## line detection circuit calibration 
 
-In order to make the line tracking circuit have higher sensitivity to light and dark changes under the control of the LM393 chip alone, and to reduce the potential difference under the same illumination brightness, it is necessary to manually adjust the adjustable resistance for calibration. 
+In order to make the line detection circuit have higher sensitivity to light and dark changes under the control of the LM393 chip alone, and to reduce the potential difference under the same illumination brightness, it is necessary to manually adjust the adjustable resistance for calibration. 
 
 The calibration steps are as follows: 
 
 1. use a small object to lift up the back wheels slightly to prevent contact,point a stable light source towards the photoresistors.
 2. Adjust either side of potentiometers until both motors are operating simultaneously.
 3. After adjustments, put the car on the track to test the results.
-4. If the car is still likely to run out of the track, place the car on a white paper, repeat steps 2~3 for fine-tuning, and try to make the Line tracking circuit more sensitive to light and dark changes. 
+4. If the car is still likely to run out of the track, place the car on a white paper, repeat steps 2~3 for fine-tuning, and try to make the line detection circuit more sensitive to light and dark changes. 
 
 <div align=center>
 <img src="../assets/Triodecar_calibration_1.jpg" width="500"/>

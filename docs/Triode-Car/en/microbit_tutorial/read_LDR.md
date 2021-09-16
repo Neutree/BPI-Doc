@@ -1,22 +1,22 @@
-# 采集巡线检测电路的电压模拟信号
+# Collect the signals
 
-## 例程
+## Example program
 
 <div align=center>
 <img src="../assets/Triode-car_read_LDR.png" width="600"/>
 </div>
 
-[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_read_LDR.hex)
+[Example project file on Github](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_read_LDR.hex)
 
-> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+> After the project file is downloaded locally, it can be imported into MakeCode for viewing and re-editing, or it can be burned directly to micro:bit via USB to run. 
 
-## 设计说明
+## Design description 
 
-1. 每间隔100ms通过USB串口将读取到的左右两个传感器的电压模拟值发送给电脑。
-2. 可以在在MakeCode中打开控制台查看实时接收到的信息。
+1. The voltage analog values of the two sensors are sent to the computer through the USB serial port every 100ms. 
+2. You can open the console in MakeCode to view the information received in real time. 
 
-硬件原理参考[硬件的浅析与调试](../hardware/analysis&calibrate.html)中的介绍。
+Refer to [](../hardware/analysis&calibrate.html).
 
-Triode-Car专用扩展积木中有可采集巡线检测电路的电压模拟信号的"read left/right line tracking sensor"积木。
+The "Read (index) line tracking sensor" block in Triode-Car extensions can collect analog values from the photoresistors.
 
-micro:bit引脚对0至3.3V电压测量精度为10bit即2^10=1024级，所以调用"read left/right line tracking sensor"积木从对应引脚读到的电压模拟值将为0至1023。
+Micro: bit pins' voltage can be set from 0~3.3v, and has 1024(10bit) precision levels, therefore, the "read left/right line tracking sensor" block will input an analog value to adjust its voltage ranging from 0~1023.

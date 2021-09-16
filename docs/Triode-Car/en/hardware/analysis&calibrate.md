@@ -40,7 +40,7 @@ In this way, the two loads can be controlled by the level signal received by the
 
 > For more detailed information about "high & low level" and "level signal", please refer to [Wikipedia：Logic level](https://en.wikipedia.org/wiki/Logic_level)
 
-## line detection circuit
+## Line detection circuit
 
 At the bottom of the Triode-Car, there are two line detection circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity. 
 

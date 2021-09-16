@@ -16,7 +16,7 @@ items:
         file: microbit_tutorial/control_motor.md
     -   label: Adjust motor speed
         file: microbit_tutorial/control_motor2.md
-    -   label: Collect the analog signal of the line-following circuit
+    -   label: Collect the signals
         file: microbit_tutorial/read_LDR.md
     -   label: Control the motor by radio
         file: microbit_tutorial/radio_control.md

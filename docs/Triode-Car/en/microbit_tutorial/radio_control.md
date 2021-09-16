@@ -1,21 +1,21 @@
-# 无线电通讯控制电机
+# Control the motors by radio
 
-## 例程
+## Example program
 
 <div align=center>
 <img src="../assets/Triode-Car_radio_control_1.png" width="400"/>
 </div>
 
-[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-Car_radio_control_1.hex)
+[Example project file on Github](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-Car_radio_control_1.hex)
 
-> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+> After the project file is downloaded locally, it can be imported into MakeCode for viewing and re-editing, or it can be burned directly to micro:bit via USB to run.
 
-## 设计说明
+## Design description 
 
-micro:bit支持无线电通讯，在MakeCode中应用无线电扩展积木进行编程，并将程序下载进两块micro:bit后，即可在二者之间建立无线通讯，并可相互控制对方的硬件。
+The micro:bit supports radio communication. Use the radio extension to program in MakeCode, and after downloading the program into two micro:bits, you can establish radio communication between the two and control each other's hardware. 
 
-将例程下载进两块micro:bit，一块插在Triode-Car上，一块拿在手上，两块都接通电源，即可通过手上的micro:bit的按钮AB控制Triode-Car的电机启停。
+Download the routine into two micro:bits, plug one into the Triode-Car, hold the other in your hand, and connect the power to both of them, and you can control the start and stop of the Triode-Car's motor through the micro:bit button AB in your hand. 
 
-按A左转，按B右转，同时按下AB直行，松开即停车。
+Press A to turn left, press B to turn right, press AB at the same time to go straight, release the buttons to stop. 
 
-其中加入的四个变量并非多余的存在，虽然也可以在积木中填上我们所需要的数值，但使用变量名来代替这些指定的数值有利于我们在认知上建立更清晰的逻辑，在越复杂的程序中越能体现其价值。
+The four variables added are not superfluous. Although you can also fill in the values we need in the building blocks, using variable names to replace these specified values helps us to establish a clearer cognitive logic. The more complex the program, the more its value can be reflected. 

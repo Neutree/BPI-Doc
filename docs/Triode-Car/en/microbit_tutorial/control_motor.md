@@ -1,4 +1,4 @@
-# Use buttons to control the motor
+# Use buttons to control the motors
 
 ## Example program 
 

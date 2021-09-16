@@ -1,4 +1,4 @@
-# Adjust motor speed
+# Adjust motors speed
 
 ## Example program 
 

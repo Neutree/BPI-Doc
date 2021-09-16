@@ -1,6 +1,6 @@
-# 蓝牙控制
+# Control the motors by Bluetooth
 
-## 介绍
+## Introduce 
 
 micro:bit支持蓝牙通讯，在MakeCode中应用蓝牙扩展积木进行编程，在支持蓝牙通讯的Apple或Android设备上安装APP即可通过蓝牙无线控制。
 

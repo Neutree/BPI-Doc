@@ -10,7 +10,7 @@
 <img src="../assets/makecode-language.png" width="150"/>
 </div>
 
-3.点击 New Projects 新建项目，随后给项目取个名字即可创建项目。
+3.点击 New Projects 新建项目，随后给项目取个名字即可即可进入编辑器中。
 
 <div align=center>
 <img src="../assets/makecode-new.png" width="150"/>

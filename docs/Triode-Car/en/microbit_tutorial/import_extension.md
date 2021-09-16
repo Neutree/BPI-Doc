@@ -1,24 +1,24 @@
-# 导入扩展积木
+# Import extensions
 
-1.在MakeCode编辑器中，点击网页右上角的齿轮图标，点击 Extensions 扩展。
+1.In the MakeCode editor, click the gear icon in the upper right corner of the webpage, and click Extensions. 
 
 <div align=center>
 <img src="../assets/makecode-extensions_1.png" width="200"/>
 </div>
 
-2.进入一个检索各式各样的扩展积木的页面。
+2.Enter a page to retrieve various extensions. 
 
 <div align=center>
 <img src="../assets/makecode-extensions_2.png" width="500"/>
 </div>
 
-3.在上方搜索栏中输入此链接：`https://github.com/bpi-steam/pxt-triodecar` 即可看到专用于 Triode-Car 的扩展积木。
+3.Enter this link in the search bar above:`https://github.com/bpi-steam/pxt-triodecar` You can see the extensions dedicated to Triode-Car.
 
 <div align=center>
 <img src="../assets/makecode-extensions_3.png" width="500"/>
 </div>
 
-4.点击即可添加进项目中，在MakeCode编辑器的积木列表里即可看到几块扩展积木。
+4.Click to add it to the project, and you can see several extension blocks in the block list of the MakeCode editor.
 
 <div align=center>
 <img src="../assets/makecode-extensions_4.png" width="500"/>

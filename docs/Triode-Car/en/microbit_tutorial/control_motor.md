@@ -1,20 +1,20 @@
-# 用microbit按钮控制电机
+# Use buttons to control the motor
 
-## 例程
+## Example program 
 
 <div align=center>
 <img src="../assets/Triode-Car_motor_control_1.png" width="300"/>
 </div>
 
-[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_1.hex)
+[Example project file on Github ](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_motor_control_1.hex)
 
-> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+> After the project file is downloaded locally, it can be imported into MakeCode for viewing and re-editing, or it can be burned directly to micro:bit via USB to run. 
 
-## 设计说明
+## design description 
 
-1. 启动或复位时停车。
-2. 同时按下AB按钮直行。
-3. 按下A按钮右转。
-4. 按下B按钮左转。
+1. Stop when starting or resetting. 
+2. Press the button A and B  at the same time to go straight.
+3. Press button A to turn right. 
+4. Press the button B to turn left. 
 
-在[硬件浅析与调试：驱动电路](../hardware/analysis&calibrate.html#驱动电路)中后半部分有提到，驱动电路中有设计一个切换开关，可以将驱动电路由LM393电压比较器控制切换到由micro:bit控制。而micro:bit控制驱动电路的方法，和LM393电压比较器相同，低电平启动，高电平停止。
+In[Hardware analysis and calibration: Drive circuit](../hardware/analysis&calibrate.html#Drive-circuit),There is a switch in the drive circuit, which can switch the drive circuit from LM393 voltage comparator control to micro:bit control. The micro:bit control method of the drive circuit is the same as the LM393 voltage comparator, starting at low level and stopping at high level. 

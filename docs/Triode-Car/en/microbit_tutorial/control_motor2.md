@@ -1,6 +1,6 @@
 # Adjust motors speed
 
-## Example program 
+## Example Blocks 
 
 <div align=center>
 <img src="../assets/Triode-Car_motor_control_2.png" width="500"/>

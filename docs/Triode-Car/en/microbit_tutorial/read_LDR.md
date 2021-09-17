@@ -1,6 +1,6 @@
 # Collect the signals
 
-## Example program
+## Example Blocks
 
 <div align=center>
 <img src="../assets/Triode-car_read_LDR.png" width="600"/>

@@ -1,6 +1,6 @@
 # Use buttons to control the motors
 
-## Example program 
+## Example Blocks 
 
 <div align=center>
 <img src="../assets/Triode-Car_motor_control_1.png" width="300"/>

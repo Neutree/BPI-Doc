@@ -1,6 +1,6 @@
 # Control the motors by radio
 
-## Example program
+## Example Blocks
 
 <div align=center>
 <img src="../assets/Triode-Car_radio_control_1.png" width="400"/>

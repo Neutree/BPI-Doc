@@ -1,41 +1,41 @@
-# 校准巡线检测电路
+# Calibration line detection circuit
 
-## 设计思路
+## Design ideas
 
-为了能以较高的灵敏度应用巡线检测电路，我们需要手动对两个光敏电阻对应连接的可调电阻进行微调，使其工作在灵敏度较高的区间内，且应该尽量使相同光照强度下输出的电压模拟量保持相等。
+As every component are not made exactly the same, despite being made according to the datasheet, they would vary from eachother ever so slightly. Calibration of the Line-Following Circuit improves the reaction time of the Triode-Car's line tracking feature. Adjust the resistance of the potentiometers connected to the photoresistors to increase the sensitivity. This process makes the Triode-Car less likely to run off course and maintains a stable analog voltage output.
 
-我们可以直接应用[采集巡线检测电路的电压模拟信号](read_LDR.html)教程中所示的例程来在电脑上输出采集到的电压模拟量数值，然后使用螺丝刀对可调电阻进行调节。
+We can directly use the [Collect the signals](read_LDR.html)guide from beginners tutorial to read the analog signals from the computer, then manually adjust the potentiometer with a screwdriver.
 
-在micro:bit所能测量的0-1023级电压模拟量范围内，越靠近中间值，光敏电阻对光照强弱变化的响应灵敏度就越高。
+The micro:bit can detect analog voltage values from 0~1023, the closer the value is to the middle, the reaction from changes of brightness detected by the photoresistor will become more sensitive.
 
-所以对巡线检测电路校准时，应在稳定的环境光下，尽量将两个可调电阻调节到靠近中间值512，并尽量使二者在相同光照强度下输出的电压模拟量的差值减小。
+Therefore, under a stable brightness environment, try to calibrate the resistance as close to 512 as possible. This would create more stable energy output and reduce their analog value difference.
 
-以上实行校准步骤都是建立在保持micro:bit与PC连接，micro:bit与Triode-Car连接的前提下的，但实际应用中，为了提高使用时的灵敏度，最好直接在实际应用的场景下进行校准。
+The above steps mentioned requires constant connection with triode-car connected to micro: bit and then to the PC. In a real use case scenerio, one would best be using manual adjustments to increase the sensitivity.
 
-我们不一定总有条件在实际应用的场景下还能保持micro:bit与PC连接。在不能连接PC的时候，就需要提前写好一个可以正确的指引我们校准巡线检测电路的程序。
+We cannot be sure to have the micro: bit connected to the PC all the time, therefore, we need to write a program to guide us how to properly calibrate the sensitivity.
 
-分析校准的步骤：
+Calibration Steps:
 
-1. 选择先对左侧的可调电阻进行手动调整，使其并联的光敏电阻在micro:bit对应引脚上输出的电压模拟量接近中间值。
-2. 在上一个条件满足的前提下调整右侧的可调电阻，使其并联的光敏电阻在micro:bit对应引脚上输出的电压模拟量接近另一个光敏电阻。
+1. Adjust the left potentiometers first, to make its analog value out close to the median.
+2. Adjust the right potentiometer on the premise that the previous condition is met, so that the parallel photoresistor output voltage analog quantity on the corresponding pin of Micro:Bit is close to the other photoresistor.
 
-在程序上这显然是可以通过"if"条件判断来完成的，而对于实际进行手动校准的人，则是需要得到对应条件下使micro:bit显示不同图形使人也能得到条件满足的反馈。
+We can achieve this by creating a simple "if" statement program. For those people who adjust manually, we could add different image patterns to indicate if we have adjusted properly.
 
-## 例程
+## Example Blocks:
 
 <div align=center>
 <img src="../assets/Triode-car_LDR_calibration_1.png" width="600"/>
 </div>
 
-[在Github上的例程项目文件](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_LDR_calibration_2.hex)
+[Example project file on Github](https://github.com/Wind-stormger/Makecode/blob/master/microbit-Triode-car_LDR_calibration_2.hex)
 
-> 项目文件下载到本地后可导入MakeCode中查看和再编辑，也可直接通过USB烧录到Micro:Bit中运行。
+> After the project file is downloaded locally, it can be imported into MakeCode for viewing and re-editing, or it can be burned directly to micro:bit via USB to run.
 
-## 设计说明
+## Design description 
 
-1. 将程序整体放入一个"function"自定义函数中，这有利于我们从认知上在大量积木中区分某一部分的功能，方便后续调用或维护。
-2. 整体由两个"while"循环积木组成，加入了循环条件，这样可以在可调电阻校准完成后改变循环条件退出循环。
-3. 在进入"while"循环之前，使Micro:Bit显示对应的方向指示，给人以直观的行动目标，确认当前应该要进行手动调整的可调电阻。
-4. 第一个"while"循环积木中的程序用于校准左侧光敏电阻，其中"if"判断条件为，左侧光敏电阻输出的电压模拟量大于等于450小于等于550。
-5. 当满足第4条中的"if"判断条件后，使Micro:Bit显示一个表示正确的图形，给人以视觉上反馈，此时人应该停止对左侧的可调电阻的调节，随后延时1000ms再一次进行相同的"if"判断条件，用以消除手动调整可能产生的抖动而带来的误差，当再次确认条件满足时，改变控制这个"while"循环的循环条件以退出循环，执行下一步。
-6. 第二个"while"循环积木中的程序用于校准右侧光敏电阻，其中"if"判断条件为，左右两侧光敏电阻输出的电压模拟量相减，其差值的绝对值小于等于25。
+1. The whole calibration code is organized into a self-defined function, this could be easily called or maintained later on and would cause less confusion as many other functions would be added.
+2. The code consists within a while loop block. By adding loop conditions, the loop would exit after the potentiometers have finished calibration.
+3. Before entering the while loop, the micro:bit would display a directional arrow, indicating which potentiometers requires adjustment.
+4. The code within the first while loop block is to calibrate the left photoresistor, the "if" statement conditions are set to make the left photoresistor's analog voltage value in the range of minimum of 450 to 550 max.
+5. When the "if" statement contitions are met in the 4th point, the micro:bit would display a "checked" symbol to give a visual feedback as its been calibrated. At this moment one should stop adjusting the left potentiometer. After 1 second, the code would run the "if" statement again to check if the values are disrupted due to slight tremor of the hand. When the code double checked if conditions are met, the loop will end.
+6. The second while loop contains blocks to adjust the right photoresistor. The "if" statement within is to make the analog voltage values differce of both potentiometers less than 25. This is achieved by subtracting the values of both left and right photoresistors.

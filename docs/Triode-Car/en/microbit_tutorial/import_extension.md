@@ -12,7 +12,7 @@
 <img src="../assets/makecode-extensions_2.png" width="500"/>
 </div>
 
-3.Enter this link in the search bar above:`https://github.com/bpi-steam/pxt-triodecar` You can see the extensions dedicated to Triode-Car.
+3.Enter `triodecar` in the search bar above.You can see the extensions dedicated to Triode-Car.
 
 <div align=center>
 <img src="../assets/makecode-extensions_3.png" width="500"/>

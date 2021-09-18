@@ -12,7 +12,7 @@
 * Motors driving mode: PWM
 * M3 Lego extension hole * 6
 
-## 硬件接口示意
+## Interface diagram
 
 ![](../assets/Triode-Car-IO.png)
 
@@ -56,13 +56,23 @@ On the Triode-Car, there are many special designs:
 
 ## Resources
 
+### Schematic 
+
 ![](../assets/Triode-Car-Sch.png)
 
 [Schematic Download](https://github.com/BPI-STEAM/Triode-Car/blob/main/HardWare/Sch/BPi-BIT-Triode-Car-V1.0.3.pdf)
 
 ### Referenced document
-Triode Car #1 - A Beginning to Something Big https://www.youtube.com/watch?v=qcR-Haovyr4
-Triode Car #2 - Installing Colorful Resistors! https://www.youtube.com/watch?v=z6adIa8id5Y
+Triode Car #1 - A Beginning to Something Big 
+
+https://www.youtube.com/watch?v=qcR-Haovyr4
+
+Triode Car #2 - Installing Colorful Resistors! 
+
+https://www.youtube.com/watch?v=z6adIa8id5Y
+
+Hackaday project
+
 https://hackaday.io/project/178248-triode-car-line-follower
 
 ### Code on github

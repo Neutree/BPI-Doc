@@ -1,6 +1,6 @@
 # Hardware
 
-## Hardware interface
+## Hardware information
 
 * Power: 3.6V~3.7V Batteries
 * Photoresistor(analog) * 2
@@ -63,17 +63,18 @@ On the Triode-Car, there are many special designs:
 [Schematic Download](https://github.com/BPI-STEAM/Triode-Car/blob/main/HardWare/Sch/BPi-BIT-Triode-Car-V1.0.3.pdf)
 
 ### Referenced document
-Triode Car #1 - A Beginning to Something Big 
+* Triode Car #1 - A Beginning to Something Big 
 
 https://www.youtube.com/watch?v=qcR-Haovyr4
 
-Triode Car #2 - Installing Colorful Resistors! 
+* Triode Car #2 - Installing Colorful Resistors! 
 
 https://www.youtube.com/watch?v=z6adIa8id5Y
 
-Hackaday project
+* [Hackaday project](https://hackaday.io/project/178248-triode-car-line-follower)
 
-https://hackaday.io/project/178248-triode-car-line-follower
+
 
 ### Code on github
-MakeCode extension for Micor:Bit https://github.com/BPI-STEAM/pxt-triodecar
+
+[MakeCode extension for Micor:Bit](https://github.com/BPI-STEAM/pxt-triodecar)

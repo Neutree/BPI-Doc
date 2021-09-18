@@ -65,11 +65,11 @@ On the Triode-Car, there are many special designs:
 ### Referenced document
 * Triode Car #1 - A Beginning to Something Big 
 
-<video src="https://www.youtube.com/watch?v=qcR-Haovyr4" controls="controls" preload="auto">your brower not support play video</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcR-Haovyr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Triode Car #2 - Installing Colorful Resistors! 
 
-<iframe src="https://www.youtube.com/watch?v=z6adIa8id5Y" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width:43vw;height:34vw;min-width: 85%;"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z6adIa8id5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 * [Hackaday project](https://hackaday.io/project/178248-triode-car-line-follower)

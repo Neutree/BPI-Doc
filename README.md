@@ -18,7 +18,7 @@ pip3 install teedoc
 git clone https://github.com/BPI-STEAM/BPI-Doc
 ```
 
-或者
+OR
 
 ```
 git clone https://github.com/BPI-STEAM/BPI-Doc

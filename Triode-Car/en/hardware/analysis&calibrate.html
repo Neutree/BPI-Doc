@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en"  class="" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="generator" content="teedoc">
+    <meta name="theme" content="teedoc-plugin-theme-default">
+    
+    <meta name="markdown-generator" content="teedoc-plugin-markdown-parser">
+    
+    <link rel="stylesheet" href="/static/css/theme_default/prism.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/viewer.min.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/dark.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/theme_default/light.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
+    
+    <script src="/static/js/theme_default/split.js"></script>
+    
+    <script src="/static/js/theme_default/jquery.min.js"></script>
+    
+    <script src="/static/js/theme_default/pre_main.js"></script>
+    
+    <link rel="stylesheet" href="/static/css/search/style.css" type="text/css"/>
+    
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0a495693906e5482a1afd1dda6ea6234";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    
+    <link rel="stylesheet" href="/static/css/gitalk/gitalk.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="/static/css/gitalk/custom_gitalk.css" type="text/css"/>
+    
+    <title>Hardware analysis and calibration - BPI-Steam</title>
+</head>
+<body class="type_doc">
+    <div id="navbar">
+        <div id="navbar_menu">
+            <a class="site_title" href="/en/">
+                
+                    <img class="site_logo" src="/static/image/logo.png" alt="BPI logo">
+                
+                
+                    <h2>BPI Steam</h2>
+                
+        </a>
+            <a id="navbar_menu_btn"></a>
+        </div>
+        <div id="navbar_items">
+            <div>
+                <ul id="nav_left">
+<li class=""><a  href="/en/">Home</a></li>
+<li class="sub_items "><a  href="">WebBit</a><ul><li class=""><a  href="/WebBit_doc/en/">Manual</a></li>
+<li class=""><a  href="/WebBit_dev/en/">Development Manual</a></li>
+</ul></li>
+<li class=""><a  href="/WebAI/en/">WebAI</a></li>
+<li class=""><a  href="/Q-Car/en/">Q-Car</a></li>
+<li class="active"><a  href="/Triode-Car/en/">Triode-Car</a></li>
+<li class=""><a  href="/About/en/">About Us</a></li>
+</ul>
+
+            </div>
+            <div>
+                <ul id="nav_right">
+<li class="sub_items "><a  href="">language: English</a><ul><li class=""><a  href="/Triode-Car/zh/">简体中文</a></li>
+<li class=""><a  href="/Triode-Car/zh-tw/">繁體中文</a></li>
+<li class="active"><a  href="/Triode-Car/en/">English</a></li>
+</ul></li>
+</ul>
+
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">Search</span>
+                            <div id="search_hints">
+                                <span id="search_input_hint">Keywords separated by space</span>
+                                <span id="search_loading_hint">Loading, wait please ...</span>
+                                <span id="search_download_err_hint">Download error, please check network and refresh again</span>
+                                <span id="search_other_docs_result_hint">Result from other docs</span>
+                                <span id="search_curr_doc_result_hint">Result from current doc</span>
+                            </div></a></li></ul>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="sidebar_wrapper">
+            <div id="sidebar">
+                <div id="sidebar_title">
+                    
+                </div>
+                <ul class="show">
+<li class="not_active with_link"><a href="/Triode-Car/en/introduction/hardware.html"><span class="label">Hardware introduction</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/Triode-Car/en/hardware/analysis&calibrate.html"><span class="label">Hardware analysis and calibration</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">micro:bit tutorial</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/first_meeting.html"><span class="label">First meeting with micro:bit</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/new_project.html"><span class="label">Create MakeCode project</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/import_extension.html"><span class="label">Import extension</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/control_motor.html"><span class="label">Use buttons to control the motors</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/control_motor2.html"><span class="label">Adjust motors speed</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/read_LDR.html"><span class="label">Collect the signals</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/radio_control.html"><span class="label">Control the motors by radio</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/bluetooth_control.html"><span class="label">Control the motors by Bluetooth</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/LDR_calibration.html"><span class="label">Calibration line detection circuit</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/Triode-Car/en/microbit_tutorial/Line_Follower.html"><span class="label">Line Tracking</span><span class=""></span></a></li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+        <div id="article">
+            <div id="menu_wrapper">
+                <div id="menu">
+                </div>
+            </div>
+            <div id="content_wrapper">
+                <div id="content_body">
+                    <div id="article_head">
+                        <div id="article_title">
+                            <h1>Hardware analysis and calibration</h1>
+                        </div>
+                        <div id="article_tags">
+                            <ul>
+                            
+                            </ul>
+                        </div>
+                        <div id="article_info">
+                        <div id="article_info_left">
+                            <span class="article_author">
+                                
+                            </span>
+                            <span class="article_date">
+                                
+                            </span>
+                        </div>
+                        <div id="article_info_right">
+                            
+                            <div id="source_link">
+                                <a href="https://github.com/BPI-STEAM/BPI-Doc/blob/main/docs/Triode-Car/en/hardware/analysis&calibrate.md" target="_blank">
+                                    Edit this page
+                                </a>
+                            </div>
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <div id="article_content">
+                        <h2 id="Drive-circuit">Drive circuit</h2>
+<p>This is a basic circuit:</p>
+<div align=center>
+<img src="../assets/Triode-Car-Sch1.png" width="30%"/>
+</div><p>Battery, diode, inductor and manual switch are connected in series,two loads are connected in parallel.</p>
+<p>One load is a motor and the other load is a light-emitting diode.</p>
+<p>In order to protect the light-emitting diode, a resistor for voltage division is connected in series.</p>
+<p>In this circuit, the only one that can control the two loads is a manual switch.</p>
+<p>A <strong>bipolar junction transistor (BJT)</strong> is a type of transistor that uses both electrons and electron holes as charge carriers. In contrast, a unipolar transistor, such as a field-effect transistor, uses only one kind of charge carrier. A bipolar transistor allows a small current injected at one of its terminals to control a much larger current flowing between two other terminals, making the device capable of amplification or switching.</p>
+<p>A BJT consists of three differently doped semiconductor regions: the emitter region, the base region and the collector region. These regions are, respectively, p type, n type and p type in a PNP transistor, and n type, p type and n type in an NPN transistor. Each semiconductor region is connected to a terminal, appropriately labeled: emitter (E), base (B) and collector (C).</p>
+<p>PNP transistor：</p>
+<p><img src="../assets/Triode-S8550.png" alt=""></p>
+<ul>
+<li>pin 1 Emitter</li>
+<li>pin 2 Base</li>
+<li>pin 3 Collector</li>
+</ul>
+<blockquote><p>For more detailed information, you can continue to refer to<a href="https://en.wikipedia.org/wiki/Bipolar_junction_transistor">Wikipedia：Bipolar junction transistor</a></p>
+</blockquote>
+<p>Add a PNP transistor to the circuit:</p>
+<p><img src="../assets/Triode-Car-Sch2.png" alt=""></p>
+<p>As shown in figure design circuit may control the PNP transistor of the Base, Base terminal level signal is given, the PNP transistor can be used as a switch.
+The conduction condition of Emitter and Collector is Base low level, and turn off when Base is high level. 
+In this way, the two loads can be controlled by the level signal received by the Base, and this level signal is provided by the output of the voltage comparator.Another button can also be used to switch to micro:bit or web:bit development boards to provide level signals.</p>
+<blockquote><p>For more detailed information about "high &amp; low level" and "level signal", please refer to <a href="https://en.wikipedia.org/wiki/Logic_level">Wikipedia：Logic level</a></p>
+</blockquote>
+<h2 id="Line-detection-circuit">Line detection circuit</h2>
+<p>At the bottom of the Triode-Car, there are two line detection circuits, each of which contains a photoresistor and an LED. When the light of the LED shines on the black and white materials, the resistance value of the photoresistor will change significantly due to the difference in reflectivity.</p>
+<div align=center>
+<img src="../assets/Photoresistor-GL5506.png"/>
+</div><p>On Triode-Car, the photoresistor used is GL5506. The resistance of this model will decrease with the increase of light. The light resistance (10 Lux illumination) is 2-5KΩ, and the dark resistance is 0.2MΩ.</p>
+<p>Light resistance: The resistance value measured under 10 Lux illumination with a standard light source (color temperature of 2854K) after being irradiated with 400-600 Lux illumination for 2 hours.</p>
+<p>Dark resistance: the resistance value measured at 10 seconds after turning off the 10 Lux illumination.</p>
+<p>Design a circuit like this:</p>
+<div align=center>
+<img src="../assets/Triode-Car-Sch3.png" width="65%"/>
+</div><p>In addition to the capacitance and resistance used for protection, an adjustable resistor is connected in series on the line where the two photoresistors are located. According to the principle of series voltage division, the two node voltages are calibrated by adjusting the resistance of the adjustable resistor. For the subsequent application of the voltage comparator.</p>
+<h2 id="Voltage-comparator">Voltage comparator</h2>
+<p>This is the schematic diagram of the LM393 voltage comparator:</p>
+<div align=center>
+<img src="../assets/LM393_sch.jpg" width="250"/>
+</div><div align=center>
+<img src="../assets/LM393-1.png" width="400"/>
+</div><p>Two voltage comparators are integrated inside. When the positive input (IN+) of the voltage comparator is greater than the negative input (IN-) voltage, the output is high. Otherwise, the output is low.</p>
+<p>The internal schematic diagram of its voltage comparator is like this:</p>
+<p><img src="../assets/LM393-2.png" alt=""></p>
+<p>This shows,the realization of such a relatively complex function is also designed and packaged based on basic components such as semiconductor diode and BJT.</p>
+<blockquote><p>If you are interested, you can refer to <a href="https://en.wikipedia.org/wiki/Comparator">Wikipedia：Comparator</a></p>
+</blockquote>
+<p>Add LM393 voltage comparator to the circuit, and complement the drive circuit and line detection circuit：</p>
+<p><img src="../assets/Triode-Car-sys.jpg" alt=""></p>
+<p><img src="../assets/Triode-Car-Sch4.png" alt=""></p>
+<p>U1A is the first voltage comparator in LM393, and U1B is its second.</p>
+<p>Connect the LL node of the line detection circuit to the positive input pin 3 of U1A, connect the LR node to the negative input pin 2 of U1A, connect the LL node to the negative input pin 6 of U1B, and connect the LR node to the positive input pin 5 of U1B.</p>
+<p>This design can make U1A output high level and U1B output low level when LL node voltage &gt; LR node voltage, and U1A output low level and U1B output high level when LL node voltage &lt; LR node voltage.</p>
+<p>Since the LM393 voltage comparator uses an open collector output, it is necessary to add pull-up resistors R8 and R7 to the output terminals U1A  pin 1 and U1B pin 7.</p>
+<p>U1A pin 1 is connected to Q2 pin 2 Base, and the M2 it controls is the right-wheel motor.</p>
+<p>U1A pin 7 is connected to Q1 pin 2 Base, and the M1 it controls is the left-wheel motor.</p>
+<p>At this point, we have basically constructed an automatic control system.</p>
+<p>Under ideal working conditions, it can collect light and dark information on the left and right sides of the line through the photoresistor within a certain range.</p>
+<p>The voltage comparator continuously controls the start and stop of the two wheels during the information change to correct the driving direction and achieve the purpose of automatic line tracking.</p>
+<h2 id="State-relation-table">State relation table</h2>
+<table>
+<thead><tr>
+<th style="text-align:center">Car lean Direction</th>
+<th style="text-align:center">Left LDR(R5)</th>
+<th style="text-align:center">Right LDR(R6)</th>
+<th style="text-align:center">LL Potential</th>
+<th style="text-align:center">LR Potential</th>
+<th style="text-align:center">P3 Input</th>
+<th style="text-align:center">P2 Input</th>
+<th style="text-align:center">P1 Output</th>
+<th style="text-align:center">P5 Input</th>
+<th style="text-align:center">P6 Input</th>
+<th style="text-align:center">P7 Output</th>
+<th style="text-align:center">M1 Left Motor</th>
+<th style="text-align:center">M2 Right Motor</th>
+<th style="text-align:center">Car Move Direction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Left</td>
+<td style="text-align:center">Bright</td>
+<td style="text-align:center">Dark</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">Right</td>
+</tr>
+<tr>
+<td style="text-align:center">Right</td>
+<td style="text-align:center">Dark</td>
+<td style="text-align:center">Bright</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Left</td>
+</tr>
+</tbody>
+</table>
+<blockquote><p>Conditions are black lines and white roads</p>
+</blockquote>
+<p>When the car deviates from the line to the left, the photoresistor on the right will come to the top of the black line, the resistance of the photoresistor will become higher, and the photoresistor on the left will be on the white ground. At this time, the voltage at point LL will be lower than the voltage at point LR . The forward voltage of the comparator U1A is higher than the reverse voltage, and pin 1 outputs a high level.</p>
+<p>In the same way, the positive input voltage of U1B is lower than the negative input voltage, and the output is low.</p>
+<p>In this way, the left motor is controlled to rotate forward, the car turns right, R6 and D2 leave the black line, until the sensor on the left detects the black line.</p>
+<p>When the trolley deviates from the line to the right, the principle is the same.</p>
+<p>The trolley repeats the above actions continuously in the process of advancing, so as to achieve the purpose of advancing along the black line.</p>
+<h2 id="line-detection-circuit-calibration">line detection circuit calibration</h2>
+<p>In order to make the line detection circuit have higher sensitivity to light and dark changes under the control of the LM393 chip alone, and to reduce the potential difference under the same illumination brightness, it is necessary to manually adjust the adjustable resistance for calibration.</p>
+<p>The calibration steps are as follows:</p>
+<ol>
+<li>use a small object to lift up the back wheels slightly to prevent contact,point a stable light source towards the photoresistors.</li>
+<li>Adjust either side of potentiometers until both motors are operating simultaneously.</li>
+<li>After adjustments, put the car on the track to test the results.</li>
+<li>If the car is still likely to run out of the track, place the car on a white paper, repeat steps 2~3 for fine-tuning, and try to make the line detection circuit more sensitive to light and dark changes. </li>
+</ol>
+<div align=center>
+<img src="../assets/Triodecar_calibration_1.jpg" width="500"/>
+</div><div align=center>
+<img src="../assets/Triodecar_calibration_2.jpg" width="500"/>
+</div>
+                    </div>
+                </div>
+                <div id="previous_next">
+                    <div id="previous">
+                        
+                        <a href="/Triode-Car/en/introduction/hardware.html">
+                            <span class="icon"></span>
+                            <span class="label">Hardware introduction</span>
+                        </a>
+                        
+                    </div>
+                    <div id="next">
+                        
+                        <a href="/Triode-Car/en/microbit_tutorial/first_meeting.html">
+                            <span class="label">First meeting with micro:bit</span>
+                            <span class="icon"></span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div id="comments-container"></div>
+            </div>
+            <div id="toc">
+                <div id="toc_content">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="to_top" href="#"></a>
+    <div id="doc_footer">
+        <div id="footer">
+            <div id="footer_top">
+                <ul>
+<li><a>Links</a><ul><li><a target="_blank" href="http://www.banana-pi.org">Banana Pi</a></li>
+<li><a target="_blank" href="http://wiki.banana-pi.org/Main_Page">Wiki</a></li>
+<li><a target="_blank" href="https://webduino.io/en/">Webduino</a></li>
+<li><a target="_blank" href="https://www.aliexpress.com/store/302756">Aliexpress</a></li>
+</ul>
+</li>
+<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/BPI-STEAM/BPI-Doc">website source files</a></li>
+<li><a target="_blank" href="https://github.com/BPI-SINOVOIP">BananaPi source files</a></li>
+</ul>
+</li>
+<li><a>Contact Us</a><ul><li><a>Phone: +86 0755-26475332</a>
+</li>
+<li><a>Business Support: sales@sinovoip.com.cn (Sales Department)</a>
+</li>
+<li><a>Technical Support: support@sinovoip.com.cn (Technical Department)</a>
+</li>
+<li><a>Address: 7th Floor, Rongyi Building, Songshan Lake High-tech Industrial Development Zone, Guangdong Province, China</a>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+            <div id="footer_bottom">
+                <ul>
+<li><a target="_blank" href="http://www.banana-pi.org">Copyright © 2021 Banana Pi</a></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+    
+        <script src="/static/js/theme_default/tocbot.min.js"></script>
+    
+        <script src="/static/js/theme_default/main.js"></script>
+    
+        <script src="/static/js/theme_default/viewer.min.js"></script>
+    
+        <script src="/static/css/theme_default/prism.min.js"></script>
+    
+        <script src="/static/js/custom.js"></script>
+    
+        <script src="/static/js/search/search_main.js"></script>
+    
+        <script src="/static/js/gitalk/gitalk.min.js"></script>
+    
+        <script src="/static/js/gitalk/main.js"></script>
+    
+</body>
+</html>

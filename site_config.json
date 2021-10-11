@@ -96,11 +96,11 @@
             "/": [
                 {
                     "url": "/zh-tw/",
-                    "src": "pages/index/en"
+                    "src": "pages/index/zh-tw"
                 },
                 {
                     "url": "/en/",
-                    "src": "pages/index/zh-tw"
+                    "src": "pages/index/en"
                 }
             ]
         }

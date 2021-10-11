@@ -9,29 +9,14 @@
     "route": {
         "docs": {
             "/Q-Car/zh/": "docs/Q-Car/zh",
-            "/Q-Car/zh-tw/": "docs/Q-Car/zh-tw",
-            "/Q-Car/en/": "docs/Q-Car/en",
             "/Triode-Car/zh/": "docs/Triode-Car/zh",
-            "/Triode-Car/zh-tw/": "docs/Triode-Car/zh-tw",
-            "/Triode-Car/en/": "docs/Triode-Car/en",
             "/WebBit_dev/zh/": "docs/WebBit_dev/zh",
-            "/WebBit_dev/zh-tw/": "docs/WebBit_dev/zh-tw",
-            "/WebBit_dev/en/": "docs/WebBit_dev/en",
             "/WebBit_doc/zh/": "docs/WebBit_doc/zh",
-            "/WebBit_doc/zh-tw/": "docs/WebBit_doc/zh-tw",
-            "/WebBit_doc/en/": "docs/WebBit_doc/en",
             "/WebAI/zh/": "docs/WebAI/zh",
-            "/WebAI/zh-tw/": "docs/WebAI/zh-tw",
-            "/WebAI/en/": "docs/WebAI/en",
-            "/About/zh/": "docs/About/zh",
-            "/About/zh-tw/": "docs/About/zh-tw",
-            "/About/en/": "docs/About/en"
-
+            "/About/zh/": "docs/About/zh"
         },
         "pages": {
-            "/": "pages/index/zh",
-            "/zh-tw/": "pages/index/zh-tw",
-            "/en/": "pages/index/en"
+            "/": "pages/index/zh"
         },
         "assets": {
             "/static/": "static",
@@ -43,6 +28,82 @@
             "/WebBit_doc/zh/assets/": "docs/WebBit_doc/zh/assets"
         },
         "/blog/": "blog"
+    },
+    "translate": {
+        "docs": {
+            "/Q-Car/zh/": [
+                {
+                    "url": "/Q-Car/en/",
+                    "src": "docs/Q-Car/en"
+                },
+                {
+                    "url": "/Q-Car/zh-tw/",
+                    "src": "docs/Q-Car/zh-tw"
+                }
+            ],
+            "/Triode-Car/zh/": [
+                {
+                    "url": "/Triode-Car/zh-tw/",
+                    "src": "docs/Triode-Car/zh-tw"
+                },
+                {
+                    "url": "/Triode-Car/en/",
+                    "src": "docs/Triode-Car/en"
+                }
+            ],
+            "/WebBit_dev/zh/": [
+                {
+                    "url": "/WebBit_dev/zh-tw/",
+                    "src": "docs/WebBit_dev/zh-tw"
+                },
+                {
+                    "url": "/WebBit_dev/en/",
+                    "src": "docs/WebBit_dev/en"
+                }
+            ],
+            "/WebBit_doc/zh/": [
+                {
+                    "url": "/WebBit_doc/zh-tw/",
+                    "src": "docs/WebBit_doc/zh-tw"
+                },
+                {
+                    "url": "/WebBit_doc/en/",
+                    "src": "docs/WebBit_doc/en"
+                }
+            ],
+            "/WebAI/zh/": [
+                {
+                    "url": "/WebAI/zh-tw/",
+                    "src": "docs/WebAI/zh-tw"
+                },
+                {
+                    "url": "/WebAI/en/",
+                    "src": "docs/WebAI/en"
+                }
+            ],
+            "/About/zh/": [
+                {
+                    "url": "/About/zh-tw/",
+                    "src": "docs/About/zh-tw"
+                },
+                {
+                    "url": "/About/en/",
+                    "src": "docs/About/en"
+                }
+            ]
+        },
+        "pages": {
+            "/": [
+                {
+                    "url": "/zh-tw/",
+                    "src": "pages/index/en"
+                },
+                {
+                    "url": "/en/",
+                    "src": "pages/index/zh-tw"
+                }
+            ]
+        }
     },
     "executable": {
         "python": "python3",

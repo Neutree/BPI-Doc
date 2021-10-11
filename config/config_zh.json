@@ -1,5 +1,6 @@
 {
     "class": "language_zh",
+    "locale": "zh_CN",
     "navbar": {
         "title": "BPI Steam",
         "logo": {
@@ -54,23 +55,7 @@
                 "id": "language",
                 "label": "language: ",
                 "position": "right",
-                "items": [
-                    {
-                        "id": "zh",
-                        "url": "/zh/",
-                        "label": "简体中文"
-                    },
-                    {
-                        "id": "zh-tw",
-                        "url": "/zh-tw/",
-                        "label": "繁體中文"
-                    },
-                    {
-                        "id": "en",
-                        "url": "/en/",
-                        "label": "English"
-                    }
-                ]
+                "type": "language"
             }
         ]
     },
